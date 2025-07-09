@@ -1,9 +1,8 @@
-
-
 # Imports
 
 import os
 import json
+from typing import Union, List
 
 from time import sleep
 from random import randint
@@ -18,7 +17,7 @@ from config.settings import logs_folder_path
 #### Common functions ####
 
 #< Directories related
-def make_directories(paths: list[str]) -> None:
+def make_directories(paths: List[str]) -> None:
     '''
     Function to create missing directories
     '''
@@ -32,10 +31,16 @@ def make_directories(paths: list[str]) -> None:
             print(f'Error while creating directory "{path}": ', e)
 
 
-def find_default_profile_directory() -> str | None:
+def find_default_profile_directory() -> Union[str, None]:
     '''
     Function to search for Chrome Profiles within default locations
     '''
+    # First try to find the specific "SEETHA RAMAIAH" profile
+    specific_profile = find_specific_profile_directory("SEETHA RAMAIAH")
+    if specific_profile:
+        return specific_profile
+    
+    # Fallback to default profile if specific profile not found
     default_locations = [
         r"%LOCALAPPDATA%\Google\Chrome\User Data",
         r"%USERPROFILE%\AppData\Local\Google\Chrome\User Data",
@@ -45,6 +50,59 @@ def find_default_profile_directory() -> str | None:
         profile_dir = os.path.expandvars(location)
         if os.path.exists(profile_dir):
             return profile_dir
+    return None
+
+
+def find_specific_profile_directory(profile_name: str) -> Union[str, None]:
+    '''
+    Function to find a specific Chrome profile directory by name
+    '''
+    # macOS Chrome profile locations
+    mac_locations = [
+        os.path.expanduser("~/Library/Application Support/Google/Chrome"),
+        os.path.expanduser("~/Library/Application Support/Google/Chrome/User Data")
+    ]
+    
+    # Windows Chrome profile locations
+    windows_locations = [
+        r"%LOCALAPPDATA%\Google\Chrome\User Data",
+        r"%USERPROFILE%\AppData\Local\Google\Chrome\User Data"
+    ]
+    
+    all_locations = mac_locations + windows_locations
+    
+    for location in all_locations:
+        if os.path.exists(location):
+            # Look for the specific profile in the Default directory or Profile directories
+            profile_path = os.path.join(location, "Default")
+            if os.path.exists(profile_path):
+                # Check if this is the right profile by looking at Preferences file
+                prefs_file = os.path.join(profile_path, "Preferences")
+                if os.path.exists(prefs_file):
+                    try:
+                        with open(prefs_file, 'r', encoding='utf-8') as f:
+                            prefs_data = json.load(f)
+                            account_name = prefs_data.get('account_id_migration_state', {}).get('account_name', '')
+                            if profile_name.lower() in account_name.lower():
+                                return location
+                    except:
+                        pass
+            
+            # Check Profile directories
+            for i in range(1, 10):  # Check Profile 1, Profile 2, etc.
+                profile_path = os.path.join(location, f"Profile {i}")
+                if os.path.exists(profile_path):
+                    prefs_file = os.path.join(profile_path, "Preferences")
+                    if os.path.exists(prefs_file):
+                        try:
+                            with open(prefs_file, 'r', encoding='utf-8') as f:
+                                prefs_data = json.load(f)
+                                account_name = prefs_data.get('account_id_migration_state', {}).get('account_name', '')
+                                if profile_name.lower() in account_name.lower():
+                                    return location
+                        except:
+                            pass
+    
     return None
 #>
 
@@ -72,7 +130,7 @@ def get_log_path():
 __logs_file_path = get_log_path()
 
 
-def print_lg(*msgs: str | dict, end: str = "\n", pretty: bool = False, flush: bool = False, from_critical: bool = False) -> None:
+def print_lg(*msgs: Union[str, dict], end: str = "\n", pretty: bool = False, flush: bool = False, from_critical: bool = False) -> None:
     '''
     Function to log and print. **Note that, `end` and `flush` parameters are ignored if `pretty = True`**
     '''
@@ -126,7 +184,7 @@ def manual_login_retry(is_logged_in: callable, limit: int = 2) -> None:
 
 
 
-def calculate_date_posted(time_string: str) -> datetime | None | ValueError:
+def calculate_date_posted(time_string: str) -> Union[datetime, None, ValueError]:
     '''
     Function to calculate date posted from string.
     Returns datetime object | None if unable to calculate | ValueError if time_string is invalid

@@ -1,52 +1,55 @@
-'''
-Author:     Sai Vignesh Golla
-LinkedIn:   https://www.linkedin.com/in/saivigneshgolla/
-
-Copyright (C) 2024 Sai Vignesh Golla
-
-License:    GNU Affero General Public License
-            https://www.gnu.org/licenses/agpl-3.0.en.html
-            
-GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
-
-version:    24.12.29.12.30
-'''
-
-
-
-
 # from config.XdepricatedX import *
+
+from typing import Union, List
 
 __validation_file_path = ""
 
-def check_int(var: int, var_name: str, min_value: int=0) -> bool | TypeError | ValueError:
-    if not isinstance(var, int): raise TypeError(f'The variable "{var_name}" in "{__validation_file_path}" must be an Integer!\nReceived "{var}" of type "{type(var)}" instead!\n\nSolution:\nPlease open "{__validation_file_path}" and update "{var_name}" to be an Integer.\nExample: `{var_name} = 10`\n\nNOTE: Do NOT surround Integer values in quotes ("10")X !\n\n')
-    if var < min_value: raise ValueError(f'The variable "{var_name}" in "{__validation_file_path}" expects an Integer greater than or equal to `{min_value}`! Received `{var}` instead!\n\nSolution:\nPlease open "{__validation_file_path}" and update "{var_name}" accordingly.')
+def check_int(var: int, var_name: str, min_value: int=0) -> Union[bool, TypeError, ValueError]:
+    '''
+    Validates if the given variable is an integer and greater than or equal to min_value.
+    '''
+    if not isinstance(var, int):
+        raise TypeError(f"{var_name} must be an integer, got {type(var).__name__}")
+    if var < min_value:
+        raise ValueError(f"{var_name} must be greater than or equal to {min_value}, got {var}")
     return True
 
-def check_boolean(var: bool, var_name: str) -> bool | ValueError:
-    if var == True or var == False: return True
-    raise ValueError(f'The variable "{var_name}" in "{__validation_file_path}" expects a Boolean input `True` or `False`, not "{var}" of type "{type(var)}" instead!\n\nSolution:\nPlease open "{__validation_file_path}" and update "{var_name}" to either `True` or `False` (case-sensitive, T and F must be CAPITAL/uppercase).\nExample: `{var_name} = True`\n\nNOTE: Do NOT surround Boolean values in quotes ("True")X !\n\n')
-
-def check_string(var: str, var_name: str, options: list=[], min_length: int=0) -> bool | TypeError | ValueError:
-    if not isinstance(var, str): raise TypeError(f'Invalid input for {var_name}. Expecting a String!')
-    if min_length > 0 and len(var) < min_length: raise ValueError(f'Invalid input for {var_name}. Expecting a String of length at least {min_length}!')
-    if len(options) > 0 and var not in options: raise ValueError(f'Invalid input for {var_name}. Expecting a value from {options}, not {var}!')
+def check_boolean(var: bool, var_name: str) -> Union[bool, ValueError]:
+    '''
+    Validates if the given variable is a boolean.
+    '''
+    if not isinstance(var, bool):
+        raise ValueError(f"{var_name} must be a boolean (True or False), got {type(var).__name__}")
     return True
 
-def check_list(var: list, var_name: str, options: list=[], min_length: int=0) -> bool | TypeError | ValueError:
-    if not isinstance(var, list): 
-        raise TypeError(f'Invalid input for {var_name}. Expecting a List!')
-    if len(var) < min_length: raise ValueError(f'Invalid input for {var_name}. Expecting a List of length at least {min_length}!')
-    for element in var:
-        if not isinstance(element, str): raise TypeError(f'Invalid input for {var_name}. All elements in the list must be strings!')
-        if len(options) > 0 and element not in options: raise ValueError(f'Invalid input for {var_name}. Expecting all elements to be values from {options}. This "{element}" is NOT in options!')
+def check_string(var: str, var_name: str, options: List=[], min_length: int=0) -> Union[bool, TypeError, ValueError]:
+    '''
+    Validates if the given variable is a string and meets the specified criteria.
+    '''
+    if not isinstance(var, str):
+        raise TypeError(f"{var_name} must be a string, got {type(var).__name__}")
+    if len(var) < min_length:
+        raise ValueError(f"{var_name} must be at least {min_length} characters long, got {len(var)}")
+    if options and var not in options:
+        raise ValueError(f"{var_name} must be one of {options}, got '{var}'")
     return True
 
-
+def check_list(var: list, var_name: str, options: List=[], min_length: int=0) -> Union[bool, TypeError, ValueError]:
+    '''
+    Validates if the given variable is a list and meets the specified criteria.
+    '''
+    if not isinstance(var, list):
+        raise TypeError(f"{var_name} must be a list, got {type(var).__name__}")
+    if len(var) < min_length:
+        raise ValueError(f"{var_name} must have at least {min_length} items, got {len(var)}")
+    if options:
+        for item in var:
+            if item not in options:
+                raise ValueError(f"{var_name} contains invalid item '{item}', must be one of {options}")
+    return True
 
 from config.personals import *
-def validate_personals() -> None | ValueError | TypeError:
+def validate_personals() -> Union[None, ValueError, TypeError]:
     '''
     Validates all variables in the `/config/personals.py` file.
     '''
@@ -71,10 +74,8 @@ def validate_personals() -> None | ValueError | TypeError:
     check_string(disability_status, "disability_status", ["Yes", "No", "Decline"])
     check_string(veteran_status, "veteran_status", ["Yes", "No", "Decline"])
 
-
-
 from config.questions import *
-def validate_questions() -> None | ValueError | TypeError:
+def validate_questions() -> Union[None, ValueError, TypeError]:
     '''
     Validates all variables in the `/config/questions.py` file.
     '''
@@ -100,9 +101,8 @@ def validate_questions() -> None | ValueError | TypeError:
     check_boolean(pause_at_failed_question, "pause_at_failed_question")
     check_boolean(overwrite_previous_answers, "overwrite_previous_answers")
 
-
 from config.search import *
-def validate_search() -> None | ValueError | TypeError:
+def validate_search() -> Union[None, ValueError, TypeError]:
     '''
     Validates all variables in the `/config/search.py` file.
     '''
@@ -145,11 +145,8 @@ def validate_search() -> None | ValueError | TypeError:
     check_boolean(did_masters, "did_masters")
     check_int(current_experience, "current_experience", -1)
 
-
-
-
 from config.secrets import *
-def validate_secrets() -> None | ValueError | TypeError:
+def validate_secrets() -> Union[None, ValueError, TypeError]:
     '''
     Validates all variables in the `/config/secrets.py` file.
     '''
@@ -174,9 +171,8 @@ def validate_secrets() -> None | ValueError | TypeError:
     check_string(deepseek_model, "deepseek_model", ["deepseek-chat", "deepseek-reasoner"])
     ##<
 
-
 from config.settings import *
-def validate_settings() -> None | ValueError | TypeError:
+def validate_settings() -> Union[None, ValueError, TypeError]:
     '''
     Validates all variables in the `/config/settings.py` file.
     '''
@@ -208,10 +204,7 @@ def validate_settings() -> None | ValueError | TypeError:
     check_boolean(keep_screen_awake, "keep_screen_awake")
     check_boolean(stealth_mode, "stealth_mode")
 
-
-
-
-def validate_config() -> bool | ValueError | TypeError:
+def validate_config() -> Union[bool, ValueError, TypeError]:
     '''
     Runs all validation functions to validate all variables in the config files.
     '''

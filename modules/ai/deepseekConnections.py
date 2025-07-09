@@ -8,9 +8,9 @@ from pyautogui import confirm
 from openai import OpenAI
 from openai.types.model import Model
 from openai.types.chat import ChatCompletion, ChatCompletionChunk
-from typing import Iterator, Literal
+from typing import Iterator, Literal, Union, List
 
-def deepseek_create_client() -> OpenAI | None:
+def deepseek_create_client() -> Union[OpenAI, None]:
     '''
     Creates a DeepSeek client using the OpenAI compatible API.
     * Returns an OpenAI-compatible client configured for DeepSeek
@@ -54,7 +54,7 @@ def deepseek_model_supports_temperature(model_name: str) -> bool:
     deepseek_models = ["deepseek-chat", "deepseek-reasoner"]
     return model_name in deepseek_models
 
-def deepseek_completion(client: OpenAI, messages: list[dict], response_format: dict = None, temperature: float = 0, stream: bool = stream_output) -> dict | ValueError:
+def deepseek_completion(client: OpenAI, messages: List[dict], response_format: dict = None, temperature: float = 0, stream: bool = stream_output) -> Union[dict, ValueError]:
     '''
     Completes a chat using DeepSeek API and formats the results.
     * Takes in `client` of type `OpenAI` - The DeepSeek client
@@ -138,7 +138,7 @@ def deepseek_completion(client: OpenAI, messages: list[dict], response_format: d
             
         raise ValueError(error_message)
 
-def deepseek_extract_skills(client: OpenAI, job_description: str, stream: bool = stream_output) -> dict | ValueError:
+def deepseek_extract_skills(client: OpenAI, job_description: str, stream: bool = stream_output) -> Union[dict, ValueError]:
     '''
     Function to extract skills from job description using DeepSeek API.
     * Takes in `client` of type `OpenAI` - The DeepSeek client
@@ -175,16 +175,16 @@ def deepseek_extract_skills(client: OpenAI, job_description: str, stream: bool =
 
 def deepseek_answer_question(
     client: OpenAI, 
-    question: str, options: list[str] | None = None, 
-    question_type: Literal['text', 'textarea', 'single_select', 'multiple_select'] = 'text', 
+    question: str, options: Union[List[str], None] = None, 
+    question_type: str = 'text', 
     job_description: str = None, about_company: str = None, user_information_all: str = None,
     stream: bool = stream_output
-) -> dict | ValueError:
+) -> Union[dict, ValueError]:
     '''
     Function to answer a question using DeepSeek AI.
     * Takes in `client` of type `OpenAI` - The DeepSeek client
     * Takes in `question` of type `str` - The question to answer
-    * Takes in `options` of type `list[str] | None` - Options for select questions
+    * Takes in `options` of type `List[str]` or None - Options for select questions
     * Takes in `question_type` - Type of question (text, textarea, single_select, multiple_select)
     * Takes in optional context parameters - job_description, about_company, user_information_all
     * Takes in `stream` of type `bool` - Whether to stream the output
@@ -192,42 +192,27 @@ def deepseek_answer_question(
     '''
     try:
         print_lg(f"Answering question using DeepSeek AI: {question}")
-        
-        # Prepare user information
         user_info = user_information_all or ""
-        
-        # Prepare prompt based on question type
         prompt = ai_answer_prompt.format(user_info, question)
-        
-        # Add options to the prompt if available
         if options and (question_type in ['single_select', 'multiple_select']):
             options_str = "OPTIONS:\n" + "\n".join([f"- {option}" for option in options])
             prompt += f"\n\n{options_str}"
-            
             if question_type == 'single_select':
                 prompt += "\n\nPlease select exactly ONE option from the list above."
             else:
                 prompt += "\n\nYou may select MULTIPLE options from the list above if appropriate."
-        
-        # Add job details for context if available
         if job_description:
             prompt += f"\n\nJOB DESCRIPTION:\n{job_description}"
-        
         if about_company:
             prompt += f"\n\nABOUT COMPANY:\n{about_company}"
-        
         messages = [{"role": "user", "content": prompt}]
-        
-        # Call DeepSeek completion
         result = deepseek_completion(
             client=client,
             messages=messages,
-            temperature=0.1,  # Slight randomness for more natural responses
+            temperature=0.1,
             stream=stream
         )
-        
         return result
     except Exception as e:
         critical_error_log("Error occurred while answering question with DeepSeek!", e)
         return {"error": str(e)}
-##< 

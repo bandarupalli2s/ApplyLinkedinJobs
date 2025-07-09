@@ -21,6 +21,7 @@ import pyautogui
 
 from random import choice, shuffle, randint
 from datetime import datetime
+from typing import Union, Tuple, Literal
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -41,9 +42,7 @@ from modules.clickers_and_finders import *
 from modules.validator import validate_config
 from modules.ai.openaiConnections import ai_create_openai_client, ai_extract_skills, ai_answer_question, ai_close_openai_client
 from modules.ai.deepseekConnections import deepseek_create_client, deepseek_extract_skills, deepseek_answer_question
-
-from typing import Literal
-
+from collections import defaultdict
 
 pyautogui.FAILSAFE = False
 # if use_resume_generator:    from resume_generator import is_logged_in_GPT, login_GPT, open_resume_chat, create_custom_resume
@@ -89,6 +88,49 @@ aiClient = None
 ##> ------ Dheeraj Deshwal : dheeraj9811 Email:dheeraj20194@iiitd.ac.in/dheerajdeshwal9811@gmail.com - Feature ------
 about_company_for_ai = None # TODO extract about company for AI
 ##<
+
+# Global set to track unique Q&A for the current day
+unique_daily_questions = set()
+
+# Function to log unique Q&A pairs for all time (single file)
+def log_common_questions_global(questions_list: Union[set, None]):
+    try:
+        if not questions_list:
+            return
+        log_folder = "logs/common_questions"
+        os.makedirs(log_folder, exist_ok=True)
+        filepath = os.path.join(log_folder, "all_common_questions.txt")
+        
+        # Load existing Q&A pairs if file exists
+        existing_qas = set()
+        if os.path.exists(filepath):
+            with open(filepath, 'r', encoding='utf-8') as f:
+                for line in f:
+                    if line.startswith("Q: "):
+                        q = line[3:].strip()
+                        a = next(f, '').strip()
+                        if a.startswith("A: "):
+                            a = a[3:]
+                        existing_qas.add((q, a))
+        
+        # Add new unique Q&A pairs
+        new_qas = set()
+        for q in questions_list:
+            if isinstance(q, tuple) and len(q) >= 2:
+                label = str(q[0])
+                answer = str(q[1])
+                qa_pair = (label, answer)
+                if qa_pair not in existing_qas and qa_pair not in unique_daily_questions:
+                    new_qas.add(qa_pair)
+                    unique_daily_questions.add(qa_pair)
+        
+        if new_qas:
+            with open(filepath, 'a', encoding='utf-8') as f:
+                for label, answer in new_qas:
+                    f.write(f"Q: {label}\nA: {answer}\n\n")
+            print_lg(f"✅ Updated global common questions log: {filepath}")
+    except Exception as e:
+        print_lg(f"Failed to update global common questions log: {e}")
 
 #>
 
@@ -247,7 +289,7 @@ def apply_filters() -> None:
 
 
 
-def get_page_info() -> tuple[WebElement | None, int | None]:
+def get_page_info() -> Tuple[Union[WebElement, None], Union[int, None]]:
     '''
     Function to get pagination element and current page number
     '''
@@ -264,7 +306,7 @@ def get_page_info() -> tuple[WebElement | None, int | None]:
 
 
 
-def get_job_main_details(job: WebElement, blacklisted_companies: set, rejected_jobs: set) -> tuple[str, str, str, str, str, bool]:
+def get_job_main_details(job: WebElement, blacklisted_companies: set, rejected_jobs: set) -> Tuple[str, str, str, str, str, bool]:
     '''
     # Function to get job main details.
     Returns a tuple of (job_id, title, company, work_location, work_style, skip)
@@ -314,7 +356,7 @@ def get_job_main_details(job: WebElement, blacklisted_companies: set, rejected_j
 
 
 # Function to check for Blacklisted words in About Company
-def check_blacklist(rejected_jobs: set, job_id: str, company: str, blacklisted_companies: set) -> tuple[set, set, WebElement] | ValueError:
+def check_blacklist(rejected_jobs: set, job_id: str, company: str, blacklisted_companies: set) -> Union[Tuple[set, set, WebElement], ValueError]:
     jobs_top_card = try_find_by_classes(driver, ["job-details-jobs-unified-top-card__primary-description-container","job-details-jobs-unified-top-card__primary-description","jobs-unified-top-card__primary-description","jobs-details__main-content"])
     about_company_org = find_by_class(driver, "jobs-company__box")
     scroll_to_view(driver, about_company_org)
@@ -350,13 +392,13 @@ def extract_years_of_experience(text: str) -> int:
 
 
 def get_job_description(
-) -> tuple[
-    str | Literal['Unknown'],
-    int | Literal['Unknown'],
+) -> Tuple[
+    Union[str, Literal['Unknown']],
+    Union[int, Literal['Unknown']],
     bool,
-    str | None,
-    str | None
-    ]:
+    Union[str, None],
+    Union[str, None]
+]:
     '''
     # Job Description
     Function to extract job description from About the Job.
@@ -422,7 +464,7 @@ def answer_common_questions(label: str, answer: str) -> str:
 
 
 # Function to answer the questions for Easy Apply
-def answer_questions(modal: WebElement, questions_list: set, work_location: str, job_description: str | None = None ) -> set:
+def answer_questions(modal: WebElement, questions_list: set, work_location: str, job_description: Union[str, None] = None ) -> set:
     # Get all questions from the page
      
     all_questions = modal.find_elements(By.XPATH, ".//div[@data-test-form-element]")
@@ -810,14 +852,99 @@ def screenshot(driver: WebDriver, job_id: str, failedAt: str) -> str:
 
 
 
-def submitted_jobs(job_id: str, title: str, company: str, work_location: str, work_style: str, description: str, experience_required: int | Literal['Unknown', 'Error in extraction'], 
-                   skills: list[str] | Literal['In Development'], hr_name: str | Literal['Unknown'], hr_link: str | Literal['Unknown'], resume: str, 
-                   reposted: bool, date_listed: datetime | Literal['Unknown'], date_applied:  datetime | Literal['Pending'], job_link: str, application_link: str, 
-                   questions_list: set | None, connect_request: Literal['In Development']) -> None:
+def create_daily_job_log(job_id: str, title: str, company: str, work_location: str, work_style: str, date_applied: datetime, job_link: str, application_link: str, questions_list: Union[set, None]) -> None:
+    '''
+    Function to create daily log files containing all job applications for each day
+    Creates one file per day with format: DDMonthYYYY_applied_jobs.txt
+    '''
+    try:
+        # Create date-based folder structure
+        date_str = date_applied.strftime("%d%B%Y")  # e.g., 07July2025
+        
+        # Create folder structure: logs/applied_jobs/
+        log_folder = "logs/applied_jobs"
+        os.makedirs(log_folder, exist_ok=True)
+        
+        # Create filename: DDMonthYYYY_applied_jobs.txt
+        filename = f"{date_str}_applied_jobs.txt"
+        filepath = os.path.join(log_folder, filename)
+        
+        # Create log entry for this job
+        time_str = date_applied.strftime("%H:%M:%S")
+        log_entry = f"""
+=== JOB APPLICATION #{job_id} ===
+Time Applied: {time_str}
+
+COMPANY: {company}
+JOB TITLE: {title}
+LOCATION: {work_location}
+WORK STYLE: {work_style}
+
+JOB LINK: {job_link}
+APPLICATION TYPE: {application_link}
+
+=== QUESTIONS ANSWERED ===
+"""
+        
+        if questions_list:
+            for i, question in enumerate(questions_list, 1):
+                log_entry += f"{i}. {question}\n"
+        else:
+            log_entry += "No questions were asked during this application.\n"
+        
+        log_entry += f"""
+=== END OF APPLICATION ===
+"""
+        
+        # Append to daily file (create if doesn't exist)
+        with open(filepath, 'a', encoding='utf-8') as f:
+            f.write(log_entry)
+        
+        print_lg(f"✅ Added to daily log: {filepath}")
+        
+    except Exception as e:
+        print_lg(f"Failed to add to daily job log for {company} -- {title}: {e}")
+
+
+def update_daily_count(date_applied: datetime):
+    try:
+        date_str = date_applied.strftime("%d%B2025")  # e.g., 07July2025
+        count_file = "logs/count.txt"
+        os.makedirs("logs", exist_ok=True)
+        counts = {}
+        # Read existing counts
+        if os.path.exists(count_file):
+            with open(count_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    if ':' in line:
+                        d, c = line.strip().split(':', 1)
+                        counts[d.strip()] = int(c.strip())
+        # Increment today's count
+        counts[date_str] = counts.get(date_str, 0) + 1
+        # Write back all counts
+        with open(count_file, 'w', encoding='utf-8') as f:
+            for d, c in sorted(counts.items()):
+                f.write(f"{d}: {c}\n")
+        print_lg(f"✅ Updated daily count: {date_str}: {counts[date_str]}")
+    except Exception as e:
+        print_lg(f"Failed to update daily count: {e}")
+
+
+def submitted_jobs(job_id: str, title: str, company: str, work_location: str, work_style: str, description: str, experience_required: Union[int, Literal['Unknown', 'Error in extraction']], 
+                   skills: Union[list, Literal['In Development']], hr_name: Union[str, Literal['Unknown']], hr_link: Union[str, Literal['Unknown']], resume: str, 
+                   reposted: bool, date_listed: Union[datetime, Literal['Unknown']], date_applied: Union[datetime, Literal['Pending']], job_link: str, application_link: str, 
+                   questions_list: Union[set, None], connect_request: Literal['In Development']) -> None:
     '''
     Function to create or update the Applied jobs CSV file, once the application is submitted successfully
     '''
     try:
+        # Create daily log entry
+        if isinstance(date_applied, datetime):
+            create_daily_job_log(job_id, title, company, work_location, work_style, date_applied, job_link, application_link, questions_list)
+            log_common_questions_global(questions_list)
+            update_daily_count(date_applied)
+        
+        # Also update the main CSV file
         with open(file_name, mode='a', newline='', encoding='utf-8') as csv_file:
             fieldnames = ['Job ID', 'Title', 'Company', 'Work Location', 'Work Style', 'About Job', 'Experience required', 'Skills required', 'HR Name', 'HR Link', 'Resume', 'Re-posted', 'Date Posted', 'Date Applied', 'Job Link', 'External Job link', 'Questions Found', 'Connect Request']
             writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
@@ -996,11 +1123,6 @@ def apply_to_jobs(search_terms: list[str]) -> None:
                                 while next_button:
                                     next_counter += 1
                                     if next_counter >= 15: 
-                                        if pause_at_failed_question:
-                                            screenshot(driver, job_id, "Needed manual intervention for failed question")
-                                            pyautogui.alert("Couldn't answer one or more questions.\nPlease click \"Continue\" once done.\nDO NOT CLICK Back, Next or Review button in LinkedIn.\n\n\n\n\nYou can turn off \"Pause at failed question\" setting in config.py", "Help Needed", "Continue")
-                                            next_counter = 1
-                                            continue
                                         if questions_list: print_lg("Stuck for one or some of the following questions...", questions_list)
                                         screenshot_name = screenshot(driver, job_id, "Failed at questions")
                                         errored = "stuck"
@@ -1019,23 +1141,12 @@ def apply_to_jobs(search_terms: list[str]) -> None:
                                     print_lg("Answered the following questions...", questions_list)
                                     print("\n\n" + "\n".join(str(question) for question in questions_list) + "\n\n")
                                 wait_span_click(driver, "Review", 1, scrollTop=True)
-                                cur_pause_before_submit = pause_before_submit
-                                if errored != "stuck" and cur_pause_before_submit:
-                                    decision = pyautogui.confirm('1. Please verify your information.\n2. If you edited something, please return to this final screen.\n3. DO NOT CLICK "Submit Application".\n\n\n\n\nYou can turn off "Pause before submit" setting in config.py\nTo TEMPORARILY disable pausing, click "Disable Pause"', "Confirm your information",["Disable Pause", "Discard Application", "Submit Application"])
-                                    if decision == "Discard Application": raise Exception("Job application discarded by user!")
-                                    pause_before_submit = False if "Disable Pause" == decision else True
-                                    # try_xp(modal, ".//span[normalize-space(.)='Review']")
                                 follow_company(modal)
                                 if wait_span_click(driver, "Submit application", 2, scrollTop=True): 
                                     date_applied = datetime.now()
                                     if not wait_span_click(driver, "Done", 2): actions.send_keys(Keys.ESCAPE).perform()
-                                elif errored != "stuck" and cur_pause_before_submit and "Yes" in pyautogui.confirm("You submitted the application, didn't you 😒?", "Failed to find Submit Application!", ["Yes", "No"]):
-                                    date_applied = datetime.now()
-                                    wait_span_click(driver, "Done", 2)
                                 else:
                                     print_lg("Since, Submit Application failed, discarding the job application...")
-                                    # if screenshot_name == "Not Available":  screenshot_name = screenshot(driver, job_id, "Failed to click Submit application")
-                                    # else:   screenshot_name = [screenshot_name, screenshot(driver, job_id, "Failed to click Submit application")]
                                     if errored == "nose": raise Exception("Failed to click Submit application 😑")
 
 

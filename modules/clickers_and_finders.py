@@ -1,4 +1,4 @@
-
+from typing import Union, List
 
 from config.settings import click_gap, smooth_scroll
 from modules.helpers import buffer, print_lg, sleep
@@ -11,7 +11,7 @@ from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.common.action_chains import ActionChains
 
 # Click Functions
-def wait_span_click(driver: WebDriver, text: str, time: float=5.0, click: bool=True, scroll: bool=True, scrollTop: bool=False) -> WebElement | bool:
+def wait_span_click(driver: WebDriver, text: str, time: float=5.0, click: bool=True, scroll: bool=True, scrollTop: bool=False) -> Union[WebElement, bool]:
     '''
     Finds the span element with the given `text`.
     - Returns `WebElement` if found, else `False` if not found.
@@ -83,7 +83,7 @@ def boolean_button_click(driver: WebDriver, actions: ActionChains, text: str) ->
         # print_lg(e)
 
 # Find functions
-def find_by_class(driver: WebDriver, class_name: str, time: float=5.0) -> WebElement | Exception:
+def find_by_class(driver: WebDriver, class_name: str, time: float=5.0) -> Union[WebElement, Exception]:
     '''
     Waits for a max of `time` seconds for element to be found, and returns `WebElement` if found, else `Exception` if not found.
     '''
@@ -102,7 +102,7 @@ def scroll_to_view(driver: WebDriver, element: WebElement, top: bool = False, sm
     return driver.execute_script('arguments[0].scrollIntoView({block: "center", behavior: "'+behavior+'" });', element)
 
 # Enter input text functions
-def text_input_by_ID(driver: WebDriver, id: str, value: str, time: float=5.0) -> None | Exception:
+def text_input_by_ID(driver: WebDriver, id: str, value: str, time: float=5.0) -> Union[None, Exception]:
     '''
     Enters `value` into the input field with the given `id` if found, else throws NotFoundException.
     - `time` is the max time to wait for the element to be found.
@@ -111,7 +111,7 @@ def text_input_by_ID(driver: WebDriver, id: str, value: str, time: float=5.0) ->
     username_field.send_keys(Keys.CONTROL + "a")
     username_field.send_keys(value)
 
-def try_xp(driver: WebDriver, xpath: str, click: bool=True) -> WebElement | bool:
+def try_xp(driver: WebDriver, xpath: str, click: bool=True) -> Union[WebElement, bool]:
     try:
         if click:
             driver.find_element(By.XPATH, xpath).click()
@@ -120,11 +120,11 @@ def try_xp(driver: WebDriver, xpath: str, click: bool=True) -> WebElement | bool
             return driver.find_element(By.XPATH, xpath)
     except: return False
 
-def try_linkText(driver: WebDriver, linkText: str) -> WebElement | bool:
+def try_linkText(driver: WebDriver, linkText: str) -> Union[WebElement, bool]:
     try:    return driver.find_element(By.LINK_TEXT, linkText)
     except:  return False
 
-def try_find_by_classes(driver: WebDriver, classes: list[str]) -> WebElement | ValueError:
+def try_find_by_classes(driver: WebDriver, classes: List[str]) -> Union[WebElement, ValueError]:
     for cla in classes:
         try:    return driver.find_element(By.CLASS_NAME, cla)
         except: pass
@@ -143,7 +143,7 @@ def company_search_click(driver: WebDriver, actions: ActionChains, companyName: 
     actions.send_keys(Keys.ENTER).perform()
     print_lg(f'Tried searching and adding "{companyName}"')
 
-def text_input(actions: ActionChains, textInputEle: WebElement | bool, value: str, textFieldName: str = "Text") -> None | Exception:
+def text_input(actions: ActionChains, textInputEle: Union[WebElement, bool], value: str, textFieldName: str = "Text") -> Union[None, Exception]:
     if textInputEle:
         sleep(1)
         # actions.key_down(Keys.CONTROL).send_keys("a").key_up(Keys.CONTROL).perform()

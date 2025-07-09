@@ -1,0 +1,1029 @@
+Job ID,Title,Company,Work Location,Work Style,About Job,Experience required,Skills required,HR Name,HR Link,Resume,Re-posted,Date Posted,Date Applied,Job Link,External Job link,Questions Found,Connect Request
+4264502421,DevOps Engineer,Imetris Corporatio,etris Corporatio,etris Corporatio,"About the job
+At Imetris Corporation, we are committed to maintaining a productive and professional work environment. We value transparency, trust, and dedication from our employees.
+Please note that moonlighting (engaging in outside work or freelance activities while employed with us) is strictly prohibited.
+
+Only W2. Candidate looking for C2C- PLEASE DO NO APPLY!!
+
+Required Qualifications and Experience
+Typically has 5+ years’ experience (Senior DevOps Engineer) as DevOps Software Engineering role
+Demonstrated success defining and implementing new technologies/processes and driving transformational change
+Independently and collaboratively create, maintain, and optimize DevOps CI/CD tooling and configuration leveraging Azure Pipelines, YAML, or equivalent CI/CD technologies
+3+ years of recent experience facilitating cross-team collaboration to deliver shared goals and resolve interdependencies
+3+ years of recent experience leading transformational change, with a focus on scaling DevOps practices or improving delivery pipelines
+Demonstrates solid foundational knowledge of Agile software development principles and coding standards/best practices.
+Possesses familiarity with other technologies utilized in our environment, such as:
+Azure Infrastructure-as-Code technologies (ARM/Bicep)
+.NET framework/.NET Core
+NuGet package management
+Scripting solutions such as PowerShell
+Container orchestration services such as Azure Kubernetes (AKS) and Docker
+Excellent written and verbal communication skills
+Team player skilled at working collaboratively with diverse, cross-functional teams",5,Needs an AI,Unknown,Unknown,resume.pdf,False,Unknown,2025-07-09 00:08:56.016507,https://www.linkedin.com/jobs/view/4264502421,Easy Applied,"{('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Are you willing to undergo a background check, in accordance with local law/regulations? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('how many years of work experience do you have with .net core?', '5', 'text', ''), ('how many years of work experience do you have with .net framework?', '1', 'text', '1'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Are you willing to take a drug test, in accordance with local law/regulations? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('how many years of work experience do you have with docker products?', '3', 'text', '3'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')}",In Development
+4262158662,DevOps Engineer,"RASPIR, LL","SPIR, LL","SPIR, LL","About the job
+Company Description
+ At RASPIR, LLC, we provide comprehensive Industrial, Mechanical, and Process Engineered solutions. Our expertise spans various industries including Manufacturing, Automotive, Investment Casting, Aluminum Foundries, Architectural, Structural, Civil, Product Design, and R&D. Our process engineering skills encompass Six Sigma, Quality, Lean methodologies, and data gathering for metrics and defects analysis. We focus on delivering integrated solutions by finding the expertise that complements ours, ensuring our customers achieve the results they need with minimal effort.
+ Role Description
+ This is a full-time remote role for a DevOps Engineer. The DevOps Engineer will be responsible for managing infrastructure as code (IaC), overseeing continuous integration processes, performing system administration tasks, and supporting software development. The role requires significant experience with Linux systems and the ability to work closely with cross-functional teams to enhance system performance and reliability.
+ Qualifications
+  Experience with Infrastructure as Code (IaC) tools and practices
+Proficiency in Software Development and Continuous Integration
+Strong System Administration skills, particularly in Linux environments
+Excellent problem-solving and analytical skills
+Ability to work independently and remotely
+Bachelor’s degree in Computer Science, Engineering, or related field
+Experience with cloud platforms such as AWS, Azure, or GCP is a plus
+Knowledge of containerization technologies like Docker and Kubernetes is beneficial",0,Needs an AI,Unknown,Unknown,seetha.pdf,False,Unknown,2025-07-09 00:17:01.344791,https://www.linkedin.com/jobs/view/4262158662,Easy Applied,"{('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Have you completed the following level of education: Bachelor\'s Degree? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4262894455,Site Reliability Engineer,Confidential Job,nfidential Job,nfidential Job,"About the job
+Title: Site Reliability Engineer (SRE)/ Platform Engineers
+Location: Phoenix, AZ/ Charlotte, NC – Onsite
+Contract to Hire
+
+Note: Expecting 
+ Solid SRE – Application and Platform support experience
+Cloud experience or certifications – GCP preferred but Azure or AWS also works.
+System Admin background
+
+
+Job Description
+Mandatory Experience:
+5+ years hands-on admin experience at the platform and application tiers supporting critical Customer Facing applications preferably in the Financial Services Industry
+5+ years of experience troubleshooting environments across the entire architecture (i.e., applications to infrastructure)
+3+ years of hands-on Linux administration experience
+3+ experience with Oracle SQL, MongoDB, Redis, Kafka, Flink, Postgres, or similar data technologies
+1+ Years supporting and monitoring service load balancing architectures including F5 & VMware AVI
+
+
+Hard Skills:
+Site Reliability Engineer (SRE) Skills – Ability to apply your expert troubleshooting and optimization skills up and down the full stack, ensuring that critical applications/services are engineered for scalability, availability & resiliency including graceful degradation of service, fault isolation and quick recovery to minimize customer impact
+Provide highly advanced technical expertise to maximize efficiency, reliability and value from current solutions, infrastructure, platforms and emerging technologies, showing technical leadership, and driving continuous improvement efforts
+Ability to identify root-cause issues, articulate corrective actions and improvement opportunities, and design approaches/programs/products to improve overall quality assurance
+Strong knowledge of Observability/Monitoring tools & their application (i.e., Glassbox, Dynatrace, AppDynamics, Splunk, BigPanda AIOps, etc.)
+Intermediate/expert level ability to use automation and configuration management tools for provisioning using Puppet, Ansible, Terraform, Chef, Jenkins, GitLab and Liquibase.
+Functional knowledge of programming scripting such as JavaScript, PowerShell, Python, Bash, SQL, .NET, Java, PHP, Ruby, PERL, C++, R, etc.
+Cloud Architect or Engineer Certification (i.e. GCP, Azure, AWS, etc.) – Preferably GCP ACE
+ Soft Skills:
+Collaborate well within a Global Platform Engineering Team being technically competent & confident but not arrogant
+Ability and willingness to quickly learn new technologies & tools and can effectively train your peers
+Ability to adapt to a rapidly changing environment
+Ability to communicate highly complex technical information clearly and articulately for all levels and audiences
+
+
+""Centraprise is an equal opportunity employer. Applicants must be authorized to work in the U.S. U.S. citizens and Green Card holders are strongly encouraged to apply.""",5,Needs an AI,Manoj Koneru,https://www.linkedin.com/in/manoj-koneru,Previous resume,False,Unknown,2025-07-09 00:17:12.232146,https://www.linkedin.com/jobs/view/4262894455,Easy Applied,"{('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('how many years of work experience do you have with dynatrace?', '6', 'text', ''), ('how many years of work experience do you have with apache kafka?', '3', 'text', '3'), ('Do you have the following license or certification: Cloud Architect? [  ""Yes""<Yes>, ""No""<No>, ]', 'Yes', 'radio', None), ('how many years of work experience do you have with linux system administration?', '3', 'text', '3'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>')}",In Development
+4261749544,Site Reliability Engineer,Compunnel Inc,mpunnel Inc,mpunnel Inc,"About the job
+Job Title: Site Reliability Engineer 
+Location: Irving, TX
+Duration: 1+ Year
+Client : Direct Client 
+
+Key Responsibilities:
+Run the production environment by monitoring availability and taking a holistic view of system health
+Improve reliability, quality, and time-to-market of our suite of software solutions
+Measure and optimize system performance to push our capabilities forward, get ahead of customer needs, and innovate to improve continually
+Collaborate with frontend and backend teams to identify and resolve issues across the stack.
+Build tools and automation to improve observability, deployment, and incident response.
+Drive reliability best practices across CI/CD pipelines, infrastructure, and application code.
+Qualifications:
+5+ years of experience in software engineering or SRE roles.
+5+ years of experience with observability and monitoring tools (e.g., New Relic, LogRocket, Datadog, etc.)
+5+ years of experience with frontend frameworks (React, Angular, Mobile, React Native, Android, iOS)
+5+ years of experience with backend frameworks (Node.js, Spring Framework, etc.)
+5+ years of experience with database design (SQL and NoSQL)
+5+ years of experience with cloud services (Serverless Functions, Blob Storage, Virtual Machines)
+Familiarity with cloud platforms (AWS or Azure) and containerized environments (Docker, Kubernetes).
+Solid understanding of CI/CD, incident management, and system design.
+A passion for reliability, performance, and delivering great user experiences.
+Bachelor’s Degree or higher in Computer Science/Engineering/Math, or relevant experience",5,Needs an AI,Madhusmita Sahoo,https://www.linkedin.com/in/madhusmita-sahoo-50a8ba209,Previous resume,False,Unknown,2025-07-09 00:17:18.047770,https://www.linkedin.com/jobs/view/4261749544,Easy Applied,"{('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('how many years of work experience do you have with microsoft azure?', '5', 'text', '5'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('how many years of work experience do you have with react native?', '6', 'text', '')}",In Development
+4260617090,Senior DevOps Engineer,OSI Engineerin,I Engineerin,I Engineerin,"About the job
+Job Summary:
+As a DevOps Engineer, you will be relied upon to lead implementation, and maintenance of infrastructure automation, CI/CD pipelines, and cloud platform. You will be working with the DevOps team to ensure system performance, reliability, security, and availability of the company's development, quality assurance, and production infrastructure.
+
+Responsibilities:
+Build required infrastructure to support the company’s growing enterprise cloud offerings. Work with developers to understand how to right size the infrastructure/network with microservices for Product and Pre-Production environments on AWS.
+Utilize proven skills and knowledge to provide troubleshooting and timely resolution of application, performance, systems, and infrastructure incidents.
+Routine Sys Admin and DB Admin duties to support a lively and fast paced group with agile release.
+Manage and operate build and release CI /CD process.
+Run and optimize Data Warehouse systems that deliver business intelligence and customer insight.
+Participate in 24x7 on-call incident escalation rotations, and drive root cause analysis of major issues.
+Maintain and extend strong relationships across globally distributed product management, product development, DevOps, and IT teams.
+
+Qualifications:
+Bachelor’s or master’s degree in computer science or equivalent knowledge and experience.
+Good understanding of current DevOps technology trends in the SaaS industry.
+4+ year’s systems administration experience managing enterprise Unix/Linux environments. Strong core Linux OS skills, shell scripting, python scripting.
+3+ years in a 24x7 production operations role supporting large scale, highly available applications.
+3+ years’ experience with AWS platform. Expertise in building highly secure cloud services and cloud infrastructure using AWS (EC2, RDS, S3, ECS, Route53).
+Expertise in using cloud automation and DevOps tools such as Docker, Terraform, and Ansible. Jenkins and Git are required.
+Experience in monitoring and analytics tools such as Datadog and Splunk.
+Good knowledge of web application stack and associated technology such as Nginx and PHP.
+Strong understanding of Networking concept of TCP/IP, DNS, Certs, Subnets, and VPC.
+Database, MySQL administration skills is a plus.
+
+Location: Menlo Park, CA (onsite 2 days/week)
+Type: Full Time
+Salary: $155k – $167k base (DOE)
+
+No 3rd party agencies or C2C",4,Needs an AI,Yusuf Roashan ,https://www.linkedin.com/in/yusufroashan,Previous resume,False,Unknown,2025-07-09 00:17:24.811246,https://www.linkedin.com/jobs/view/4260617090,Easy Applied,"{('Are you legally authorized to work in the United States? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('on a scale of 1-10 (10 being the highest), rate your skills with linux.', '10', 'text', ''), ('Are you able to work a hybrid schedule 2 days/week in Menlo Park, CA? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('on a scale of 1-10 (10 being the highest), rate your skills with aws.', '10', 'text', ''), ('Do you require to work on a C2C? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('how many years experience do you have working as a devops engineer?', '6', 'text', ''), ('on a scale of 1-10 (10 being the highest), rate your skills with bash.', '10', 'text', ''), ('on a scale of 1-10 (10 being the highest), rate your skills with docker.', '10', 'text', ''), ('on a scale of 1-10 (10 being the highest), rate your skills with python.', '10', 'text', '')}",In Development
+4259858843,Site Reliability Engineer,Mastech Digita,stech Digita,stech Digita,"About the job
+Job Description: 
+This role will be responsible for proactively building and implementing services to make IT and support better at their jobs. This can be anything from adjustments to monitoring and alerting to code changes in production
+
+About the job:
+You’ll join a multidisciplinary team of product managers, marketers, designers, and engineers who research and innovate on the latest technology to create excellent digital products that millions of people will experience daily.
+We count on our site reliability engineers (SREs) to empower our users with a rich feature set, high availability, and stellar performance levels to pursue their missions. As we expand our customer deployments, we are currently seeking an experienced SRE to deliver insights from massive scale data in real-time. Specifically, we are searching for someone who brings fresh ideas, demonstrates a unique and informed viewpoint, and enjoys collaborating with a cross-functional team to develop real-world solutions and positive user experiences at every interaction. 
+
+Key Responsibilities:
+Run the production environment by monitoring availability and taking a holistic view of system health
+Improve reliability, quality, and time-to-market of our suite of software solutions
+Measure and optimize system performance to push our capabilities forward, get ahead of customer needs, and innovate to improve continually
+Collaborate with frontend and backend teams to identify and resolve issues across the stack.
+Build tools and automation to improve observability, deployment, and incident response.
+Drive reliability best practices across CI/CD pipelines, infrastructure, and application code.
+
+Qualifications:
+5+ years of experience in software engineering or SRE roles.
+5+ years of experience with observability and monitoring tools (e.g., New Relic, LogRocket, Datadog, etc.)
+5+ years of experience with frontend frameworks (React, Angular, Mobile, React Native, Android, iOS)
+5+ years of experience with backend frameworks (Node.js, Spring Framework, etc.)
+5+ years of experience with database design (SQL and NoSQL)
+5+ years of experience with cloud services (Serverless Functions, Blob Storage, Virtual Machines)
+Familiarity with cloud platforms (AWS or Azure) and containerized environments (Docker, Kubernetes).
+Solid understanding of CI/CD, incident management, and system design.
+A passion for reliability, performance, and delivering great user experiences.
+Bachelor’s Degree or higher in Computer Science/Engineering/Math, or relevant experience",5,Needs an AI,Smriti Sinha ,https://www.linkedin.com/in/smriti-sinha,Previous resume,False,Unknown,2025-07-09 00:17:30.583603,https://www.linkedin.com/jobs/view/4259858843,Easy Applied,"{('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Are you comfortable working in an onsite setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Do you have an employer and looking for C2C or C2H roles ? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4262177307,"Senior Devops Engineer (AI, Azure, Terraform)",Optom,tom,tom,"About the job
+Position Overview:
+
+Optomi, in partnership with an industry leading client, are seeking a Senior DevOps Engineer to join their technology team in building a highly automated, intelligent, and scalable Azure environment. This role is centered on AI-powered automation, infrastructure as code, and driving operational efficiency across our Azure stack. You will work on a tactical engineering team focused on implementing modern DevOps practices, embedding machine learning into CI/CD and monitoring workflows, and building systems that are proactive, resilient, and self-healing.
+
+This is a hands-on engineering role best suited for someone who is autonomous, curious, and innovative—able to translate high-level objectives into well-architected, automated solutions. You will collaborate with cross-functional teams to deploy, monitor, and improve Azure-hosted environments, and play a key part in our evolution toward full SaaS adoption using Azure Data Fabric and AI/ML integrations.
+
+Key Responsibilities:
+Design and maintain CI/CD pipelines in Azure (including Azure Data Fabric), integrating AI tools to optimize build, test, and deployment cycles.
+Develop intelligent monitoring and alerting systems using tools such as Dynatrace and Azure Monitor, incorporating AI/ML models to detect anomalies and resolve issues proactively.
+Automate deployment of AI/ML solutions, and support low-code environments for rapid configuration and scaling.
+Build infrastructure using Terraform, standardizing and automating cloud provisioning with an emphasis on security, scale, and maintainability.
+Ensure all deployments follow an “automation-first” principle—manual or button-click tasks should be minimized or eliminated.
+Collaborate with software and infrastructure teams to embed automation and intelligence across development, testing, and production environments.
+Evaluate and adopt emerging technologies in Azure and AI/ML to improve observability, efficiency, and resiliency.
+Contribute to system design and architectural decisions, particularly in data platform automation and cloud service integration.
+
+Core Requirements:
+5+ years of practical experience in DevOps with deep Azure expertise.
+Strong hands-on experience with Terraform for Infrastructure as Code (IaC) in Azure.
+Proficiency in scripting with PowerShell, Python, or Bash.
+Experience implementing CI/CD pipelines (GitHub Actions or similar tools).
+Experience integrating AI/ML models into operational workflows (e.g., anomaly detection, predictive scaling).
+Familiarity with Azure AI Services (Machine Learning, Cognitive Services, etc.).
+Practical experience with monitoring/alerting platforms, ideally Dynatrace; Azure-native tools also acceptable.
+Solid understanding of data platforms and their role in infrastructure automation.
+Able to work independently—comfortable breaking down vague objectives into actionable plans without micromanagement.
+
+Preferred Qualifications:
+Experience in Azure SaaS environments, particularly Azure Fabric.
+Background supporting AI/ML-powered infrastructure at scale.
+Past experience with both software development and infrastructure operations (DevOps/SRE blend).
+Self-motivated, inquisitive, and proactive mindset; thrives in environments that require autonomy and critical thinking.",5,Needs an AI,Tim Erickson ,https://www.linkedin.com/in/tim-erickson336,Previous resume,False,Unknown,2025-07-09 00:17:39.973033,https://www.linkedin.com/jobs/view/4262177307,Easy Applied,"{('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Are you comfortable working on a fully remote, W2 basis? (Green Card Holder or US Citizen required) [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('how many years of work experience do you have with azure devops server?', '3', 'text', '3'), ('how many years of work experience do you have with terraform?', '6', 'text', '6'), ('how many years of work experience do you have with artificial intelligence (ai)?', '6', 'text', ''), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Do you have experience in Azure SaaS environments, particularly Azure Fabric and a background supporting AI/ML-powered infrastructure at scale? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4257602468,Senior DevOps Cloud Engineer,WiseHire Recruitmen,seHire Recruitmen,seHire Recruitmen,"About the job
+WiseHire is seeking a Senior DevOps & Cloud Engineer to join a well-established team within the financial services sector. This is an exciting opportunity for a Terraform expert to lead and scale infrastructure-as-code initiatives in a complex enterprise environment.
+
+In this role, you will take ownership of Terraform at scale—designing and building reusable modules, developing robust IaC frameworks, and enhancing deployment pipelines to drive efficiency and reliability.
+
+We're looking for a hands-on engineer with deep experience in:
+Terraform (module development, large-scale environments)
+AWS (cloud architecture and services)
+Kafka (event streaming platforms)
+Jenkins (CI/CD pipeline design and management)
+
+What’s on offer:
+Base Salary: $140,000 – $160,000
+Bonus: 15% annual performance bonus
+Time Off: 22 days PTO
+Retirement: 6% 401(k) match
+Benefits: Comprehensive health, dental, vision, and life insurance coverage
+
+If you're a DevOps professional ready to make an impact and grow your career in a high-performance environment—we'd love to hear from you. Apply today.",0,Needs an AI,Unknown,Unknown,Previous resume,False,Unknown,2025-07-09 00:17:48.273032,https://www.linkedin.com/jobs/view/4257602468,Easy Applied,"{('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('how many years of work experience do you have with terraform?', '6', 'text', '6'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>')}",In Development
+4262198397,DevOps Engineer,Insight Globa,sight Globa,sight Globa,"About the job
+***This role is 5 days a week on site in Berkeley Heights, NJ***
+
+Strong AWS CDK is required here for IaC, this team does NOT use Terraform. 
+
+Required Skills & Experience
+
+• 6+ years of experience as a DevOps Engineer in Cloud-based production environment, based in AWS
+• 6+ years of experience with Repository Management Tools like Git, or equivalent, and CI/CD Pipelines
+• 6+ years of solid experience with Infrastructure as Code tools such as CDK/Python
+• 5+ years of hands-on experience building and maintaining container platforms (e.g., PAS/TAS, PKS/TKGI, GKE, IBM Redhat OpenShift, ARO, ROSA)
+• 5+ years of hands-on experience using scripting languages such as Python, BASH, and PowerShell
+• Experience with networking, vpc, vpce, transit gateway, IP, DNS, network load balancers and CDN
+• Bachelor’s degree in computer science, engineering, or a related field, or an equivalent combination of education, work, and/or military experience
+
+Job Description
+
+As a Senior DevOps Engineer you will be responsible for engineering, architecture, automation and monitoring of solutions for large-scale applications. You will be a part of a team that is building the Merchants Onboarding & Client Implementations platforms. You will coordinate and execute release activities while working closely with Project Managers/QA leads as well as development teams. This team supports operations 24x5 and you will be expected to be a part of an on-call rotation as well as work off hours.
+You will have an opportunity to work effectively on complex projects independently and within a collaborative team-oriented environment. Develop and manage CI/CD pipelines automating the build and deployment processes. Oversee design, development, and operation of all automation requirements and workflows to support development, testing, and deployment. Monitor infrastructure resources and processes during the entire lifecycle. Collaborate with software development teams and continue to iterate CI/CD improvements and ensure efficiency, quality, and resiliency. Integrate with security measures, code quality and coverages, unit tests, and other guidelines with CI/CD process. Create and maintain Infrastructure as code (IAC) standards and templates. Identify manual processes and procedures and design and implement automation solutions using cloud native services and processes",6,Needs an AI,Unknown,Unknown,Previous resume,False,Unknown,2025-07-09 00:17:56.116228,https://www.linkedin.com/jobs/view/4262198397,Easy Applied,"{('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('how many years of work experience do you have with infrastructure as code (iac)?', '5', 'text', '5'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('how many years of work experience do you have with python (programming language)?', '6', 'text', '6'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4248918213,Site Reliability Engineer,DTEX System,EX System,EX System,"About the job
+We are excited that you’ve taken the time to explore our business and potentially join us on this incredible journey. We are already the leader in the Insider Risk Management, but our story doesn’t stop there. We have serious growth plans and that means serious growth opportunities for everyone in our team, whether you’re looking to develop into a management position or establish yourself as an industry expert – we are here to support you.
+
+DTEX Systems helps hundreds of organizations worldwide better understand their workforce, protect their data, and make human-centric operational investments. At DTEX, our philosophy towards our business is the same as our philosophy towards technology: people come first. Our future depends on bright, energetic, talented people who share a passion for building the next generation of user behavior intelligence. We invite you to bring your talent to one of our offices and help create our future, expanding our reach and influence worldwide. Learn more about DTEX Systems mission to make businesses more secure through technology at www.dtexsystems.com; LinkedIn DTEX Systems: Overview | LinkedIn
+
+Why you should choose DTEX as your next career:
+Opportunity to be part of a disruptive high growth success story.
+DTEX is a great place to work because of its mission-oriented culture and passion for protecting customers.
+We offer exciting growth opportunities and an excellent platform for individuals to contribute to thought leadership as experts in their field.
+We are uniquely positioned to solve highly relevant and complex risks and challenges associated with insider risk.
+Opportunity to be part of a business that’s passionate about creating first-of-a-kind solutions.
+Best in class benefits
+
+What is the Role: 
+DTEX is looking for an experienced Site Reliability Engineer to contribute to our operations and ongoing architecture improvements, working initially in operationalizing our environment. This role requires strong technical and operational skills with a focus on automation and improvement from the initial build-out through to the ongoing operations.
+
+What You Will Do:
+Initially assist with building out and operationalizing our production environment
+Identify and contribute improvements for the existing environment
+Production deployments
+Upgrades and patching
+Monitoring and alerting
+Configuration management
+Proactively improving the environment
+Being a technical SME for the company in one or more of IAC / Kubernetes / Opensearch operations
+Participate in on-call rotations and respond to incidents as needed.
+Managing security tools such as SAST, DAST and container vulnerability scanners
+
+We are looking for you if you have: 
+...one or more of these highly desirable technical skills:
+Opensearch / Elasticsearch
+Kubernetes (incl. Service Mesh)
+AWS / Google Cloud Platform
+
+...some of these other technical skills:
+Python / Golang
+Terraform
+AWS
+IAC CI/CD
+Ansible / Saltstack
+Zabbix / Prometheus / Grafana
+
+...and these other things:
+This position is open to U.S. based candidates only. Unfortunately, we are unable to provide work visa sponsorship at this time.
+A desire to work in enterprise and government focused computing environments with robust security and reliability requirements and are enthusiastic about constant improvement.
+MS/BS in Computer Science/Computer Engineering or related field of study
+3+ years experience operating cloud environments (GCP / AWS) in an automation-focused SRE role
+
+We take good care of our people. Our benefits include:
+
+Comprehensive health, vision, and dental coverage
+Flexible time off
+Company computer hardware of your choice
+Work from home setup reimbursement
+Wellness perks including access to mental healthcare, gym discounts and personal care concierge
+Virtual events, happy hours, trivia, and fun
+Monthly Internet & Phone Reimbursement
+Opportunities to learn and grow
+
+DTEX Systems is one of the most trusted and innovative brands in the cyber security market. We have received significant financial backing from leading VC firms and have just set a record-breaking year of growth. So why not trust DTEX with that all important next step in your career?
+
+DTEX Systems is proud to provide equal employment opportunities (EEO) to all employees and applicants for employment without regard to race, color, gender, religion, sex, national origin, age, disability, or genetics.
+
+Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.
+
+Exact compensation may vary based on skills, experience, and location.
+Base salary range (SF Bay Area): $150k-$190k.",3,Needs an AI,Jyothi Tokala ,https://www.linkedin.com/in/jyothig,Previous resume,True,Unknown,2025-07-09 00:18:06.777672,https://www.linkedin.com/jobs/view/4248918213,Easy Applied,"{('Unknown [  ""I identify as one or more of the classifications of protected veteran listed above""<I identify as one or more of the classifications of protected veteran listed above>, ""I am not a protected veteran""<I am not a protected veteran>, ""I don\'t wish to answer""<I don\'t wish to answer>, ]', '""I don\'t wish to answer""<I don\'t wish to answer>', 'radio', '""I don\'t wish to answer""<I don\'t wish to answer>'), ('Unknown [  ""Yes, I Have A Disability, Or Have A History/Record Of Having A Disability""<Yes, I Have A Disability, Or Have A History/Record Of Having A Disability>, ""No, I Don\'t Have A Disability, Or A History/Record Of Having A Disability""<No, I Don\'t Have A Disability, Or A History/Record Of Having A Disability>, ""I don\'t wish to answer""<I don\'t wish to answer>, ]', '""I don\'t wish to answer""<I don\'t wish to answer>', 'radio', '""I don\'t wish to answer""<I don\'t wish to answer>'), ('unknown', '6', 'text', '6'), ('Are you open to hybrid role in-office / remote from Fremont, CA [  ""Yes""<Yes>, ""No""<No>, ]', 'Yes', 'radio', None), ('your name', 'Seetha Ramaiah Bandarupalli', 'text', 'Seetha Ramaiah Bandarupalli'), ('Unknown [  ""Male""<Male>, ""Female""<Female>, ""Decline to answer""<Decline to answer>, ]', '""Decline to answer""<Decline to answer>', 'radio', '""Decline to answer""<Decline to answer>'), ('zip / postal code', '94565', 'text', '94565'), ('state', 'Arkansas', 'text', 'Arkansas'), ('last name', 'BANDARUPALLI', 'text', 'BANDARUPALLI'), ('your name', 'Seetha Ramaiah Bandarupalli', 'text', ''), ('street address line 1', 'Weavers Bnd', 'text', ''), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('What is your work authorization status? [  ""Citizen""<Citizen>, ""Permanent Resident/ Green Card""<Permanent Resident/ Green Card>, ""EAD""<EAD>, ""Need sponsorship""<Need sponsorship>, ]', '""Citizen""<Citizen>', 'radio', None), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Race [  ""Select an option"", ""Decline to answer"", ""Hispanic or Latino"", ""White, not Hispanic or Latino"", ""Black or African-American, not Hispanic or Latino"", ""Asian, not Hispanic or Latino"", ""Native Hawaiian or Other Pacific Islander, not Hispanic or Latino"", ""American Indian or Alaskan Native, not Hispanic or Latino"", ""Two or More Races, not Hispanic or Latino"", ]', 'Yes', 'select', 'Decline to answer'), ('unknown', '6', 'text', ''), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('first name', 'S', 'text', 'S'), ('city', 'Austin, Texas, United States', 'text', '')}",In Development
+4261718545,DevOps Engineer,Seneca Resource,neca Resource,neca Resource,"About the job
+We are seeking a skilled and motivated DevOps Engineer to join our team in building and maintaining high-performance infrastructure for GPU-based workloads. In this role, you'll be responsible for developing scalable, reliable systems across both on-premises and cloud environments. You’ll work closely with engineering teams to streamline CI/CD pipelines, automate operations, and support advanced computer environments.
+
+Key Responsibilities
+• Design and implement scalable infrastructure using Kubernetes across both on-prem and major cloud service providers (CSPs)
+• Develop and maintain CI/CD pipelines with tools like Buildkite, GitHub Actions, and Jenkins to ensure smooth and reliable software delivery
+• Automate infrastructure operations using Ansible, Python, and Bash to reduce manual toil and improve system consistency
+• Manage service deployment within Kubernetes using Helm and GitOps-style workflows
+• Configure and support GPU servers, including lifecycle management, health monitoring, and test automation
+• Maintain node health and security, ensuring timely updates and proactive monitoring of GPU server fleets
+• Provision, scale, and maintain Kubernetes clusters
+
+Required Qualifications
+• 2+ years of experience in DevOps, Site Reliability Engineering (SRE), or Infrastructure Engineering
+• Proficiency in Ansible, Python, and Bash for automation and tooling
+• Solid hands-on experience with Kubernetes, Docker, and Helm
+• Strong knowledge of CI/CD pipeline design, version control best practices, and build systems
+• Experience with monitoring and observability tools (e.g., Prometheus, Grafana, Nagios)",2,Needs an AI,Unknown,Unknown,Previous resume,False,Unknown,2025-07-09 00:18:14.517243,https://www.linkedin.com/jobs/view/4261718545,Easy Applied,"{('Can you work onsite in Longmont, CO? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Are you available to work on W2? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4263107434,DevOps Engineer,NextGen | GTA: A Kelly Telecom Compan,xtGen | GTA: A Kelly Telecom Compan,xtGen | GTA: A Kelly Telecom Compan,"About the job
+Looking for local candidates only, no relocation will be considered.
+
+Job Description: 
+Develop and maintain CI/CD pipelines using Jenkins, GitLab CI/CD, and infrastructure as code (IaC) using Terraform, CloudFormation, and Ansible to support Plume Open Sync Cloud software and infrastructure updates enabling Cellular Backup (CBU).
+Troubleshoot and resolve infrastructure and deployment issues across AWS (EKS, EC2, ALB, Route53, S3, RDS, IAM) and Kubernetes clusters.
+Implement cloud and security best practices, including AWS IAM policies, networking (VPC, Security Groups, NACLs), and container security to improve reliability and scalability.
+Collaborate with development and operations teams to optimize deployments, improve DevOps workflows, and enforce GitOps principles.
+Automate infrastructure provisioning and configuration management using Terraform, Ansible, Helm, and Kubernetes manifests.
+Enhance monitoring and observability using Prometheus, Grafana, Loki, ELK (Elasticsearch, Logstash, Kibana), and Fluent Bit.
+Document processes and assist in knowledge sharing and mentorship for junior engineers.",0,Needs an AI,Zohaib Sarfraz ,https://www.linkedin.com/in/zohaibsarfraz,Previous resume,False,Unknown,2025-07-09 00:18:32.572776,https://www.linkedin.com/jobs/view/4263107434,Easy Applied,"{('Are you legally authorized to work in the United States? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Are you local to Englewood-Colorado or within 30 miles of distance? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Are you comfortable working in an onsite setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>')}",In Development
+4261719262,SRE - Site Reliability Engineer – Senior,SPECTRAFORC,ECTRAFORC,ECTRAFORC,"About the job
+Job Title: SRE - Site Reliability Engineer – Senior
+Duration: 12 Months
+Position for Senior SRE — Location requested is Dallas, TX preferred. Also can sit in Westlake, TX.
+
+Responsibilities include, but are not limited to:
+Practice Site Reliability Engineering mindset and solve problems through automation, instrumentation, and simplicity
+Partner with the Architects, Development Leads, Business Partners and other SREs in the team, to ensure implementations are architected and designed from the aspect of resiliency
+Identify applications reliability and availability improvements, establish, and build solutions to continue to drive an improved experience
+Perform production support, application deployments and provide a rapid response for critical trading applications
+Proactively perform system monitoring, and review SLO / SLI Metrics and runbooks
+Implement and collaborate on solutions that increase the monitoring and observability of systems at scale
+Work with development teams to provide recommendations about system health upgrades and toil reduction
+Advocate for Reliability Engineering principles, guidelines, and standards
+Foster a culture of learning through education and knowledge sharing around reliability practices, processes, and tools
+Participate in On-Call escalations during Market and off-hours
+
+What you have
+Required Qualifications
+6+ years of experience with large-scale enterprise system administration, application support or incident handling in an SRE role
+6+ years of experience of RHEL Linux administration or Windows server administration
+6+ years of experience with proven track record of supporting enterprise production environment while adhering to various DevOps & SRE frameworks
+6+ years of experience building application dashboards for proactive monitoring, setting up Alerts, etc.
+6+ years of experience with logging/application monitoring tools (AppDynamics, Splunk, Dynatrace, Thousand Eyes)
+4+ years of experience supporting applications on Cloud operations such as GCP and Pivotal Cloud Foundry (PCF)
+4+ years of experience using Atlassian tools Jira, Confluence, Bamboo
+
+Preferred Qualifications
+Experience researching and building dashboards for Grafana and Prometheus suite
+Experience with Google Cloud Anthos and Kubernetes
+Strong understanding & experience of Platform as a Service (PaaS) and Infrastructure as a Service (IaaS) such as Pivotal Cloud Foundry (PCF)
+Experience with Continuous Integration/Continuous Delivery pipelines (CI/CD)
+Understanding of High Availability Enterprise systems and leveraging tools to automate proactively and eventually predictive availability solutions
+Receptive, approachable teammate, with the ability to positively interact with business partners, technology teams, offshore, and professional services
+Strong advocate with excellent written and verbal communication skills",6,Needs an AI,Rumana Zareen,https://www.linkedin.com/in/rumana-zareen-a83284176,Previous resume,False,Unknown,2025-07-09 00:18:40.752608,https://www.linkedin.com/jobs/view/4261719262,Easy Applied,"{('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('how many years of work experience do you have with google cloud platform (gcp)?', '3', 'text', '3'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4263496682,Site Reliability Engineer,Synergy Interactiv,nergy Interactiv,nergy Interactiv,"About the job
+Do you thrive in collaborative environments and have a passion for building and maintaining high-performing cloud infrastructure? Are you eager to learn and grow alongside a team of talented engineers? If so, we want to hear from you!
+We're looking for a motivated Site Reliability Engineer to join our team in the heart of Chicago. 
+
+In this role, you'll play a key role in:
+Leading the Charge on Incident Management: You'll champion a culture of proactive incident management, ensuring our systems run smoothly.
+Contributing to On-Call Rotations: Step up and be part of the team that keeps things running during critical moments.
+Leveling Up Your Technical Expertise: Work alongside skilled engineers and gain valuable experience across a range of technical areas.
+Collaborating for Success: Share knowledge, learn from others, and bridge the gap between different teams within the organization.
+Do you have what it takes?
+Proven AWS Experience: You're a pro at building and maintaining scalable, reliable infrastructure on AWS.
+Adept at Many Trades: You love tackling a variety of challenges, from software engineering to cloud infrastructure, DevSecOps, and SRE.
+Efficiency Champion: You have a track record of streamlining processes and optimizing software at scale.
+Collaboration is Key: You have experience working across teams to implement positive changes in engineering culture.
+Cloud Savvy: You're an expert in one or more major public cloud platforms, with a bonus for SaaS or managed software experience.
+Linux & Automation Master: Deep knowledge of Linux systems and CI/CD tools like Jenkins is a must.
+Developer by Day, Automator by Night: You've built applications, automation tools, and infrastructure as code (IaC) templates using Terraform.
+Security Guardian: You understand vulnerability management and are comfortable with security products.
+Troubleshooting Guru: You're a whiz at using monitoring tools to diagnose and resolve issues.
+IT Operations Know-How: You understand best practices for keeping systems up and running 24/7.
+Communication is King (or Queen): You can clearly and concisely convey information both verbally and in writing.
+Containerization Curious (or Pro): Familiarity with Docker and Kubernetes is a plus!
+
+The Ideal Candidate:
+A Builder and Automator: You've created applications and automation tools to streamline our systems and applications.
+Collaboration Champion: You thrive in collaborative environments and enjoy fostering a culture of teamwork.
+
+Ready to join a team that's passionate about building and growing? We are! Apply today!",0,Needs an AI,Bryan Barragan ,https://www.linkedin.com/in/bryan-barragan-372160b8,Previous resume,False,Unknown,2025-07-09 00:18:47.496509,https://www.linkedin.com/jobs/view/4263496682,Easy Applied,"{('how many years of work experience do you have with linux?', '6', 'text', '6'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('how many years of work experience do you have with jenkins?', '6', 'text', '6'), ('how many years of work experience do you have with terraform?', '6', 'text', '6'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Are you comfortable commuting to this job\'s location? [  ""Yes""<Yes>, ""No""<No>, ]', 'Yes', 'radio', None), ('how many years of work experience do you have with docker products?', '3', 'text', '3'), ('Are you comfortable working in an onsite setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('Have you developed applications and automation tools for building, deploying, monitoring, and integrating data sources for systems and applications? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>')}",In Development
+4262863840,Site Reliability Engineer,FinThriv,nThriv,nThriv,"About the job
+Must be proficient in AZURE
+
+Impact you will make 
+As a Site Reliability Engineer (Azure) at FinThrive, you will play a key role in ensuring the reliability, scalability, and security of our cloud-based applications and infrastructure. 
+This role blend software development and systems administration and cloud engineering to ensure the reliability, scalability, and performance of systems and services hosted in Microsoft Azure. 
+You’ll be at the forefront of troubleshooting, automation, and performance optimization, working closely with cross-functional teams to support mission-critical applications and drive innovation in cloud operations.
+ What you will do
+System Reliability: Ensure systems and applications are highly available and functioning correctly, minimizing downtime
+Performance Optimization: Analyze system performance, identify bottlenecks, and work with teams to implement tuning and scaling strategies for optimal application efficiency as well as query performance tuning using tools such as SQL Server Profile or Execution Plans
+Monitoring and Metrics: Set up and maintain monitoring systems using Azure Monitor, Log Analytics, and Application Insights to proactively detect and address issues before they become critical. Track metrics such as latency, error rates, and system capacity
+Incident Response and Troubleshooting: Quickly diagnosing and resolving complex technical issues, conducting root-cause analyses, and implementing preventative measures to avoid recurrences
+Automation and IAC: Implement and maintain automation scripts using tools like PowerShell, ARM Templates, and Terraform to streamline deployments, automate repetitive tasks such as deployments, monitoring, and incident responses
+Collaboration & Problem Resolution: Work closely with internal teams, external vendors, and customers to troubleshoot and resolve complex issues while enhancing system reliability
+Support Application and API Services: Troubleshoot and support IIS-hosted applications and API services, utilizing tools like Postman and SoapUI and Visual Studio for debugging
+Manage and Support Azure Environments: Administer, monitor, and optimize Azure-based applications and services across multiple environments
+ What you will bring
+3+ years of experience in application development, Software Engineering, or a similar technical role
+Proficiency in Microsoft Azure, including experience with cloud-based services and infrastructure
+Strong scripting and automation skills in PowerShell, C#, or T-SQL
+Experience with monitoring and observability tools (Azure Monitor, Log Analytics, KQL)
+Knowledge of Infrastructure as Code (IaC) tools like ARM templates, Terraform, or Ansible
+Understanding of networking concepts, security best practices, and IIS administration
+Familiarity with API development and testing tools such as Postman and SoapUI
+ What we would like to see
+Bachelor’s degree in Computer Science, Information Technology, or a related field
+Azure Certification
+Experience in supporting, deploying, and managing web services",3,Needs an AI,Unknown,Unknown,Previous resume,False,Unknown,2025-07-09 00:18:55.916584,https://www.linkedin.com/jobs/view/4262863840,Easy Applied,"{('Do you have familiarity with API development and testing tools such as Postman and SoapUI [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('how many years of work experience do you have with c#?', '3', 'text', '3'), ('how many years of experience in application development, software engineering, or a similar technical role', '6', 'text', ''), ('Do you have knowledge of Infrastructure as Code (IaC) tools like ARM templates, Terraform, or Ansible [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Are you legally authorized to work in the United States? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('how many years of work experience do you have with microsoft azure?', '5', 'text', '5'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Have you completed the following level of education: Bachelor\'s Degree? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('how many years of work experience do you have with powershell?', '6', 'text', '6'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('We must fill this position urgently. Can you start immediately? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Do you have Experience with monitoring and observability tools (Azure Monitor, Log Analytics, KQL) [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Do you have an understanding of networking concepts, security best practices, and IIS administration [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option')}",In Development
+4263125955,DevOps Engineer,Smart IT Frame LL,art IT Frame LL,art IT Frame LL,"About the job
+Position: Azure Devops Engineer
+Location: Mountain View, CA 94043
+Duration: Contract
+
+Skills: Azure SDK, Development, Powershell, azure devop CICD, C#, .NET
+
+Job Description: 
+
+Strong development experience with C and PowerShell
+Extensive experience with Azure including Azure SDKs and libraries
+Handson experience with Microsoft Copilot and SQL database
+Strong debugging skills with the ability to promptly identify and resolve issues
+Experience in creating modifying triggering and monitoring CICD pipelines
+Experience integrating scripting changes into existing CICD workflows
+Handson experience with tools such as ADO and the Azure Portal
+Experience in coordinating and communicating effectively with multiple internal and external stakeholders
+Good understanding of customer requirements and capable of working independently
+Excellent communication skills
+
+Skills
+Mandatory Skills : Architecture Patterns and Styles,Angular,Ansible,Java,JavaScript,Jenkins,Kubernetes,Application Architecture,Application Rearchitecting,Microservices,Node.js,Architectural diagrams,Asp.net,PostgreSQL,PowerShell,.Net Core,SpringBoot,Azure DevOps,Azure Functions,Terraform,Azure Logic Apps,Azure Monitor,Azure Service Bus,Azure SQL,Gitlab,C#,.Net Framework,Azure Cloud Architecture,Azure Frontdoor",0,Needs an AI,Priyanka Murugesan,https://www.linkedin.com/in/priyanka-murugesan-0ba9a422b,Previous resume,False,Unknown,2025-07-09 00:19:09.169527,https://www.linkedin.com/jobs/view/4263125955,Easy Applied,"{('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('how many years of work experience do you have with microsoft azure?', '5', 'text', '5'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('how many years of work experience do you have with asp.net?', '6', 'text', ''), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4261771438,Senior Site Reliability Engineer,"Pyramid Consulting, In","ramid Consulting, In","ramid Consulting, In","About the job
+Immediate need for a talented Senior Site Reliability Engineer. This is a 12+months contract opportunity with long-term potential and is located in Irving, TX (Onsite). Please review the job description below and contact me ASAP if you are interested.
+
+Job ID: 25-77084
+
+Pay Range: $68 - $70/hour. Employee benefits include, but are not limited to, health insurance (medical, dental, vision), 401(k) plan, and paid sick leave (depending on work location).
+
+Key Responsibilities:
+
+Run the production environment by monitoring availability and taking a holistic view of system health
+Improve reliability, quality, and time-to-market of our suite of software solutions
+Measure and optimize system performance to push our capabilities forward, get ahead of customer needs, and innovate to improve continually
+Collaborate with frontend and backend teams to identify and resolve issues across the stack.
+Build tools and automation to improve observability, deployment, and incident response.
+Drive reliability best practices across CI/CD pipelines, infrastructure, and application code.
+
+Key Requirements and Technology Experience: 
+
+Key Skills;Site Reliability, Observability, and monitoring tools (e.g., New Relic, LogRocket, Datadog, etc.), frontend frameworks (React, Angular, Mobile, React Native, Android, iOS), backend frameworks (Node.js, Spring Framework, etc.), database design (SQL and NoSQL), cloud services (Serverless Functions, Blob Storage, Virtual Machines)
+5+ years of experience in software engineering or SRE roles.
+5+ years of experience with observability and monitoring tools (e.g., New Relic, LogRocket, Datadog, etc.)
+5+ years of experience with frontend frameworks (React, Angular, Mobile, React Native, Android, iOS)
+5+ years of experience with backend frameworks (Node.js, Spring Framework, etc.)
+5+ years of experience with database design (SQL and NoSQL)
+5+ years of experience with cloud services (Serverless Functions, Blob Storage, Virtual Machines)
+Familiarity with cloud platforms (AWS or Azure) and containerized environments (Docker, Kubernetes).
+Solid understanding of CI/CD, incident management, and system design.
+A passion for reliability, performance, and delivering great user experiences.
+Bachelor’s Degree or higher in Computer Science/Engineering/Math, or relevant experience.
+
+Our client is a leading Retail Industry and we are currently interviewing to fill this and other similar contract positions. If you are interested in this position, please apply online for immediate consideration.
+
+Pyramid Consulting, Inc. provides equal employment opportunities to all employees and applicants for employment and prohibits discrimination and harassment of any type without regard to race, color, religion, age, sex, national origin, disability status, genetics, protected veteran status, sexual orientation, gender identity or expression, or any other characteristic protected by federal, state or local laws.
+
+By applying to our jobs you agree to receive calls, AI-generated calls, text messages, or emails from Pyramid Consulting, Inc. and its affiliates, and contracted partners. Frequency varies for text messages. Message and data rates may apply. Carriers are not liable for delayed or undelivered messages. You can reply STOP to cancel and HELP for help. You can access our privacy policy here.",5,Needs an AI,Unknown,Unknown,Previous resume,False,Unknown,2025-07-09 00:19:16.756688,https://www.linkedin.com/jobs/view/4261771438,Easy Applied,"{('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4262198213,Site Reliability Engineer,Insight Globa,sight Globa,sight Globa,"About the job
+SRE with MLOps 
+Fully Onsite in Atlanta, GA 
+Multi-Year Contract 
+
+Top Must Haves: 
+ML Ops
+Databricks
+AWS or Azure
+Python (for pulling code from GitLab)
+Kubernetes / AKS (Azure Kubernetes Service)
+
+Must Haves:
+5+ years of experience within DevOps
+Strong data analytics experience
+Run a CI/CD pipeline and managing it
+Experience with Machine Learning Operations - managing a lifecycle – getting it from development to production – configuration experience
+Experience with Data operations – know how to write SQL or Python
+Experience with Azure or AWS
+Enterprise level environment experience
+ Plusses
+Experience within Telecom
+Experience with Kubernetes or AKS (azure Kubernetes services)
+Snowflake or databricks experience (databricks preferred)
+ Day to Day:
+An employer is looking for a Senior DevOps Engineer. This team is developing
+This team is building a tool that will collect all the data for other developers to use. Building a layer on top of this platform and will be able to deploy to the marketplace. From there they will be adding a machine learning platform to offer data to other teams and groups. Will be a centralized location to answer data questions and user cases.",5,Needs an AI,Unknown,Unknown,Previous resume,False,Unknown,2025-07-09 00:19:28.865486,https://www.linkedin.com/jobs/view/4262198213,Easy Applied,"{('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('how many years of professional experience do you have with kubernetes?', '6', 'text', ''), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Are you comfortable working in an onsite setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('how many years of professional experience do you have with databricks?', '6', 'text', ''), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('how many years of enterprise level experience do you have as an sre?', '6', 'text', ''), ('how many years of professional experience do you have with mlops?', '6', 'text', '')}",In Development
+4262873146,Site Reliability Engineer,NextGen | GTA: A Kelly Telecom Compan,xtGen | GTA: A Kelly Telecom Compan,xtGen | GTA: A Kelly Telecom Compan,"About the job
+Job Title: Site Reliability Engineer
+
+Job Description:
+We are seeking a highly skilled Site Reliability Engineer to design, build, and manage our end-to-end monitoring and observability infrastructure. The ideal candidate will have deep expertise in Grafana, hands-on operational experience, and a strong background in managing cloud-based environments. This role will play a critical part in ensuring the health, performance, and reliability of our systems by developing advanced observability solutions and supporting production operations.
+
+Key Responsibilities:
+Architect, design, and implement comprehensive observability infrastructure using Grafana and complementary tools.
+Administer, maintain, and optimize Grafana environments beyond standard end-user functions.
+Build and manage monitoring dashboards and observability artifacts for internal systems, including support for new features pre-production.
+Investigate and resolve production issues with a focus on improving future observability and system reliability.
+Design and implement observability artifacts for SMN and SCP platforms.
+Collaborate with operations and development teams to define and evolve monitoring strategies for cloud and hybrid environments.
+
+Must-Have Qualifications:
+Extensive hands-on experience with Grafana, including full-stack implementation and administration.
+Proven track record of owning and maintaining Grafana monitoring environments.
+Strong understanding of cloud system monitoring and incident response workflows.
+Experience with dashboard creation, alerting configuration, and performance metrics visualization.
+Operational experience in system monitoring and actionable incident response.
+Familiarity with supporting observability features ahead of production releases.
+
+What you need to know about us
+
+We are Connectors. We thrive on ‘quality over quantity’ and put in the work building strong relationships. We create connections, discover qualities, uncover skills, and place people with accuracy. We are your true partner!
+
+We are Collaborators. You’ll be working with a wholly-owned subsidiary of Kelly and part of the Kelly Telecom division. It allows us to be as nimble and fiercely competitive as a startup while having the backing of a multibillion dollar publicly traded company which has been in business for 75 years. With direct access to hiring managers, services don’t stop at standard recruiting processes. We use our expertise to improve your application skills and provide ongoing career support.
+
+We give 24/7 Support. We are in this together. We provide around the clock availability, competitive employee benefits, and continuously check-in to make sure things are going smoothly. Check out our Glassdoor page!",Error in extraction,Needs an AI,Unknown,Unknown,Previous resume,False,Unknown,2025-07-09 00:19:37.557939,https://www.linkedin.com/jobs/view/4262873146,Easy Applied,"{('phone', '+14158490203', 'text', '+14158490203'), ('Email [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4262861948,DevOps Engineer,BayOne Solution,yOne Solution,yOne Solution,"About the job
+Role: DevOps Engineer
+Location: Santa Clara, CA (Hybrid 3 days onsite)
+Duration: 12+ Contract
+Pay Rate: $60-80/hr
+
+Job description:
+Key Responsibilities:
+Architect, design, and implement cloud-based solutions tailored to the needs of mission-critical applications, ensuring scalability, reliability, and security.
+Develop innovative approaches to solve complex technical problems, utilizing deep technical expertise in cloud platforms (such as AWS, Azure, or GCP).
+Lead technical efforts across multiple projects, providing direction, mentoring, and expertise to ensure successful delivery.
+Collaborate with cross-functional teams (e.g., project managers, DevOps engineers, product managers) to ensure efficient deployment, operation, and support of cloud engagements.
+Optimize the performance, security, and cost-effectiveness of cloud solutions through proactive monitoring, troubleshooting, and continuous improvement.
+Contribute to the development of cloud service offerings, identifying new opportunities to enrich Cloud Services portfolio.
+Ensure cloud architecture and solutions comply with security standards, best practices, and regulatory requirements.
+Provide technical leadership in the implementation of DevOps best practices and CI/CD pipelines for cloud environments.
+Act as a subject matter expert and a mentor to less experienced team members, fostering knowledge-sharing and growth across the team.
+Required Skills and Qualifications:
+Bachelor’s degree in computer science, Information Technology, Engineering, or related field.
+Proven experience (5+ years) in cloud development and architecture using platforms such as AWS, Azure, or Google Cloud.
+Strong understanding of cloud security, networking, and infrastructure services.
+Hands-on experience with automation tools and Infrastructure-as-Code (IaC) (e.g., Terraform, CloudFormation, Ansible).
+Proficient in programming languages such as Python, Go, or JavaScript, with the ability to write clean, scalable code.
+Solid understanding of microservices architecture and container orchestration tools (e.g., Kubernetes, Docker).
+Experience with CI/CD pipelines and DevOps practices to streamline software delivery.
+Excellent problem-solving skills and the ability to work effectively in fast-paced, dynamic environments.
+Strong leadership qualities, including the ability to guide team decision-making, manage projects, and mentor peers.
+Effective communication and collaboration skills to work with both technical and non-technical stakeholders.
+Preferred Qualifications:
+Cloud certifications (AWS Certified Solutions Architect, Google Professional Cloud Architect, or Microsoft Azure Solutions Architect).
+Experience with multi-cloud environments and hybrid cloud deployments.
+Knowledge of database management systems, both SQL and NoSQL, in cloud
+
+BayOne is an Equal Opportunity Employer and does not discriminate against any employee or applicant for employment because of race, color, sex, age, religion, sexual orientation, gender identity, status as a veteran, and basis of disability or any federal, state, or local protected class. This job posting represents the general duties and requirements necessary to perform this position and is not an exhaustive statement of all responsibilities, duties, and skills required. Management reserves the right to revise or alter this job description.",5,Needs an AI,Neeraj Maurya ,https://www.linkedin.com/in/neerajsfpro,Previous resume,False,Unknown,2025-07-09 00:19:44.052994,https://www.linkedin.com/jobs/view/4262861948,Easy Applied,"{('phone', '+14158490203', 'text', '+14158490203'), ('Email [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4260621085,DevOps Engineer,Metrics Recruitmen,trics Recruitmen,trics Recruitmen,"About the job
+A fast-moving Web3 infrastructure company is looking for a DevOps Engineer to help build and maintain the backbone of its programmable stablecoin platform. This role is ideal for someone who thrives in a high-ownership environment and wants to shape the operational stack behind emerging financial technology.
+You’ll be responsible for automating deployments, strengthening infrastructure security, and enhancing developer workflows all in a blockchain-native setting.
+
+What You’ll Do
+Design and operate cloud infrastructure (primarily AWS) using Infrastructure-as-Code tools like Terraform to ensure secure, reliable systems.
+Lead efforts to improve internal tooling and build a platform layer that accelerates development across teams.
+Develop and maintain automation pipelines to support frequent, safe deployments with minimal manual intervention.
+Continuously improve system uptime, efficiency, and cost-effectiveness through monitoring and performance tuning.
+Apply a security-first mindset to infrastructure architecture and cloud-native systems.
+Manage containerized environments at scale using Docker and Kubernetes.
+Partner with engineers and product managers to embed DevOps practices into everyday development processes.
+
+What You Bring
+5+ years of experience in DevOps, reliability engineering, or cloud infrastructure roles.
+Hands-on experience with blockchain systems or distributed architectures.
+Familiar with setting up and optimizing CI/CD workflows using tools like GitHub Actions, CircleCI, Jenkins, or similar.
+Experience deploying infrastructure that supports decentralized applications or multi-chain ecosystems.
+Proficient with monitoring tools such as Grafana, Prometheus, or equivalent solutions.
+Strong understanding of cloud security fundamentals, especially in relation to Web3 or fintech environments.
+Comfortable scripting and using config management tools (e.g., Bash, Ansible, Terraform, etc.).
+Confident communicator in English and comfortable working across cross-functional teams.
+
+Your Mindset
+Solution-oriented: You proactively identify issues and improvements and enjoy solving complex challenges.
+Collaborative: You work well across technical and non-technical teams, from protocol engineers to product stakeholders.
+Supportive: You help unblock others, contribute to shared goals, and know when to ask for help.
+Goal-driven: You stay focused on delivering value while balancing speed, stability, and scalability.",5,Needs an AI,Caoimhe Byrne ,https://www.linkedin.com/in/caoimhe-a-byrne,Previous resume,False,Unknown,2025-07-09 00:19:49.370697,https://www.linkedin.com/jobs/view/4260621085,Easy Applied,"{('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4257192887,DevOps Engineer,RX2 Solution,2 Solution,2 Solution,"About the job
+TITLE:  DevSecOps Engineer
+TYPE:  Permanent
+LOCATION: Wilmington, DE
+ONSITE/REMOTE/HYBRID:  Hybrid-Tues, Weds, and Thurs onsite
+START DATE:  July 2025
+SHIFT:  1st
+
+
+We are looking for a skilled DevSecOps Engineer to join a dynamic Research and Development team, supporting the ongoing advancement of complex thermal analysis and rheology technologies. This role is essential in strengthening secure development environments, improving embedded software workflows, and maintaining modern DevSecOps infrastructure.
+
+MAIN RESPONSIBILITIES
+Build and maintain Yocto-based Linux environments for embedded systems
+Customize Linux distributions and manage build layers using Yocto tools and recipes
+Diagnose and resolve build failures efficiently
+Explore and incorporate new tools and frameworks to enhance automation and integration pipelines
+Design secure, automated workflows for development, testing, and deployment phases
+Oversee infrastructure security measures and monitoring systems
+Develop comprehensive documentation covering processes, security standards, and workflow automation
+Advise teams on best practices for cloud and on-premise security configurations, including IAM and system hardening
+Collaborate with QA and security teams to ensure regulatory and procedural compliance
+Engineer and maintain CI/CD pipelines using tools such as GitHub Actions, Azure Pipelines, and Artifactory
+Implement effective version control practices tailored to embedded development environments
+Contribute to the enhancement of engineering tools and workflows to support secure and efficient operations
+Provide mentorship on DevSecOps methodologies and secure coding practices
+Participate actively in team meetings, technical reviews, and collaborative projects
+Promote a culture of innovation and continuous improvement
+
+QUALIFICATIONS 
+Bachelor's degree preferred, or an equivalent combination of education and professional experience
+Minimum of five years of experience in developing and maintaining CI/CD pipelines for embedded Linux applications
+Strong scripting capabilities (Python, Bash, BitBake)
+Deep understanding of identity and access management (IAM) and cloud security practices
+Proficiency with DevOps tools including GitHub Actions, Azure Pipelines, and Artifactory
+Hands-on experience with system logging, performance monitoring, and optimization tools
+Familiarity with containerization technologies such as Docker or Kubernetes
+Knowledge of infrastructure as code and CI/CD integration best practices
+Experience generating Software Bill of Materials (SBOM) through automated build systems
+Comfortable working with cloud environments such as AWS, Azure, or Google Cloud
+Understanding of embedded systems architecture and development workflows
+Exposure to automation tools like Ansible, Terraform, and observability tools such as Prometheus, Grafana, Loki, or Datadog
+Certifications in cloud or cybersecurity disciplines are a plus
+
+EOE STATEMENT 
+We are an equal opportunity employer. We do not discriminate or allow discrimination on the basis of race, color, religion, creed, sex (including pregnancy, childbirth, breastfeeding, or related medical conditions), age, sexual orientation, gender identity, national origin, ancestry, citizenship, genetic information, registered domestic partner status, marital status, disability, status as a crime victim, protected veteran status, political affiliation, union membership, or any other characteristic protected by law.",0,Needs an AI,Unknown,Unknown,Previous resume,False,Unknown,2025-07-09 00:20:05.914820,https://www.linkedin.com/jobs/view/4257192887,Easy Applied,"{('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4263664009,DevOps Engineer II,Kforce In,orce In,orce In,"About the job
+Responsibilities
+
+Kforce has a client in Greenwood Village, CO that is looking for a DevOps Engineer II to join their team. Responsibilities:
+
+ DevOps Engineer II will support CI/CD pipelines (Jenkins, GitLab CI/CD) and infrastructure automation (Terraform, Ansible) for Plume Open Sync Cloud and CBU-related updates
+ Assist in monitoring, troubleshooting, and resolving system issues across AWS infrastructure (EKS, EC2, S3, ALB, Route53)
+ Help with scripting (Python, Bash), configuration management (Ansible (nice to have - scripting), Terraform (yes)), and deployment tasks
+ Enhance monitoring and observability by supporting logging (Fluent Bit, Loki, ELK) and alerting (Prometheus, Alert manager, Grafana) improvements
+ Document processes and collaborate with senior engineers to gain hands-on experience with cloud-native DevOps tooling
+
+Requirements
+
+ To be considered for this position, candidates must have experience in a similar role, or they must possess significant knowledge, experience, and abilities to successfully perform the responsibilities listed
+ Relevant education and/or training will be considered a plus
+
+The pay range is the lowest to highest compensation we reasonably in good faith believe we would pay at posting for this role. We may ultimately pay more or less than this range. Employee pay is based on factors like relevant education, qualifications, certifications, experience, skills, seniority, location, performance, union contract and business needs. This range may be modified in the future.
+
+We offer comprehensive benefits including medical/dental/vision insurance, HSA, FSA, 401(k), and life, disability & ADD insurance to eligible employees. Salaried personnel receive paid time off. Hourly employees are not eligible for paid time off unless required by law. Hourly employees on a Service Contract Act project are eligible for paid sick leave.
+
+Note: Pay is not considered compensation until it is earned, vested and determinable. The amount and availability of any compensation remains in Kforce's sole discretion unless and until paid and may be modified in its discretion consistent with the law.
+
+This job is not eligible for bonuses, incentives or commissions.
+
+Kforce is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, pregnancy, sexual orientation, gender identity, national origin, age, protected veteran status, or disability status.
+
+By clicking “Apply Today” you agree to receive calls, AI-generated calls, text messages or emails from Kforce and its affiliates, and service providers. Note that if you choose to communicate with Kforce via text messaging the frequency may vary, and message and data rates may apply. Carriers are not liable for delayed or undelivered messages. You will always have the right to cease communicating via text by using key words such as STOP.",0,Needs an AI,Unknown,Unknown,Previous resume,False,Unknown,2025-07-09 00:20:14.321057,https://www.linkedin.com/jobs/view/4263664009,Easy Applied,"{('phone', '+14158490203', 'text', '+14158490203'), ('Email [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4259893819,Senior DevOps Engineer,"AppCard, Inc","pCard, Inc","pCard, Inc","About the job
+Senior DevOps/SRE
+
+Company Profile:
+
+AppCard Inc. is a technology and marketing company headquartered in Manhattan, NY. Appcard has a powerful marketing tool that leverages data acquired at the point of sale (POS) via an advanced rewards program to create advanced retargeting campaigns that help businesses increase their bottom line. AppCard is unique in the loyalty space due to its patented technology which allows businesses to capture shopper identity and item level data in realtime from purchases made in store and online. The benefit of this is two fold: consumers benefit by receiving offers, incentives and coupons. Through a shopper’s interactions with the former AppCard’s platform records and learns shopper behavior and gives grocers the ability to make their data actionable to increase average basket size and systematically increase repeat purchases.
+
+About the role:
+AppCard is looking for an experienced DevOps/SRE Engineer, experienced in leading projects in operations/engineering and willing to grow technological and leadership skills in a cloud-based challenging environment. In this role, the successful individual will develop and support our critical information, systems and assets; build solutions, implement new software and hardware and provide training. From early on, you’ll be given interesting assignments, opportunities to lead initiatives and take full ownership and responsibility for the outcome.
+
+Responsibilities 
+Hands on leadership of system architecture and modernization projects
+Develop and manage cloud (AWS) and hybrid infrastructure
+Partner with the engineering and operations team to set up SLAs, and observability for customers and other stakeholders. Identify and resolve systemic issues impacting engineering and operations.
+Manage tooling and build systems
+Proactively participate in resolving ongoing incidents
+
+Skills and Qualifications 
+5+ years of relevant industry experience (DevOps/SRE or development)
+Experience building roadmaps and technical project management
+Experience with systems; system performance monitoring tools, identity providers, networking, content delivery and caching.
+Excellent knowledge of Linux and container based deployment best practices
+Experience with infrastructure as code tools (CloudFormation, CDK, Terraform or similar)
+Experience with AWS
+Networking knowledge: Load balancers, firewalls, VPN’s, TCP/IP, troubleshooting and performance tuning
+Knowledge of cloud security best practices
+Innovative, creative mindset – out of the box thinker
+Experience writing scripts in at least one language
+
+**This role is full-time from our NYC office**",5,Needs an AI,Fateya Shajahan ,https://www.linkedin.com/in/fateya-shajahan-317a53142,Previous resume,True,Unknown,2025-07-09 00:20:22.656601,https://www.linkedin.com/jobs/view/4259893819,Easy Applied,"{('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Are you available for a full-time role in NYC? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4259587739,DevOps Engineer,JustinBradle,stinBradle,stinBradle,"About the job
+JustinBradley's client, a leading source of mortgage financing, is seeking an experienced DevOps Engineer to support the development and deployment of system-level applications. This individual will be responsible for high-complexity analysis, design, development, and unit testing of software applications based on user requirements and technical design documentation. The ideal candidate will be well-versed in the Software Development Lifecycle (SDLC) and possess strong programming and automation skills to address the evolving needs of internal stakeholders.
+
+Responsibilities:
+Analyze user requirements and design documentation to develop scalable, system-level applications.
+Perform unit testing and participate in resolving defects identified during various testing phases.
+Collaborate across teams to implement DevOps best practices including CI/CD pipelines, infrastructure as code, and automation.
+Employ current programming languages and tools to meet business and technical needs.
+Manage and maintain deployment and automation tools such as Jenkins, GitLab, and Terraform.
+
+Requirements:
+Proficiency in SDLC and DevOps methodologies.
+Strong knowledge of the following tools and technologies: Jenkins, Maven, GitLab, Bitbucket, JFrog, UCD (UrbanCode Deploy), Terraform, AWS, Pipeline as Code, Python, YAML, Shell Scripting.
+Bachelor's degree in computer science, Information Systems, or a related field.
+Minimum 5 years of experience working with the desired tools and technologies listed above.
+Professional certifications in DevOps or related areas are preferred.
+Solid IT background with prior experience as an application developer on projects of similar scope and complexity.
+
+JustinBradley is an EO employer - Veterans/Disabled and other protected employees.",5,Needs an AI,Unknown,Unknown,Previous resume,False,Unknown,2025-07-09 00:20:30.502244,https://www.linkedin.com/jobs/view/4259587739,Easy Applied,"{('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Have you completed the following level of education: Bachelor\'s Degree? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4260728040,Site Reliability Engineer,Mastech Digita,stech Digita,stech Digita,"About the job
+Job Title: Site Reliability Engineer – Senior
+Location: Irving, TX (Onsite)
+Job Type: 12+ Months 
+
+(W2 ONLY)
+
+About the job:
+You’ll join a multidisciplinary team of product managers, marketers, designers, and engineers who research and innovate on the latest technology to create excellent digital products that millions of people will experience daily.
+
+We count on our site reliability engineers (SREs) to empower our users with a rich feature set, high availability, and stellar performance levels to pursue their missions. As we expand our customer deployments, we are currently seeking an experienced SRE to deliver insights from massive scale data in real-time. Specifically, we are searching for someone who brings fresh ideas, demonstrates a unique and informed viewpoint, and enjoys collaborating with a cross-functional team to develop real-world solutions and positive user experiences at every interaction.
+
+Key Responsibilities:
+Run the production environment by monitoring availability and taking a holistic view of system health
+Improve reliability, quality, and time-to-market of our suite of software solutions
+Measure and optimize system performance to push our capabilities forward, get ahead of customer needs, and innovate to improve continually
+Collaborate with frontend and backend teams to identify and resolve issues across the stack.
+Build tools and automation to improve observability, deployment, and incident response.
+Drive reliability best practices across CI/CD pipelines, infrastructure, and application code.
+
+Qualifications:
+5+ years of experience in software engineering or SRE roles.
+5+ years of experience with observability and monitoring tools (e.g., New Relic, LogRocket, Datadog, etc.)
+5+ years of experience with frontend frameworks (React, Angular, Mobile, React Native, Android, iOS)
+5+ years of experience with backend frameworks (Node.js, Spring Framework, etc.)
+5+ years of experience with database design (SQL and NoSQL)
+5+ years of experience with cloud services (Serverless Functions, Blob Storage, Virtual Machines)
+Familiarity with cloud platforms (AWS or Azure) and containerized environments (Docker, Kubernetes).
+Solid understanding of CI/CD, incident management, and system design.
+A passion for reliability, performance, and delivering great user experiences.
+Bachelor’s Degree or higher in Computer Science/Engineering/Math, or relevant experience
+
+
+Recruiter Name: Parth Mishra
+Recruiter Phone: 412-484-0072
+Recruiter Email Id : Parth.mishra@mastechdigital.com
+Equal Employment Opportunity
+#Mastech1",5,Needs an AI,Parth Mishra ,https://www.linkedin.com/in/parth-mishra-9333891b3,Previous resume,False,Unknown,2025-07-09 00:20:39.144737,https://www.linkedin.com/jobs/view/4260728040,Easy Applied,"{('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Will you be open to work on W2? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4261767821,Senior Site Reliability Engineer,"Comtech Global, In","mtech Global, In","mtech Global, In","About the job
+Job Title: Site Reliability Engineering Lead
+Experience: 13 years
+Location: Columbus, OH (100% Onsite)
+Duration: Full Time
+
+Job Description: 
+Bachelor's Degree (BA/BS) from 4-year college or university preferred. 
+5-8 years of relevant work experience managing a cloud platform such as Azure, GCP, or AWS (Azure preferred). 
+Microsoft Azure track certification such as Azure DevOps Engineer Expert, Certified Kubernetes Administrator (CKA), Splunk Certification, and Datadog Certification are preferred.
+Experience in scripting and automation using languages such as Python, Bash, and PowerShell.
+SQL query experience. 
+Linux administration experience.
+Familiarity with Agile principles.
+Experience with Infrastructure as Code (IaC) tools such as Terraform, ARM Templates, Azure Bicep, or Ansible.
+Experience managing and configuring CI/CD pipelines (e.g., Azure DevOps, Jenkins, GitHub Actions).
+Proficiency in troubleshooting distributed systems and understanding networking, DNS, load balancing, firewalls, etc.
+Experience with incident response and on-call rotations, including postmortem/root cause analysis.
+Strong understanding of SRE principles: SLIs, SLOs, error budgets, and service monitoring at scale.
+Experience working with containerization: In addition to Kubernetes, familiarity with Docker.
+Familiarity with application principles and complex design philosophy.
+Ability to solve complex problems.",5,Needs an AI,Sathish Chandra,https://www.linkedin.com/in/sathishchandradev,Previous resume,False,Unknown,2025-07-09 00:20:48.686607,https://www.linkedin.com/jobs/view/4261767821,Easy Applied,"{('Do you have the following license or certification: Splunk Certifications? [  ""Yes""<Yes>, ""No""<No>, ]', 'Yes', 'radio', None), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('experience with incident response and on-call rotations, including postmortem/root cause analysis', '6', 'text', ''), ('how many years of work experience do you have with microsoft azure?', '5', 'text', '5'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Have you completed the following level of education: Bachelor\'s Degree? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('experience working with containerization: in addition to kubernetes, familiarity with docker', '6', 'text', ''), ('experience in sre principles: slis, slos, error budgets, and service monitoring at scale', '6', 'text', ''), ('how many years of information technology experience do you currently have?', '4', 'text', '4'), ('experience with infrastructure as code (iac) tools such as terraform, arm templates, azure bicep, or ansible', '6', 'text', ''), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('experience managing and configuring ci/cd pipelines', '6', 'text', ''), ('experience in scripting and automation using languages such as python, bash, and powershell', '6', 'text', ''), ('how many years of work experience do you have with site reliability engineering?', '6', 'text', '6'), ('how many years of work experience do you have with continuous delivery (cd)?', '6', 'text', ''), ('Are you willing to take a drug test, in accordance with local law/regulations? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>')}",In Development
+4263644374,Site Reliability Engineer,PacerPr,cerPr,cerPr,"About the job
+About this Job
+
+You’ll be joining the engineering team responsible for delivering PacerPro’s SaaS and on-premise solutions that orchestrate case data workflows and provide data driven legal insights for our clients. You will be significantly contributing towards the development of our strategic initiatives - using a variety of distributed systems and cloud-technology stacks, driving our next level of growth. As an early member of our small team, you will have ample opportunity to contribute to challenging technical problems. You will also have avenues to grow into a higher technical track. Depending on fit, you will be considered for opportunities to contribute to GenAI use cases on our product roadmap, bringing cutting-edge technology to our suite of solutions.
+
+Engineering culture
+
+Our engineering culture is driven by developer empowerment, and built on passion, collaboration, innovation, and unwavering diligence. We foster an environment of open communication, transparency, and a determined 'get-it-done' mindset. We hold continuous learning, mutual support, and a profound sense of camaraderie in high regard, even within our remote work setting.
+
+Responsibilities
+
+Gain a solid understanding of our deployment and network architecture.
+Build and modernize infrastructure across both legacy and cloud-native environments (e.g., Heroku, AWS) using a diverse set of tools to ensure scalability, reliability, and performance.
+Build observability tools to allow our development team to better understand the system, identify system bottlenecks, assess, and mitigate risks and vulnerabilities.
+Strive for automation of operational tasks to reduce repetitive manual work and human error.
+Participate in an on-call rotation to respond to production incidents and to reduce MTTR and achieve SLA/SLO/SLI targets.
+Participate in incident postmortems and perform root cause analysis.
+Participate with cross-department stakeholders in the implementation of IT and Engineering policies for SOC2 compliance.
+Adhere to best practices in coding standards, code test coverage, code reviews, CI/CD, and documentation.
+Our tech stack is varied - you will start with Heroku, AWS, Sidekiq, New Relic, Twilio SendGrid, CloudMailin, Ruby/Rails, Postgres, Redis, Kafka, and more.
+
+Qualifications
+
+BS in Computer Science, Computer Engineering, Information Technology or other computer-related discipline.
+Experience in system design, iterative development and deployment of new services.
+Experience using one or more IaaS/PaaS solutions (eg: Heroku/AWS/GCP/Azure)Proficiency in one or more scripting languages (eg: Ruby/Python/Go).
+Knowledge of Linux OS capabilities.
+Exposure to one or more Infrastructure as Code technologies (eg: Terraform/Ansible/Salt).
+Experience with one or more observability technologies (eg: LogEntries/NewRelic/Rollbar/Prometheus/Grafana/Datadog/Zabbix).
+Experience with CI/CD systems (e.g.: CircleCI/Jenkins/Github/Gitlab CI).
+Ability to effectively communicate and collaborate with both technical and non-technical team members.
+Flair for startup work style.
+Experience with relational databases at scale is a plus.
+Experience with Docker and Kubernetes clusters is a plus.
+
+About PacerPro
+
+PacerPro's mission is to empower better decision making and stronger institutions by making facts, the bedrock of legal analysis, readily and easily accessible. Launched in 2014 as a simple overlay to the PACER system, today our service is the standard for integrating federal court data into workflow and knowledge systems for BigLaw and leading litigation boutiques. This success is due to innovative technology matched with best-in-class customer success and deployment teams.",0,Needs an AI,Unknown,Unknown,Previous resume,False,Unknown,2025-07-09 00:21:00.689624,https://www.linkedin.com/jobs/view/4263644374,Easy Applied,"{('how many years of hands-on experience do you have working with cloud platforms like aws, heroku, gcp, or azure?', '6', 'text', ''), ('Are you legally authorized to work in the United States? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('We must fill this position urgently. Can you start immediately? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Are you comfortable working in a remote setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Have you completed the following level of education: Bachelor\'s Degree? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('how many years of experience do you have with observability or monitoring tools (e.g., new relic, datadog, prometheus)?', '6', 'text', ''), ('have you participated in on-call rotations? if yes, how many years of on-call or incident response experience do you have?', '6', 'text', ''), ('describe your experience with infrastructure automation tools such as terraform or ansible. how many years have you used them in production?', '6', 'text', ''), ('how many years have you used scripting languages (python, ruby, go, etc.)?', '6', 'text', ''), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('how many years of experience do you have with improving system reliability or reducing downtime?', '6', 'text', ''), ('how many years of work experience do you have with site reliability engineering?', '6', 'text', '6'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>')}",In Development
+4260162440,Lead AWS DevOps Engineer,Coforg,forg,forg,"About the job
+Job Title / Role: Lead AWS DevOps Engineer
+Key Skills: AWS, Terraform & CloudFormation.
+Experience: 10+
+Location: Boston MA.
+Shift: General.
+Mode: On-site.
+
+We at Coforge are seeking “Lead AWS DevOps Engineer” with the following skill sets:
+
+Strong communication skills, verbal and written with client facing experience.
+Act as the single point of contact between Client and Service Provider teams to facilitate the resolution of issues and escalation by working closely with Client team Interface with clients, offering support and guidance as a Subject Matter Expert throughout the life of the project to build CFT templates for the in-scope modules. 
+Coordinate with the Offshore team daily, Lead, mentor, and guide AWS Cloud engineers. 
+Develop diverse AWS-based cloud solutions.
+ Troubleshoot and resolve customer outages and issues Heavy use of IAC (Terraform & CloudFormation) to automate use of AWS Expertise in networking, orchestration/automation, and scripting is a must Have managed production systems and environments and participated in outage recovery of those systems. 
+Deep understanding of containers and the various orchestration systems, preferably EKS/K8S and/or ECS. 
+Experience with deploying and debugging microservices. 
+Experience with instrumenting metrics, alerting, and logging of production systems.
+Extensive experience across the core AWS services.",0,Needs an AI,K Raj kiran ,https://www.linkedin.com/in/k-raj-kiran-a305b8149,Previous resume,False,Unknown,2025-07-09 00:21:08.810677,https://www.linkedin.com/jobs/view/4260162440,Easy Applied,"{('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('how many years of work experience do you have with terraform?', '6', 'text', '6'), ('how many years of work experience do you have with kubernetes?', '6', 'text', '6'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4264140616,Platform Engineer,Synergy Interactiv,nergy Interactiv,nergy Interactiv,"About the job
+Job Description
+As the high-energy and enthusiastic Staff Platform Engineer, you’re joining a vibrant team passionate about creating impactful digital experiences. With a desire to refine your craft, you will be eager to contribute, demonstrate exceptional technical aptitude, and bring a positive attitude to our collaborative environment where your ideas can be heard and implemented. You should enjoy working on a range of scopes including software engineering, cloud infrastructure, DevSecOps, and SRE.
+
+This position will provide weekend coverage for our clients production and other systems and requires an on-site presence, 9:00 am - 6:00 pm Thursday through Monday in their River North office.
+
+Key Responsibilities
+Develop applications, automation tools, and the necessary infrastructure to build, deploy,monitor and integrate data sources for our systems and applications
+
+Develop and maintain infrastructure as code (IaC)templates using Terraform
+
+Lead and cultivate a culture of incident management within the team
+
+Contribute to incident command and on-call rotations
+
+Build your technical expertise while working closely with a team of skilled engineers
+
+Drive efficiency improvements in software at scale
+
+
+Required Qualifications
+Degree in Computer Science, Engineering, or a related field
+
+Deep knowledge of Linux systems and CI/CD tools such as Jenkins
+
+Proven experience in implementing and maintaining scalable and reliable infrastructure on Amazon Web Services (AWS)
+
+Hands-on experience with Software as a Service (SaaS)or other managed software offerings
+
+Familiarity with containerization technologies such as Docker and Kubernetes
+
+Well-versed in vulnerability management and security products
+
+Expertise in one or more major public cloud platforms
+
+Understanding of IT Operations best practices in always-up environments
+
+Expertise in troubleshooting using monitoring tools
+
+Strong written and verbal communication skills",0,Needs an AI,Unknown,Unknown,Previous resume,False,Unknown,2025-07-09 00:21:17.162606,https://www.linkedin.com/jobs/view/4264140616,Easy Applied,"{('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Are you comfortable working in an onsite setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>')}",In Development
+4262871644,Salesforce DevOps Release engineer,Tech One I,ch One I,ch One I,"About the job
+POSITION TITLE: DevOps Release Engineer
+
+OFFICE LOCATION: Phoenix, AZ (Need Locals)
+CORE TIME ZONE: MST
+FULL TIME WORKING REMOTELY (from home): Yes
+Notes from the manager::
+· Someone who can automate terraform, IAC, don’t need manual
+· Need Salesforce release experiance
+· Need Candidates who come from developer background, for example started as salesforce dev, software developer, Application dev and converted into Devops engineer
+· This is a C2H role, need candidates who can convert
+· Gearset tool exp is must
+· Candidates need to have experience with terraform latest version 1.10 and above
+POSITION SUMMARY:
+Coordinate and manage Salesforce release updates, including sandbox management, change sets, and deployment activities using Gearset or other DevOps / Release Automation tools.
+PROJECT INFORMATION:
+The DevOps release Engineer is involved in every project requiring Salesforce deployments. 
+ PRINCIPAL RESPONSIBILITIES:
+· Deploy updates and fixes to production and sandbox environments
+· Work with developers to perform root cause analysis of production errors and resolve technical issues
+· Source control management including branching strategies and merge conflict resolution
+· Design procedures for system troubleshooting and maintenance
+· Document process
+· Train developers
+
+MINIMUM QUALIFICATIONS:
+· Excellent communication skills
+· Experience as a DevOps engineer or in a similar software engineering role
+· Experience with Salesforce releases using automated tools
+· Proficiency with Git and GitHub workflows
+· Branch management
+· Working knowledge of databases and SQL
+· Problem-solving attitude
+· Collaborative team spirit
+
+PREFERRED QUALIFICATIONS:
+· Experience in customer support
+· Salesforce admin or dev experience
+· Gearset 
+· Jenkins
+· DevOps certification",0,Needs an AI,Akhil Sai ,https://www.linkedin.com/in/akhil-sai-0b6a77164,Previous resume,False,Unknown,2025-07-09 00:21:23.121169,https://www.linkedin.com/jobs/view/4262871644,Easy Applied,"{('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('how many years of work experience do you have with terraform?', '6', 'text', '6'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('how many years of work experience do you have with salesforce.com?', '6', 'text', ''), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4264152193,Salesforce DevOps Engineer,PTR Globa,R Globa,R Globa,"About the job
+Job Title: Salesforce DevOps Engineer 
+Duration: 12+ Months contract with extension
+Location: Sunnyvale, CA (Onsite on every Tuesday, Wednesday, and Thursday)
+
+Job Description: 
+We are seeking an experienced Salesforce DevOps Engineer to lead and optimize our Salesforce release management and deployment processes. This role will be responsible for architecting, implementing, and managing CI/CD pipelines, Salesforce DX, and version control systems to ensure efficient, reliable, and secure deployments across all Salesforce environments.
+
+Key Responsibilities:
+CI/CD Pipeline Management:
+Lead the setup, configuration, and maintenance of CI/CD pipelines for Salesforce using tools such as GitHub, Jenkins, Salesforce DX, Copado, or Gearset.
+Automate deployment processes across multiple Salesforce environments including Sandbox, UAT, and Production.
+
+Salesforce DX & Version Control:
+Implement and maintain Salesforce DX for a version-controlled, source-driven development workflow.
+Manage Git repositories, branching strategies, and integration workflows to support continuous integration and deployment practices.
+
+Release Management:
+Oversee the end-to-end management and deployment of multiple Salesforce releases.
+Collaborate with development, QA, and business teams to ensure smooth transitions between development, QA, UAT, and production systems.
+Develop and enforce best practices for release governance and deployment automation.
+
+Required Skills & Qualifications:
+Strong hands-on experience with Salesforce DevOps tools such as Salesforce DX, Copado, Gearset, Jenkins, and GitHub.
+Proven experience in building and maintaining CI/CD pipelines for Salesforce applications.
+Expertise in source-driven development, version control, and Git-based branching strategies.
+Solid understanding of Salesforce architecture, metadata, and deployment processes.
+Excellent problem-solving skills and the ability to manage multiple parallel projects/releases
+
+Preferred Qualifications:
+Salesforce Platform Developer or Salesforce DevOps Center certifications.
+Experience working in Agile/Scrum environments.
+Familiarity with security and compliance standards related to Salesforce deployments.",0,Needs an AI,Nitin Patil ,https://www.linkedin.com/in/nitin-patil2397,Previous resume,False,Unknown,2025-07-09 00:21:40.612405,https://www.linkedin.com/jobs/view/4264152193,Easy Applied,"{('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('how many years of work experience do you have with version control tools?', '6', 'text', ''), ('how many years of work experience do you have with salesforce dx?', '6', 'text', ''), ('how many years of work experience do you have with release management?', '6', 'text', ''), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4255559719,Senior DevOps Engineer,Recruiting from Scratc,cruiting from Scratc,cruiting from Scratc,"About the job
+Who is Recruiting from Scratch: 
+Recruiting from Scratch is a talent firm that focuses on placing the best candidate for our clients.
+ https://www.recruitingfromscratch.com/
+DevOps Engineer
+Location: Austin, TX / New York, NY / Los Angeles, CA
+Company Stage of Funding: Venture-backed (Series A/B)
+Office Type: On-site
+Salary: $160,000 - $180,000 a year
+
+Company Description
+Our client is a cutting-edge, venture-backed technology company revolutionizing software and data solutions for organizations that test and validate complex systems. Think rocket engines, satellites, drones, and nuclear reactors – the cool stuff! Backed by prestigious investors like General Catalyst, Founders Fund, and Lux Capital, they're making waves in both commercial and government aerospace and defense sectors, including direct collaboration with the Department of Defense.
+Their rockstar team brings together brilliant minds from SpaceX, Palantir, Anduril, Lockheed Martin, and NASA, all united by a common mission: making it faster and easier for hardware engineers to push technological boundaries safely and efficiently. Their platform is a game-changer for engineering teams, accelerating test data review and analysis while scaling testing campaigns to save time and cut costs.
+What You Will Do
+Empower Engineering Velocity: Be the hero who ensures the growing engineering team can move quickly and safely by building and improving DevOps and cloud infrastructure systems. You'll focus primarily on cloud infrastructure while having flexibility to contribute to on-premises deployment systems or traditional software engineering.
+Optimize and Scale: Take ownership of systems for deploying and managing cloud infrastructure, refining CI/CD pipelines, and enhancing developer experience. Your work will directly improve developer environment consistency, accelerate build times, and simplify service bootstrapping.
+Manage Tradeoffs: Navigate the delicate balance between effort vs. value and short-term gains vs. long-term growth.
+Solve & Streamline: Spot an issue? You'll have the autonomy to fix problems quickly and keep the technology stack ahead of the curve.
+Ideal Candidate Background
+Proven Engineering Expertise: 4+ years of software engineering experience with direct involvement in developing, deploying, and monitoring infrastructure for high-scale distributed systems or complex tools.
+Technical Prowess: Your intellectual curiosity drives you to solve complex problems. You think systematically and see the big picture, while also paying meticulous attention to details.
+Dynamic Leadership & Teamwork: A blend of humility, eagerness to learn, and empathy makes you naturally effective at leading and elevating those around you. You don't just identify problems – you solve them.
+Project Management Skills: Demonstrated ability to transform technical concepts into reality, managing the full cycle from planning to deployment.
+
+Preferred Skills
+AWS cloud infrastructure (required), Azure (nice-to-have)
+Kubernetes experience: Deploying, scaling, and troubleshooting applications
+CI/CD expertise: Designing and building pipelines with GitHub Actions or similar tools
+Infrastructure as Code: Experience with Crossplane, Terraform, or similar technologies
+Observability tools: Familiarity with Datadog, Prometheus (metrics collection, dashboarding, alerting)
+Scripting and development skills: Proficiency in Bash, Python, and/or Go",4,Needs an AI,Dominique Barber ,https://www.linkedin.com/in/dlbarber91,Previous resume,True,Unknown,2025-07-09 00:22:18.213712,https://www.linkedin.com/jobs/view/4255559719,Easy Applied,"{('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('how many years of work experience do you have with python (programming language)?', '6', 'text', '6'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('how many years of work experience do you have with bash?', '3', 'text', '3')}",In Development
+4264244910,DevOps Engineer,Galactic Minds IN,lactic Minds IN,lactic Minds IN,"About the job
+Job Title: DevOps Engineer with AI/ML and MLOps
+Location: New Jersey (Day 1 Onsite)
+Duration: Contract
+
+Job Description :
+Document architecture workflows and best practices for knowledge sharing and compliance. 
+Provide technical oversight & Guidelines. 
+Architect and implement end-to-end MLOps and LLMOps pipelines using Azure Machine Learning and Azure OpenAl. 
+Design scalable infrastructure for training, deploying, and monitoring ML and LLM models in production. 
+Collaborate with data scientists and engineers to streamline model development testing, and deployment workflows. 
+Manage Azure Kubernetes Service (AKS) clusters and containerized ML workloads. 
+Ensure model governance, versioning, and reproducibility using tools like MLflow and Azure DevOps 
+Promote DevSecOps practices, ensuring security and compliance are embedded in the ML lifecycle. 
+Monitor and troubleshoot production ML systems, ensuring high availability and performance. 
+Experience with Azure Machine Learning. Azure OpenAl, Azure DevOps, and AKS. 
+Proficiency in Python, Docker, Kubernetes, and CI/CD pipelines. 
+Experience with LLM fine-tuning, prompt engineering, and model deployment. 
+Familiarity with MLflow, Terraform, and monitoring tools like Prometheus/Grafana.
+
+Responsibilities 
+Design and maintain CI/CD pipelines tailored for Al worldlows (eg. RAG, chunking, deployment). 
+Familiarity with DABs or other infrastructure-as-code deployment patterns. 
+Version control for prompts using MLFlow. 
+Automate prompt testing pipelines to evaluate performance across different LLMs or datasets using evaluation frameworks and MLFlow. 
+Support A/B testing of prompts in production environments. 
+Automate ingestion pipelines. 
+Containerize and orchestrate RAG components (retriever, ranker, generator). 
+Integrate retriever and generator components into a unified API endpoint. 
+Optimize latency and throughput for real-time RAG queries. 
+Experience with ingestion of unstructured documentation and OCR technologies Experience with OCR optimization/parallelization in production.",0,Needs an AI,Shruti Yadav ,https://www.linkedin.com/in/shruti-yadav-ab09ab207,Previous resume,False,Unknown,2025-07-09 00:22:24.377369,https://www.linkedin.com/jobs/view/4264244910,Easy Applied,"{('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)')}",In Development
+4260724066,Sr. Cloud Engineer,Judge Consulting Grou,dge Consulting Grou,dge Consulting Grou,"About the job
+Cloud Engineer:
+The Cloud Engineer is an IT professional responsible for the design, implementation, management, and support of the cloud-based infrastructure and services. This role will work closely with development, security, and operations teams to ensure the Microsoft Azure environment is secure, scalable, and aligned with business goals.
+Implement and support Azure-based infrastructure solutions, IAAS, PAAS, SAAS components.
+Automate infrastructure provisioning using tools like ARM templates, Bicep, or Terraform.
+Manage and monitor Azure resources using Azure Monitor, Log Analytics, and Application Insights.
+Implement and maintain security best practices, including role-based access control (RBAC), network security groups (NSGs), and Azure Policy.
+Support hybrid cloud environments and integrate on-premises systems with Azure services.
+Collaborate with DevOps teams to integrate Azure services into CI/CD pipelines using Azure DevOps or GitHub Actions.
+Optimize Azure resource usage and manage cost through Azure Cost Management and budgeting tools.
+Maintain documentation of cloud architecture, configurations, and operational procedures.
+Stay up to date with Azure innovations and recommend improvements to existing cloud strategies
+
+Essential Qualifications:
+Bachelor’s degree in computer science, Information Technology, or a related field (or equivalent experience).
+3+ years of experience in cloud engineering or IT infrastructure, with a strong focus on Microsoft Azure.
+Hands-on experience with core Azure services (e.g., Azure VMs, Azure Storage, Azure Networking, Entra ID Hybrid).
+Proficiency in scripting and automation using PowerShell, Azure CLI, or Python.
+Experience with Infrastructure as Code (IaC) tools such as ARM templates, Bicep, or Terraform.
+Solid understanding of networking, identity, and security in Azure environments
+
+Preferred Qualifications:
+Microsoft certifications such as:
+Azure Administrator Associate (AZ-104)
+Azure Solutions Architect Expert (AZ-305)
+Azure DevOps Engineer Expert (AZ-400)
+Experience with Azure Application Gateway, Firewall, Load Balancing, Azure Kubernetes Service (AKS), Azure Functions, and Logic Apps.
+Familiarity with hybrid cloud tools like Azure Arc and Azure Stack.
+Experience with monitoring and alerting tools in Azure",3,Needs an AI,Sean Connelly ,https://www.linkedin.com/in/sconnellyjudge,Previous resume,False,Unknown,2025-07-09 00:22:37.942767,https://www.linkedin.com/jobs/view/4260724066,Easy Applied,"{('how many years of work experience do you have with azure infrastructure as a service (iaas)?', '3', 'text', '3'), ('Are you legally authorized to work in the United States? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Email address [  ""Select an option"", ""bandarupalli2s@gmail.com"", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com'), ('how many years of work experience do you have with microsoft azure?', '5', 'text', '5'), ('mobile phone number', '+14158490203', 'text', '+14158490203'), ('Are you comfortable commuting to this job\'s location? [  ""Yes""<Yes>, ""No""<No>, ]', 'Yes', 'radio', None), ('how many years of work experience do you have with firewalls?', '6', 'text', ''), ('Are you comfortable working in an onsite setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'United States (+1)'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>')}",In Development

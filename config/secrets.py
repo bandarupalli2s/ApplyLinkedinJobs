@@ -1,29 +1,15 @@
-'''
-Author:     Sai Vignesh Golla
-LinkedIn:   https://www.linkedin.com/in/saivigneshgolla/
-
-Copyright (C) 2024 Sai Vignesh Golla
-
-License:    GNU Affero General Public License
-            https://www.gnu.org/licenses/agpl-3.0.en.html
-            
-GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
-
-version:    24.12.3.10.30
-'''
-
 
 ###################################################### CONFIGURE YOUR TOOLS HERE ######################################################
 
 
 # Login Credentials for LinkedIn (Optional)
-username = "username@example.com"       # Enter your username in the quotes
-password = "example_password"           # Enter your password in the quotes
+username = "bandarupalli2s@gmail.com"       # Enter your username in the quotes
+password = "DevOps@202599"           # Enter your password in the quotes
 
 
 ## Artificial Intelligence (Beta Not-Recommended)
 # Use AI
-use_AI = True                          # True or False, Note: True or False are case-sensitive
+use_AI = False                          # True or False, Note: True or False are case-sensitive
 '''
 Note: Set it as True only if you want to use AI, and If you either have a
 1. Local LLM model running on your local machine, with it's APIs exposed. Example softwares to achieve it are:
@@ -37,7 +23,7 @@ CHECK THE OPENAI API PIRCES AT THEIR WEBSITE (https://openai.com/api/pricing/).
 
 ##> ------ Yang Li : MARKYangL - Feature ------
 # Select AI Provider
-ai_provider = "deepseek"               # "openai", "deepseek"
+ai_provider = "openai"               # "openai", "deepseek"
 '''
 Note: Select your AI provider.
 * "openai" - OpenAI API (GPT models)
@@ -95,23 +81,3 @@ stream_output = False                    # Examples: True or False. (False is re
 Set `stream_output = True` if you want to stream AI output or `stream_output = False` if not.
 '''
 ##
-
-
-
-
-############################################################################################################
-'''
-THANK YOU for using my tool 😊! Wishing you the best in your job hunt 🙌🏻!
-
-Sharing is caring! If you found this tool helpful, please share it with your peers 🥺. Your support keeps this project alive.
-
-Support my work on <PATREON_LINK>. Together, we can help more job seekers.
-
-As an independent developer, I pour my heart and soul into creating tools like this, driven by the genuine desire to make a positive impact.
-
-Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
-
-Gratefully yours 🙏🏻,
-Sai Vignesh Golla
-'''
-############################################################################################################

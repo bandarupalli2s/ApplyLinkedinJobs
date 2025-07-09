@@ -1,24 +1,73 @@
-'''
-Author:     Sai Vignesh Golla
-LinkedIn:   https://www.linkedin.com/in/saivigneshgolla/
-
-Copyright (C) 2024 Sai Vignesh Golla
-
-License:    GNU Affero General Public License
-            https://www.gnu.org/licenses/agpl-3.0.en.html
-            
-GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
-
-version:    24.12.29.12.30
-'''
-
 
 ###################################################### LINKEDIN SEARCH PREFERENCES ######################################################
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-search_terms = ["Software Engineer", "Software Developer", "Python Developer", "Selenium Developer", "React Developer", "Java Developer", "Front End Developer", "Full Stack Developer", "Web Developer", "Nodejs Developer"]
+search_terms = [
+    # Core DevOps roles
+    'DevOps Engineer',
+    'Cloud DevOps Engineer',
+    'Senior DevOps Engineer',
+    'Junior DevOps Engineer',
+    'Remote DevOps Engineer',
+    'Hybrid DevOps Engineer',
 
+    # Site Reliability and Infrastructure
+    'Site Reliability Engineer',
+    'SRE',
+    'Platform Engineer',
+    'Infrastructure Engineer',
+    'Infrastructure Automation Engineer',
+    'Systems Engineer DevOps',
+
+    # CI/CD & Automation
+    'CI/CD Engineer',
+    'Build and Release Engineer',
+    'Automation Engineer',
+    'Configuration Engineer',
+    'Release Manager',
+
+    # Cloud-specific roles
+    'Cloud Engineer',
+    'Cloud Platform Engineer',
+    'Cloud DevOps Consultant',
+    'Cloud Automation Engineer',
+    'AWS DevOps Engineer',
+    'Azure DevOps Engineer',
+    'GCP DevOps Engineer',
+    'Multi-cloud DevOps Engineer',
+
+    # Kubernetes-specific roles
+    'Kubernetes Engineer',
+    'Kubernetes Platform Engineer',
+    'Kubernetes Site Reliability Engineer',
+    'Kubernetes DevOps Engineer',
+    'Kubernetes Administrator',
+    'Kubernetes Infrastructure Engineer',
+
+    # DevSecOps and Security
+    'DevSecOps Engineer',
+    'Cloud Security Engineer',
+    'DevOps Security Engineer',
+
+    # Observability and Monitoring
+    'Observability Engineer',
+    'Monitoring and Alerting Engineer',
+
+    # Leadership / Seniority
+    'Lead DevOps Engineer',
+    'Staff DevOps Engineer',
+    'Principal DevOps Engineer',
+    'Head of DevOps',
+    'Engineering Manager - DevOps',
+    'Director of Cloud Infrastructure',
+    'Technical Program Manager - DevOps',
+
+    # Misc
+    'Reliability Engineer',
+    'Site Operations Engineer',
+    'Cloud Solutions Architect'
+]
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
 search_location = "United States"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
@@ -73,7 +122,7 @@ fair_chance_employer = False       # True or False, Note: True or False are case
 ## >>>>>>>>>>> RELATED SETTING <<<<<<<<<<<
 
 # Pause after applying filters to let you modify the search results and filters?
-pause_after_filters = True         # True or False, Note: True or False are case-sensitive
+pause_after_filters = False         # True or False, Note: True or False are case-sensitive
 
 ##
 
@@ -89,7 +138,7 @@ about_company_bad_words = ["Crossover"]       # (dynamic multiple search) or lea
 about_company_good_words = []      # (dynamic multiple search) or leave empty as []. Ex: ["Robert Half", "Dice"]
 
 # Avoid applying to these companies if they have these bad words in their 'Job Description' section...  (In development)
-bad_words = ["US Citizen","USA Citizen","No C2C", "No Corp2Corp", ".NET", "Embedded Programming", "PHP", "Ruby", "CNC"]                     # (dynamic multiple search) or leave empty as []. Case Insensitive. Ex: ["word_1", "phrase 1", "word word", "polygraph", "US Citizenship", "Security Clearance"]
+bad_words = ["US Citizen","USA Citizen","No C2C", "No Corp2Corp"]                     # (dynamic multiple search) or leave empty as []. Case Insensitive. Ex: ["word_1", "phrase 1", "word word", "polygraph", "US Citizenship", "Security Clearance"]
 
 # Do you have an active Security Clearance? (True for Yes and False for No)
 security_clearance = False         # True or False, Note: True or False are case-sensitive
@@ -98,27 +147,5 @@ security_clearance = False         # True or False, Note: True or False are case
 did_masters = True                 # True or False, Note: True or False are case-sensitive
 
 # Avoid applying to jobs if their required experience is above your current_experience. (Set value as -1 if you want to apply to all ignoring their required experience...)
-current_experience = 5             # Integers > -2 (Ex: -1, 0, 1, 2, 3, 4...)
+current_experience = 6             # Integers > -2 (Ex: -1, 0, 1, 2, 3, 4...)
 ##
-
-
-
-
-
-
-############################################################################################################
-'''
-THANK YOU for using my tool 😊! Wishing you the best in your job hunt 🙌🏻!
-
-Sharing is caring! If you found this tool helpful, please share it with your peers 🥺. Your support keeps this project alive.
-
-Support my work on <PATREON_LINK>. Together, we can help more job seekers.
-
-As an independent developer, I pour my heart and soul into creating tools like this, driven by the genuine desire to make a positive impact.
-
-Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
-
-Gratefully yours 🙏🏻,
-Sai Vignesh Golla
-'''
-############################################################################################################

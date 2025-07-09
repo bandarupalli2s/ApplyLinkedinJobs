@@ -1,18 +1,3 @@
-'''
-Author:     Sai Vignesh Golla
-LinkedIn:   https://www.linkedin.com/in/saivigneshgolla/
-
-Copyright (C) 2024 Sai Vignesh Golla
-
-License:    GNU Affero General Public License
-            https://www.gnu.org/licenses/agpl-3.0.en.html
-            
-GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
-
-version:    24.12.29.12.30
-'''
-
-
 from config.secrets import *
 from config.settings import showAiErrorAlerts
 from config.personals import ethnicity, gender, disability_status, veteran_status
@@ -26,7 +11,7 @@ from pyautogui import confirm
 from openai import OpenAI
 from openai.types.model import Model
 from openai.types.chat import ChatCompletion, ChatCompletionChunk
-from typing import Iterator, Literal
+from typing import Iterator, Literal, Union, List
 
 
 apiCheckInstructions = """
@@ -53,7 +38,7 @@ def ai_error_alert(message: str, stackTrace: str, title: str = "AI Connection Er
 
 
 # Function to check if an error occurred
-def ai_check_error(response: ChatCompletion | ChatCompletionChunk) -> None:
+def ai_check_error(response: Union[ChatCompletion, ChatCompletionChunk]) -> None:
     """
     Function to check if an error occurred.
     * Takes in `response` of type `ChatCompletion` or `ChatCompletionChunk`
@@ -115,7 +100,7 @@ def ai_close_openai_client(client: OpenAI) -> None:
 
 
 # Function to get list of models available in OpenAI API
-def ai_get_models_list(client: OpenAI) -> list[ Model | str]:
+def ai_get_models_list(client: OpenAI) -> List[Union[Model, str]]:
     """
     Function to get list of models available in OpenAI API.
     * Takes in `client` of type `OpenAI`
@@ -146,7 +131,7 @@ def model_supports_temperature(model_name: str) -> bool:
     return model_name in ["gpt-3.5-turbo", "gpt-4", "gpt-4-turbo", "gpt-4o", "gpt-4o-mini"]
 
 # Function to get chat completion from OpenAI API
-def ai_completion(client: OpenAI, messages: list[dict], response_format: dict = None, temperature: float = 0, stream: bool = stream_output) -> dict | ValueError:
+def ai_completion(client: OpenAI, messages: List[dict], response_format: dict = None, temperature: float = 0, stream: bool = stream_output) -> Union[dict, ValueError]:
     """
     Function that completes a chat and prints and formats the results of the OpenAI API calls.
     * Takes in `client` of type `OpenAI`
@@ -191,7 +176,7 @@ def ai_completion(client: OpenAI, messages: list[dict], response_format: dict = 
     return result
 
 
-def ai_extract_skills(client: OpenAI, job_description: str, stream: bool = stream_output) -> dict | ValueError:
+def ai_extract_skills(client: OpenAI, job_description: str, stream: bool = stream_output) -> Union[dict, ValueError]:
     """
     Function to extract skills from job description using OpenAI API.
     * Takes in `client` of type `OpenAI`
@@ -214,10 +199,10 @@ def ai_extract_skills(client: OpenAI, job_description: str, stream: bool = strea
 ##> ------ Dheeraj Deshwal : dheeraj9811 Email:dheeraj20194@iiitd.ac.in/dheerajdeshwal9811@gmail.com - Feature ------
 def ai_answer_question(
     client: OpenAI, 
-    question: str, options: list[str] | None = None, question_type: Literal['text', 'textarea', 'single_select', 'multiple_select'] = 'text', 
+    question: str, options: Union[List[str], None] = None, question_type: str = 'text', 
     job_description: str = None, about_company: str = None, user_information_all: str = None,
     stream: bool = stream_output
-) -> dict | ValueError:
+) -> Union[dict, ValueError]:
     """
     Function to generate AI-based answers for questions in a form.
     
@@ -259,7 +244,7 @@ def ai_gen_experience(
     job_description: str, about_company: str, 
     required_skills: dict, user_experience: dict,
     stream: bool = stream_output
-) -> dict | ValueError:
+) -> Union[dict, ValueError]:
     pass
 
 
@@ -268,7 +253,7 @@ def ai_generate_resume(
     client: OpenAI, 
     job_description: str, about_company: str, required_skills: dict,
     stream: bool = stream_output
-) -> dict | ValueError:
+) -> Union[dict, ValueError]:
     '''
     Function to generate resume. Takes in user experience and template info from config.
     '''
@@ -280,7 +265,7 @@ def ai_generate_coverletter(
     client: OpenAI, 
     job_description: str, about_company: str, required_skills: dict,
     stream: bool = stream_output
-) -> dict | ValueError:
+) -> Union[dict, ValueError]:
     '''
     Function to generate resume. Takes in user experience and template info from config.
     '''
@@ -294,17 +279,7 @@ def ai_evaluate_resume(
     job_description: str, about_company: str, required_skills: dict,
     resume: str,
     stream: bool = stream_output
-) -> dict | ValueError:
-    pass
-
-
-
-def ai_evaluate_resume(
-    client: OpenAI, 
-    job_description: str, about_company: str, required_skills: dict,
-    resume: str,
-    stream: bool = stream_output
-) -> dict | ValueError:
+) -> Union[dict, ValueError]:
     pass
 
 
