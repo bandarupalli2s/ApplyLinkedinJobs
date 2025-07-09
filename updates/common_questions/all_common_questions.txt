@@ -1,0 +1,222 @@
+Q: Phone country code [ "List of phone country codes" ]
+A: Yes
+
+Q: Email address [  "Select an option", "bandarupalli2s@gmail.com", ]
+A: Yes
+
+Q: mobile phone number
+A: +14158490203
+
+Q: Have you completed the following level of education: Bachelor's Degree? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: how many years of work experience do you have with microsoft azure?
+A: 5
+
+Q: Are you comfortable working in a hybrid setting? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: how many years of work experience do you have with azure infrastructure as a service (iaas)?
+A: 3
+
+Q: how many years of work experience do you have with scripting?
+A: 5
+
+Q: Have you worked on IAM projects with a focus on DevSecOps? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of work experience do you have with devsecops?
+A: 6
+
+Q: how many years of work experience do you have with continuous integration and continuous delivery (ci/cd)?
+A: 6
+
+Q: how many years of work experience do you have with devops?
+A: 6
+
+Q: how many years of work experience do you have with google cloud platform (gcp)?
+A: 3
+
+Q: how many years of work experience do you have with unix?
+A: 3
+
+Q: Are you comfortable working in an onsite setting? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: how many years of work experience do you have with kubernetes?
+A: 6
+
+Q: Are you currently located in/open to relocate to Bentonville, AR within 2 weeks of accepting an offer?  [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Do you have experience with Azure Global Admin?  [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Have you built or contributed to a CRM or multi-tenant SaaS platform before, where users had role-based access to separate data environments? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of software development experience do you currently have?
+A: 3
+
+Q: Do you have experience integrating AI into applications, such as GPT-based workflows, predictive models, or intelligent tagging/classification features within a platform? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Are you confident building full-stack apps with TypeScript, Node.js, Postgres, and React — and open to using Replit, Supabase, and AI tools (e.g., Cursor, GPT) to accelerate development? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Are you comfortable working in a codebase initially scaffolded using AI tools (e.g., ChatGPT, Copilot, Cursor, or Replit) and contributing clean, scalable code on top of it? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of work experience do you have with domain name system (dns)?
+A: 6
+
+Q: how many years of work experience do you have with amazon web services (aws)?
+A: 6
+
+Q: how many years of work experience do you have with cloud infrastructure?
+A: 4
+
+Q: Are you comfortable commuting to this job's location? [  "Yes"<Yes>, "No"<No>, ]
+A: Yes
+
+Q: Could you please confirm whether you possess a TS/SCI clearance?  [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Are you legally authorized to work in the United States? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: Are you currently able and willing to commute to Woodbridge, NJ? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Are you currently working in an Azure environment? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Email [  "Select an option", "bandarupalli2s@gmail.com", ]
+A: Yes
+
+Q: phone
+A: +14158490203
+
+Q: how many years of work experience do you have with systems engineering?
+A: 6
+
+Q: Are you local to KC MO and willing/able to work hybrid onsite?  [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Are you a U.S. Citizen or Green Card holder?  [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of work experience do you have with database systems?
+A: 6
+
+Q: how many years of work experience do you have with red hat enterprise linux (rhel)?
+A: 5
+
+Q: how many years of work experience do you have with linux?
+A: 6
+
+Q: Do you have the following license or certification: Microsoft Certified: Azure Data Engineer Associate? [  "Yes"<Yes>, "No"<No>, ]
+A: Yes
+
+Q: What is your level of proficiency in English? [  "Select an option", "None", "Conversational", "Professional", "Native or bilingual", ]
+A: Yes
+
+Q: What is your level of proficiency in Chinese? [  "Select an option", "None", "Conversational", "Professional", "Native or bilingual", ]
+A: Professional
+
+Q: Do you have F1 OPT? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: We must fill this position urgently. Can you start immediately? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: how many years of work experience do you have with salesforce.com?
+A: 6
+
+Q: how many years of work experience do you have with python (programming language)?
+A: 6
+
+Q: linkedin
+A: https://www.linkedin.com/in/sbandarupalli1s/
+
+Q: are you willing to relocate if you do not live close to the local office of choice? ([X] Yes)
+A: True
+
+Q: current company
+A: 6
+
+Q: last name
+A: BANDARUPALLI
+
+Q: if you don't have work authorization, will you require work authorization sponsorship? ([X] Yes)
+A: True
+
+Q: are you authorized to work in the country where this position is based? ([X] Yes)
+A: True
+
+Q: first name
+A: SEETHA RAMAIAH
+
+Q: how many years?
+A: 6
+
+Q: how soon can you move to the area of the local office? ([X] within 1 month after offer signed)
+A: True
+
+Q: do you have first hand experience with kubernetes and kubeflow? ([X] Yes)
+A: True
+
+Q: what is your current location?
+A: Austin, Texas
+
+Q: how many years of work experience do you have with electronic medical record (emr)?
+A: 6
+
+Q: how many years of work experience do you have with oracle cloud?
+A: 3
+
+Q: how many years of work experience do you have with terraform?
+A: 6
+
+Q: Are you willing to take a drug test, in accordance with local law/regulations? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: Are you willing to undergo a background check, in accordance with local law/regulations? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: how many years of work experience do you have with web development?
+A: 6
+
+Q: how many years of work experience do you have with django?
+A: 6
+
+Q: how many years of work experience do you have with cisco systems products?
+A: 6
+
+Q: how many years of work experience do you have with sd-wan?
+A: 6
+
+Q: how many years of work experience do you have with node.js?
+A: 2
+
+Q: how many years of work experience do you have with angular?
+A: 6
+
+Q: how many years of work experience do you have with typescript?
+A: 5
+
+Q: Are you a US Citizen? (due to contractual requirement) [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of work experience do you have with verification and validation (v&v)?
+A: 6
+
+Q: Do you have experience with DOORS? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of work experience do you have with embedded systems?
+A: 6
+

@@ -18,6 +18,7 @@ import os
 import csv
 import re
 import pyautogui
+from time import sleep
 
 from random import choice, shuffle, randint
 from datetime import datetime
@@ -28,11 +29,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.remote.webelement import WebElement
+from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException, ElementClickInterceptedException, NoSuchWindowException, ElementNotInteractableException
 
 from config.personals import *
 from config.questions import *
 from config.search import *
+from config.search_phases import *  # Import the new phase-based search system
 from config.secrets import use_AI, username, password, ai_provider
 from config.settings import *
 
@@ -97,7 +100,7 @@ def log_common_questions_global(questions_list: Union[set, None]):
     try:
         if not questions_list:
             return
-        log_folder = "logs/common_questions"
+        log_folder = "updates/common_questions"
         os.makedirs(log_folder, exist_ok=True)
         filepath = os.path.join(log_folder, "all_common_questions.txt")
         
@@ -229,6 +232,162 @@ def set_search_location() -> None:
         except Exception as e:
             try_xp(driver, ".//button[@aria-label='Cancel']")
             print_lg("Failed to update search location, continuing with default location!", e)
+
+
+def apply_filters_for_phase(location_filter: str) -> None:
+    """
+    Apply filters specific to the current phase
+    """
+    try:
+        # Apply basic filters
+        apply_filters()
+        
+        # Apply location-specific filters
+        if location_filter == "Remote":
+            # Ensure Remote filter is applied
+            try:
+                remote_filter = driver.find_element(By.XPATH, "//button[contains(text(), 'Remote')]")
+                if not remote_filter.is_selected():
+                    remote_filter.click()
+                    buffer(2)
+            except NoSuchElementException:
+                print_lg("Remote filter not found, continuing...")
+        
+        elif location_filter == "Texas":
+            # Ensure On-site filter is applied
+            try:
+                onsite_filter = driver.find_element(By.XPATH, "//button[contains(text(), 'On-site')]")
+                if not onsite_filter.is_selected():
+                    onsite_filter.click()
+                    buffer(2)
+            except NoSuchElementException:
+                print_lg("On-site filter not found, continuing...")
+        
+    except Exception as e:
+        print_lg(f"Error applying filters for phase: {e}")
+
+
+def apply_to_jobs_with_phases() -> None:
+    """
+    Apply to jobs using the priority-based phase system:
+    Phase 1: Remote Jobs (Highest Priority)
+    Phase 2: Texas Location Jobs (Second Priority)
+    Phase 3: All Other Jobs (Third Priority)
+    """
+    applied_jobs = get_applied_job_ids()
+    rejected_jobs = set()
+    blacklisted_companies = set()
+    global current_city, failed_count, skip_count, easy_applied_count, external_jobs_count, tabs_count, pause_before_submit, pause_at_failed_question, useNewResume
+    current_city = current_city.strip()
+
+    total_applications = 0
+    
+    for phase_index, phase in enumerate(SEARCH_PHASES):
+        print_lg(f"\n{'='*80}")
+        print_lg(f"🚀 STARTING PHASE {phase_index + 1}: {phase['description']}")
+        print_lg(f"{'='*80}")
+        
+        # Set the search location for this phase
+        search_location = phase["search_location"]
+        
+        # Apply location-specific filters
+        if phase["location_filter"] == "Remote":
+            on_site_filter = ["Remote"]
+        elif phase["location_filter"] == "Texas":
+            on_site_filter = ["On-site", "Remote", "Hybrid"]  # Include all for Texas search
+        else:
+            on_site_filter = ["On-site", "Remote", "Hybrid"]  # Include all for remaining jobs
+        
+        phase_search_terms = phase["search_terms"]
+        if randomize_search_order:
+            shuffle(phase_search_terms)
+            
+        phase_applications = 0
+        
+        for searchTerm in phase_search_terms:
+            if phase_applications >= PHASE_CONFIG["switch_number"]:
+                print_lg(f"✅ Phase {phase_index + 1} completed with {phase_applications} applications")
+                break
+                
+            # Construct search URL with location
+            search_url = f"https://www.linkedin.com/jobs/search/?keywords={searchTerm}"
+            if search_location:
+                search_url += f"&location={search_location}"
+            
+            driver.get(search_url)
+            print_lg("\n________________________________________________________________________________________________________________________\n")
+            print_lg(f'\n>>>> Phase {phase_index + 1}: Now searching for "{searchTerm}" in {search_location} <<<<\n\n')
+
+            # Apply filters for this phase
+            apply_filters_for_phase(phase["location_filter"])
+
+            current_count = 0
+            try:
+                while current_count < PHASE_CONFIG["switch_number"] and phase_applications < PHASE_CONFIG["switch_number"]:
+                    # Wait until job listings are loaded
+                    wait.until(EC.presence_of_all_elements_located((By.XPATH, "//li[@data-occludable-job-id]")))
+
+                    pagination_element, current_page = get_page_info()
+
+                    # Find all job listings in current page
+                    buffer(3)
+                    job_listings = driver.find_elements(By.XPATH, "//li[@data-occludable-job-id]")  
+
+                    for job in job_listings:
+                        if keep_screen_awake: 
+                            pyautogui.press('shiftright')
+                        if current_count >= PHASE_CONFIG["switch_number"] or phase_applications >= PHASE_CONFIG["switch_number"]: 
+                            break
+                        print_lg("\n-@-\n")
+
+                        job_id, title, company, work_location, work_style, skip = get_job_main_details(job, blacklisted_companies, rejected_jobs)
+                        
+                        if skip: 
+                            continue
+                            
+                        # Check if already applied
+                        try:
+                            if job_id in applied_jobs or find_by_class(driver, "jobs-s-apply__application-link", 2):
+                                print_lg(f'Already applied to "{title} | {company}" job. Job ID: {job_id}!')
+                                continue
+                        except Exception as e:
+                            print_lg(f'Trying to Apply to "{title} | {company}" job. Job ID: {job_id}')
+
+                        # Process the job application
+                        success = process_job_application(
+                            job_id, title, company, work_location, work_style,
+                            job_listings, pagination_element, applied_jobs, rejected_jobs, 
+                            blacklisted_companies, phase_index
+                        )
+                        
+                        if success:
+                            current_count += 1
+                            phase_applications += 1
+                            total_applications += 1
+                            
+                        if dailyEasyApplyLimitReached:
+                            print_lg("\n###############  Daily application limit for Easy Apply is reached!  ###############\n")
+                            return
+                            
+                    # Move to next page if needed
+                    if current_count < PHASE_CONFIG["switch_number"] and phase_applications < PHASE_CONFIG["switch_number"]:
+                        try:
+                            next_button = driver.find_element(By.XPATH, "//button[@aria-label='Next']")
+                            if next_button.is_enabled():
+                                next_button.click()
+                                buffer(3)
+                            else:
+                                break  # No more pages
+                        except NoSuchElementException:
+                            break  # No more pages
+                            
+            except Exception as e:
+                print_lg(f"Error in phase {phase_index + 1} for search term '{searchTerm}': {e}")
+                continue
+                
+        print_lg(f"✅ Phase {phase_index + 1} completed with {phase_applications} applications")
+        
+    print_lg(f"\n🎉 All phases completed! Total applications: {total_applications}")
 
 
 def apply_filters() -> None:
@@ -861,8 +1020,8 @@ def create_daily_job_log(job_id: str, title: str, company: str, work_location: s
         # Create date-based folder structure
         date_str = date_applied.strftime("%d%B%Y")  # e.g., 07July2025
         
-        # Create folder structure: logs/applied_jobs/
-        log_folder = "logs/applied_jobs"
+        # Create folder structure: updates/applied_jobs/
+        log_folder = "updates/applied_jobs"
         os.makedirs(log_folder, exist_ok=True)
         
         # Create filename: DDMonthYYYY_applied_jobs.txt
@@ -909,8 +1068,8 @@ APPLICATION TYPE: {application_link}
 def update_daily_count(date_applied: datetime):
     try:
         date_str = date_applied.strftime("%d%B2025")  # e.g., 07July2025
-        count_file = "logs/count.txt"
-        os.makedirs("logs", exist_ok=True)
+        count_file = "updates/count.txt"
+        os.makedirs("updates", exist_ok=True)
         counts = {}
         # Read existing counts
         if os.path.exists(count_file):
@@ -1196,13 +1355,23 @@ def apply_to_jobs(search_terms: list[str]) -> None:
 
         
 def run(total_runs: int) -> int:
+    # Clear the log.txt file before starting a new run
+    try:
+        with open('log.txt', 'w') as log_file:
+            pass  # This truncates the file
+    except Exception as e:
+        print(f"Warning: Could not clear log.txt before run: {e}")
+    
     if dailyEasyApplyLimitReached:
         return total_runs
     print_lg("\n########################################################################################################################\n")
     print_lg(f"Date and Time: {datetime.now()}")
     print_lg(f"Cycle number: {total_runs}")
     print_lg(f"Currently looking for jobs posted within '{date_posted}' and sorting them by '{sort_by}'")
-    apply_to_jobs(search_terms)
+    
+    # Use the new phase-based job application system
+    apply_to_jobs_with_phases()
+    
     print_lg("########################################################################################################################\n")
     if not dailyEasyApplyLimitReached:
         print_lg("Sleeping for 10 min...")
@@ -1326,3 +1495,128 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+
+def process_job_application(job_id: str, title: str, company: str, work_location: str, work_style: str,
+                          job_listings, pagination_element, applied_jobs, rejected_jobs, 
+                          blacklisted_companies, phase_index: int) -> bool:
+    """
+    Process a single job application and return success status
+    """
+    job_link = "https://www.linkedin.com/jobs/view/"+job_id
+    application_link = "Easy Applied"
+    date_applied = "Pending"
+    hr_link = "Unknown"
+    hr_name = "Unknown"
+    connect_request = "In Development"
+    date_listed = "Unknown"
+    skills = "Needs an AI"
+    resume = "Pending"
+    reposted = False
+    questions_list = None
+    screenshot_name = "Not Available"
+
+    try:
+        rejected_jobs, blacklisted_companies, jobs_top_card = check_blacklist(rejected_jobs, job_id, company, blacklisted_companies)
+    except ValueError as e:
+        print_lg(e, 'Skipping this job!\n')
+        failed_job(job_id, job_link, resume, date_listed, "Found Blacklisted words in About Company", e, "Skipped", screenshot_name)
+        skip_count += 1
+        return False
+    except Exception as e:
+        print_lg("Failed to scroll to About Company!")
+
+    # Get job description and other details
+    description, experience_required, skip, reason, message = get_job_description()
+    if skip:
+        print_lg(message)
+        failed_job(job_id, job_link, resume, date_listed, reason, message, "Skipped", screenshot_name)
+        rejected_jobs.add(job_id)
+        skip_count += 1
+        return False
+
+    # Extract skills if AI is enabled
+    if use_AI and description != "Unknown":
+        try:
+            if ai_provider.lower() == "openai":
+                skills = ai_extract_skills(aiClient, description)
+            elif ai_provider.lower() == "deepseek":
+                skills = deepseek_extract_skills(aiClient, description)
+            else:
+                skills = "In Development"
+            print_lg(f"Extracted skills using {ai_provider} AI")
+        except Exception as e:
+            print_lg("Failed to extract skills:", e)
+            skills = "Error extracting skills"
+
+    # Apply to the job
+    uploaded = False
+    if try_xp(driver, ".//button[contains(@class,'jobs-apply-button') and contains(@class, 'artdeco-button--3') and contains(@aria-label, 'Easy')]"):
+        try:
+            # Easy Apply process
+            modal = find_by_class(driver, "jobs-easy-apply-modal")
+            wait_span_click(modal, "Next", 1)
+            resume = "Previous resume"
+            next_button = True
+            questions_list = set()
+            next_counter = 0
+            
+            while next_button:
+                next_counter += 1
+                if next_counter >= 15:
+                    if questions_list: 
+                        print_lg("Stuck for one or some of the following questions...", questions_list)
+                    screenshot_name = screenshot(driver, job_id, "Failed at questions")
+                    raise Exception("Seems like stuck in a continuous loop of next, probably because of new questions.")
+                    
+                questions_list = answer_questions(modal, questions_list, work_location, job_description=description)
+                if useNewResume and not uploaded: 
+                    uploaded, resume = upload_resume(modal, default_resume_path)
+                    
+                try: 
+                    next_button = modal.find_element(By.XPATH, './/span[normalize-space(.)="Review"]') 
+                except NoSuchElementException:  
+                    next_button = modal.find_element(By.XPATH, './/button[contains(span, "Next")]')
+                    
+                try: 
+                    next_button.click()
+                except ElementClickInterceptedException: 
+                    break
+                buffer(click_gap)
+
+            wait_span_click(driver, "Review", 1, scrollTop=True)
+            follow_company(modal)
+            
+            if wait_span_click(driver, "Submit application", 2, scrollTop=True): 
+                date_applied = datetime.now()
+                if not wait_span_click(driver, "Done", 2): 
+                    actions.send_keys(Keys.ESCAPE).perform()
+            else:
+                print_lg("Since, Submit Application failed, discarding the job application...")
+                raise Exception("Failed to click Submit application 😑")
+
+        except Exception as e:
+            print_lg("Failed to Easy apply!")
+            critical_error_log("Somewhere in Easy Apply process", e)
+            failed_job(job_id, job_link, resume, date_listed, "Problem in Easy Applying", e, application_link, screenshot_name)
+            failed_count += 1
+            discard_job()
+            return False
+    else:
+        # External apply
+        skip, application_link, tabs_count = external_apply(pagination_element, job_id, job_link, resume, date_listed, application_link, screenshot_name)
+        if skip: 
+            return False
+
+    # Log the successful application
+    submitted_jobs(job_id, title, company, work_location, work_style, description, experience_required, skills, hr_name, hr_link, resume, reposted, date_listed, date_applied, job_link, application_link, questions_list, connect_request)
+    
+    if uploaded:   
+        useNewResume = False
+
+    print_lg(f'✅ Successfully applied to "{title} | {company}" job. Job ID: {job_id} (Phase {phase_index + 1})')
+    if application_link == "Easy Applied": 
+        easy_applied_count += 1
+        
+    return True

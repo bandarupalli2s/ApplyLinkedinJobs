@@ -1,15 +1,53 @@
-
 ###################################################### LINKEDIN SEARCH PREFERENCES ######################################################
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-search_terms = [
+
+# PHASE 1: Remote Jobs (Highest Priority)
+remote_search_terms = [
+    'Remote DevOps Engineer',
+    'Remote Cloud DevOps Engineer',
+    'Remote Senior DevOps Engineer',
+    'Remote Site Reliability Engineer',
+    'Remote SRE',
+    'Remote Platform Engineer',
+    'Remote Infrastructure Engineer',
+    'Remote CI/CD Engineer',
+    'Remote Cloud Engineer',
+    'Remote Kubernetes Engineer',
+    'Remote DevSecOps Engineer',
+    'Remote Observability Engineer',
+    'Remote Lead DevOps Engineer',
+    'Remote Staff DevOps Engineer',
+    'Remote Principal DevOps Engineer'
+]
+
+# PHASE 2: Texas Location Jobs (Second Priority)
+texas_search_terms = [
+    'DevOps Engineer',
+    'Cloud DevOps Engineer',
+    'Senior DevOps Engineer',
+    'Site Reliability Engineer',
+    'SRE',
+    'Platform Engineer',
+    'Infrastructure Engineer',
+    'CI/CD Engineer',
+    'Cloud Engineer',
+    'Kubernetes Engineer',
+    'DevSecOps Engineer',
+    'Observability Engineer',
+    'Lead DevOps Engineer',
+    'Staff DevOps Engineer',
+    'Principal DevOps Engineer'
+]
+
+# PHASE 3: All Other Jobs (Third Priority)
+remaining_search_terms = [
     # Core DevOps roles
     'DevOps Engineer',
     'Cloud DevOps Engineer',
     'Senior DevOps Engineer',
     'Junior DevOps Engineer',
-    'Remote DevOps Engineer',
     'Hybrid DevOps Engineer',
 
     # Site Reliability and Infrastructure
@@ -68,6 +106,10 @@ search_terms = [
     'Site Operations Engineer',
     'Cloud Solutions Architect'
 ]
+
+# Use the priority-based search terms
+search_terms = remote_search_terms + texas_search_terms + remaining_search_terms
+
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
 search_location = "United States"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
