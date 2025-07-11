@@ -1,3 +1,17 @@
+'''
+Author:     
+LinkedIn:   https://www.linkedin.com/in//
+
+Copyright (C) 2024 
+
+License:    GNU Affero General Public License
+            https://www.gnu.org/licenses/agpl-3.0.en.html
+            
+GitHub:     https://github.com/
+
+'''
+
+
 ############### OLD CONFIG FILE - FOR REFERENCE FOR DEVELOPERS - DO NOT USE #################
 
 
@@ -90,67 +104,67 @@ fair_chance_employer = False       # True or False, Note: True or False are case
 # >>>>>>>>>>> Easy Apply Questions & Inputs <<<<<<<<<<<
 
 # Phone number (required), make sure it's valid.
-phone_number = "4158490203"        # Enter your 10 digit number in quotes Eg: "9876543210"
+phone_number = "9876543210"        # Enter your 10 digit number in quotes Eg: "9876543210"
 
 # Give an relative or absolute path of your default resume to be uploaded. If file in not found, will continue using your previously uploaded resume in LinkedIn.
 default_resume_path = "all resumes/default/resume.pdf"      # (In Development)
 
 # What do you want to answer for questions that ask about years of experience you have, this is different from current_experience? 
-years_of_experience = "6"          # A number in quotes Eg: "0","1","2","3","4", etc.
+years_of_experience = "5"          # A number in quotes Eg: "0","1","2","3","4", etc.
 
 # Do you need visa sponsorship now or in future?
 require_visa = "No"               # "Yes" or "No"
 
 # What is the status of your citizenship? # If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
 # Valid options are: "U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident" or "Other"
-us_citizenship = "Non-citizen allowed to work for any employer"
+us_citizenship = "U.S. Citizen/Permanent Resident"
 
 
 # What is the link to your portfolio website, leave it empty as "", if you want to leave this question unanswered
-website = "https://github.com/bandarupalli2s"                       # "www.example.bio" or "" and so on....
+website = "https://github.com/"                       # "www.example.bio" or "" and so on....
 
 # What to enter in your desired salary question, only enter in numbers inside quotes as some companies only allow numbers
-desired_salary = "130000"          # "80000", "90000", "100000" or "120000" and so on....
+desired_salary = "120000"          # "80000", "90000", "100000" or "120000" and so on....
 
 # Example question: "On a scale of 1-10 how much experience do you have building web or mobile applications? 1 being very little or only in school, 10 being that you have built and launched applications to real users"
-confidence_level = "10"             # Any number between "1" to "10" including 1 and 10, put it in quotes ""
+confidence_level = "8"             # Any number between "1" to "10" including 1 and 10, put it in quotes ""
 
-current_city = "Austin, Texas"                  # If left empty will fill in location of jobs location.
+current_city = ""                  # If left empty will fill in location of jobs location.
 
 ## SOME ANNOYING QUESTIONS BY COMPANIES 🫠 ##
 # Address, not so common question but some job applications make it required!
-street = "Weavers Bnd"
-state = "Texas"
-zipcode = "78628"
-country = "United States"
+street = "123 Main Street"
+state = "STATE"
+zipcode = "12345"
+country = "Will Let You Know When Established"
 
-first_name = "Seetha Ramaiah"                 # Your first name in quotes Eg: "First", "Sai"
-middle_name = ""            # Your name in quotes Eg: "Middle", "Vignesh", ""
-last_name = "Bandarupalli"                # Your last name in quotes Eg: "Last", "Golla"
+first_name = "Sai"                 # Your first name in quotes Eg: "First", "Sai"
+middle_name = "Vignesh"            # Your name in quotes Eg: "Middle", "Vignesh", ""
+last_name = "Golla"                # Your last name in quotes Eg: "Last", "Golla"
 
 # Your LinkedIn headline in quotes Eg: "Software Engineer @ Google, Masters in Computer Science", "Recent Grad Student @ MIT, Computer Science"
-headline = "Cloud DevOps Engineer @ Walmart Global Tech | Master's in Computer Science"
+headline = "Headline"
 
 # Your summary in quotes, use \n to add line breaks
-summary = "Cloud DevOps Engineer with 6+ years of experience in designing and managing secure, scalable, and cost-effective infrastructure across AWS and Azure. Specialized in Kubernetes-based deployments, including GPU-enabled workloads for AI/ML and HPC using Slurm and GPU Operator. Proficient in Infrastructure as Code (Terraform, AWS CloudFormation, ARM templates, Chef) and CI/CD automation using Jenkins, GitHub Actions, and ArgoCD. Strong Python scripting skills for automation, monitoring, and pipeline integration. Achieved 99.8 percent uptime by optimizing cloud services across AWS and Azure. Currently exploring Generative AI to embed LLM-powered automation into DevOps workflows."
+summary = "Summary"
 
 # Your cover letter in quotes, use \n to add line breaks
-cover_letter = "I am a Cloud DevOps Engineer with 6+ years of experience in designing and managing secure, scalable, and cost-effective infrastructure across AWS and Azure. Specialized in Kubernetes-based deployments, including GPU-enabled workloads for AI/ML and HPC using Slurm and GPU Operator. Proficient in Infrastructure as Code (Terraform, AWS CloudFormation, ARM templates, Chef) and CI/CD automation using Jenkins, GitHub Actions, and ArgoCD. Strong Python scripting skills for automation, monitoring, and pipeline integration. Achieved 99.8 percent uptime by optimizing cloud services across AWS and Azure. Currently exploring Generative AI to embed LLM-powered automation into DevOps workflows."
+cover_letter = "Cover Letter"
 
 # Name of your most recent employer
-recent_employer = "Walmart Global Tech" # "", "Lala Company", "Google", "Snowflake", "Databricks"
+recent_employer = "Not Applicable" # "", "Lala Company", "Google", "Snowflake", "Databricks"
 
 ## US Equal Opportunity questions
 # What is your ethnicity or race? If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
-ethnicity = "Asian"              # "Decline", "Hispanic/Latino", "American Indian or Alaska Native", "Asian", "Black or African American", "Native Hawaiian or Other Pacific Islander", "White", "Other"
+ethnicity = "Decline"              # "Decline", "Hispanic/Latino", "American Indian or Alaska Native", "Asian", "Black or African American", "Native Hawaiian or Other Pacific Islander", "White", "Other"
 
 # How do you identify yourself? If left empty as "", tool will not answer the question. However, note that some companies make compulsory to be answered
-gender = "Male"                 # "Male", "Female", "Other", "Decline" or ""
+gender = "Decline"                 # "Male", "Female", "Other", "Decline" or ""
 
 # Are you physically disabled or have a history/record of having a disability? If left empty as "", tool will not answer the question. However, note that some companies make it compulsory to be answered
-disability_status = "No"      # "Yes", "No", "Decline"
+disability_status = "Decline"      # "Yes", "No", "Decline"
 
-veteran_status = "No"         # "Yes", "No", "Decline"
+veteran_status = "Decline"         # "Yes", "No", "Decline"
 ##
 
 
@@ -158,10 +172,10 @@ veteran_status = "No"         # "Yes", "No", "Decline"
 # >>>>>>>>>>> LinkedIn Settings <<<<<<<<<<<
 
 # Do you want to randomize the search order for search_terms?
-randomize_search_order = True     # True of False
+randomize_search_order = False     # True of False
 
 # Do you want to overwrite previous answers?
-overwrite_previous_answers = True # True or False, Note: True or False are case-sensitive
+overwrite_previous_answers = False # True or False, Note: True or False are case-sensitive
 
 
 ## Skip irrelevant jobs
@@ -173,7 +187,7 @@ about_company_good_words = []      # (dynamic multiple search) or leave empty as
 
 
 # Avoid applying to these companies if they have these bad words in their 'Job Description' section...  (In development)
-bad_words = ["US Citizen","USA Citizen","No C2C", "No Corp2Corp"]                     # (dynamic multiple search) or leave empty as []. Case Insensitive. Ex: ["word_1", "phrase 1", "word word", "polygraph", "US Citizenship", "Security Clearance"]
+bad_words = ["US Citizen","USA Citizen","No C2C", "No Corp2Corp", ".NET", "Embedded Programming", "PHP", "Ruby"]                     # (dynamic multiple search) or leave empty as []. Case Insensitive. Ex: ["word_1", "phrase 1", "word word", "polygraph", "US Citizenship", "Security Clearance"]
 
 # Do you have an active Security Clearance? (True for Yes and False for No)
 security_clearance = False         # True or False, Note: True or False are case-sensitive
@@ -182,20 +196,20 @@ security_clearance = False         # True or False, Note: True or False are case
 did_masters = True                 # True or False, Note: True or False are case-sensitive
 
 # Avoid applying to jobs if their required experience is above your current_experience. (Set value as -1 if you want to apply to all ignoring their required experience...)
-current_experience = 6             # Integers > -2 (Ex: -1, 0, 1, 2, 3, 4...)
+current_experience = 5             # Integers > -2 (Ex: -1, 0, 1, 2, 3, 4...)
 ##
 
 
 ## Allow Manual Inputs
 # Should the tool pause before every submit application during easy apply to let you check the information?
-pause_before_submit = False         # True or False, Note: True or False are case-sensitive
+pause_before_submit = True         # True or False, Note: True or False are case-sensitive
 '''
 Note: Will be treated as False if `run_in_background = True`
 '''
 
 # Should the tool pause if it needs help in answering questions during easy apply?
 # Note: If set as False will answer randomly...
-pause_at_failed_question = False    # True or False, Note: True or False are case-sensitive
+pause_at_failed_question = True    # True or False, Note: True or False are case-sensitive
 '''
 Note: Will be treated as False if `run_in_background = True`
 '''
@@ -205,17 +219,17 @@ Note: Will be treated as False if `run_in_background = True`
 close_tabs = True                  # True or False, Note: True or False are case-sensitive
 
 # After how many number of applications in current search should the bot switch to next search? 
-switch_number = 10                 # Only numbers greater than 0... Don't put in quotes
+switch_number = 30                 # Only numbers greater than 0... Don't put in quotes
 
 ## Upcoming features (In Development)
 # Send connection requests to HR's
 connect_hr = True                  # True or False, Note: True or False are case-sensitive
 
 # What message do you want to send during connection request? (Max. 200 Characters)
-connect_request_message = "Hi, I'm Seetha Ramaiah Bandarupalli, a Cloud DevOps Engineer with 6+ years of experience in designing and managing secure, scalable, and cost-effective infrastructure across AWS and Azure. Specialized in Kubernetes-based deployments, including GPU-enabled workloads for AI/ML and HPC using Slurm and GPU Operator. Proficient in Infrastructure as Code (Terraform, AWS CloudFormation, ARM templates, Chef) and CI/CD automation using Jenkins, GitHub Actions, and ArgoCD. Strong Python scripting skills for automation, monitoring, and pipeline integration. Achieved 99.8 percent uptime by optimizing cloud services across AWS and Azure. Currently exploring Generative AI to embed LLM-powered automation into DevOps workflows."       # Leave Empty to send connection request without personalized invitation (recommended to leave it empty, since you only get 10 per month without LinkedIn Premium*)
+connect_request_message = ""       # Leave Empty to send connection request without personalized invitation (recommended to leave it empty, since you only get 10 per month without LinkedIn Premium*)
 
 # Do you want the program to run continuously until you stop it? (Beta)
-run_non_stop = True               # True or False, Note: True or False are case-sensitive
+run_non_stop = False               # True or False, Note: True or False are case-sensitive
 '''
 Note: Will be treated as False if `run_in_background = True`
 '''
@@ -230,10 +244,42 @@ stop_date_cycle_at_24hr = True     # True or False, Note: True or False are case
 # ----------------------------------------------  RESUME GENERATOR (Experimental & In Development)  ---------------------------------------------- #
 
 # Login Credentials for ChatGPT
-chatGPT_username = "bandarupalli2s@gmail.com"
-chatGPT_password = "DevOps@2025"
+chatGPT_username = "username@example.com"
+chatGPT_password = "example_password"
 
 chatGPT_resume_chat_title = "Resume review and feedback."
 
 # Give the path to the folder where all the generated resumes are to be stored
 generated_resume_path = "all resumes/"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+############################################################################################################
+'''
+THANK YOU for using my tool 😊! Wishing you the best in your job hunt 🙌🏻!
+
+Sharing is caring! If you found this tool helpful, please share it with your peers 🥺. Your support keeps this project alive.
+
+Support my work on <PATREON_LINK>. Together, we can help more job seekers.
+
+As an independent developer, I pour my heart and soul into creating tools like this, driven by the genuine desire to make a positive impact.
+
+Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
+
+Gratefully yours 🙏🏻,
+
+'''
+############################################################################################################

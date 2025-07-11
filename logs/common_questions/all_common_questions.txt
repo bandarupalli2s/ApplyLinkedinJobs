@@ -1,0 +1,333 @@
+Q: mobile phone number
+A: +14158490203
+
+Q: Are you legally authorized to work in the United States? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: Email address [  "Select an option", "bandarupalli2s@gmail.com", ]
+A: Yes
+
+Q: Have you completed the following level of education: Bachelor's Degree? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: Are you ready for training onsite in Atlanta, GA and relocation across the US for Projects ? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Phone country code [ "List of phone country codes" ]
+A: Yes
+
+Q: We must fill this position urgently. Can you start immediately?  [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Will you be interested in consultant-based job? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: Do you live within a commutable distance of the Cleveland, OH area AND are you willing to work a HYBRID setting (3 days/wk onsite)??? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of work experience do you have with devops?
+A: 6
+
+Q: Email [  "Select an option", "bandarupalli2s@gmail.com", ]
+A: Yes
+
+Q: phone
+A: +14158490203
+
+Q: Do you currently live in Irvine, CA, or within a distance that can be reached by a 1-hour car drive to the Irvine office? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of work experience do you have with kubernetes?
+A: 6
+
+Q: how many years of work experience do you have with helm charts?
+A: 3
+
+Q: what is your expected salary?
+A: 130000
+
+Q: Are you comfortable working in an onsite setting? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: Are you comfortable commuting to this job's location? [  "Yes"<Yes>, "No"<No>, ]
+A: Yes
+
+Q: Do you have a valid driver's license? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: how many years of oil and gas experience do you currently have?
+A: 6
+
+Q: Are you willing to undergo a background check, in accordance with local law/regulations? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: how many years of work experience do you have with c#?
+A: 3
+
+Q: how many years of work experience do you have with microsoft azure?
+A: 5
+
+Q: Do you have the following license or certification: Software Engineer? [  "Yes"<Yes>, "No"<No>, ]
+A: Yes
+
+Q: how many years of work experience do you have with jenkins?
+A: 6
+
+Q: how many years of work experience do you have with docker products?
+A: 3
+
+Q: how many years of work experience do you have with amazon web services (aws)?
+A: 6
+
+Q: how many years of work experience do you have with django?
+A: 6
+
+Q: how many years of work experience do you have with cloud development?
+A: 6
+
+Q: how many years of motor vehicle manufacturing experience do you currently have?
+A: 6
+
+Q: how many years of work experience do you have with azure devops services?
+A: 6
+
+Q: how many years of work experience do you have with generative ai?
+A: 6
+
+Q: how many years of work experience do you have with python (programming language)?
+A: 6
+
+Q: how many years of work experience do you have with javascript?
+A: 3
+
+Q: how many years of work experience do you have with linux?
+A: 6
+
+Q: how many years of work experience do you have with ansible?
+A: 6
+
+Q: how many years of work experience do you have with terraform?
+A: 6
+
+Q: You must be local. No relocation. Are you local?  [  "Select an option", "Yes", "No", ]
+A: No
+
+Q: how many years of information technology experience do you currently have?
+A: 4
+
+Q: Are you willing to relocate across the US for projects? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: We must fill this position urgently. Can you start immediately? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: Will you be interested in consulting-based job? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Are you a USC, GC or TN-Visa? [  "Select an option", "Yes", "No", ]
+A: No
+
+Q: Are you able to work a W2 Permanent positon? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of experience do you have as a cloud engineer?
+A: 6
+
+Q: Are you open to hybrid 3 days a week in Lewisville, Texas? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Do you have experience working with python? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of experience do you have working with gcp?
+A: 6
+
+Q: Do you have proficiency in infrastructure as code, scripting, and configuration management to automate infrastructure provisioning and maintenance? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Do you have strong experience with cloud platforms, particularly Azure, with a solid understanding of core services like compute, networking, identity, and monitoring? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Do you have hands-on experience managing containerized applications and orchestration platforms? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Do you have proven ability to design and operate automated CI/CD pipelines to streamline build, test, and deployment processes? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of telecommunications experience do you currently have?
+A: 3
+
+Q: how many years of work experience do you have with puppet (software)?
+A: 6
+
+Q: how many years of work experience do you have with powershell?
+A: 6
+
+Q: Do you have strong scripting and automation skills (e.g., PowerShell, Bash, Python)? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Do you have experience implementing Twistlock, Terraform, and Azure DevOps (AzDO) pipelines? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Do you have strong understanding of Azure services, including Cosmos DB, SQL Server, APIM, and virtual networking? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of hands-on experience with splunk in a microservices environment?
+A: 6
+
+Q: Do you have proven experience with Azure Kubernetes Service (AKS) and Istio? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Do you have familiarity with Azure Chaos Studio and Karate Labs for testing and validation? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of experience do you have in devops, site reliability engineering, or cloud operations roles?
+A: 6
+
+Q: how many years of web2 development experience do you have?
+A: 6
+
+Q: Do you have a comprehensive understanding of blockchain infrastructure management (nodes, etc.)? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of web3 development experience do you have?
+A: 6
+
+Q: This role is for those based in the United States only. Are you based in the United States? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Are you comfortable working in a hybrid setting? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: Are you based in California, with good access to the Bay Area? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of work experience do you have with geographic information systems (gis)?
+A: 6
+
+Q: how many years of work experience do you have with cybersecurity?
+A: 4
+
+Q: how many years of utilities experience do you currently have?
+A: 6
+
+Q: how many years of work experience do you have with graphql?
+A: 6
+
+Q: how many years of work experience do you have with continuous integration and continuous delivery (ci/cd)?
+A: 6
+
+Q: Are you proficient in CAD design and technical documentation? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years experience do you have with reliability engineering?
+A: 6
+
+Q: how many years experience do you have with mechanical engineering?
+A: 6
+
+Q: Do you have a Bachelor's Degree in Engineering or a related field? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of work experience do you have with cloud computing?
+A: 6
+
+Q: last name
+A: BANDARUPALLI
+
+Q: first name
+A: SEETHA RAMAIAH
+
+Q: how many years of work experience do you have with amazon dynamodb?
+A: 6
+
+Q: how many years of work experience do you have with amazon cloudwatch?
+A: 6
+
+Q: how many years of work experience do you have with aws lambda?
+A: 5
+
+Q: how many years of work experience do you have with java?
+A: 3
+
+Q: how many years of work experience do you have with .net framework?
+A: 1
+
+Q: Must be W2 candidates - NO VENDORS [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of work experience do you have with linux system administration?
+A: 3
+
+Q: how many years of work experience do you have with high performance computing (hpc)?
+A: 6
+
+Q: how many years of work experience do you have with openshift?
+A: 4
+
+Q: how many years of work experience do you have with kubevirt?
+A: 6
+
+Q: how many years of work experience do you have with portworx
+A: 6
+
+Q: Unknown [  "Yes, I have a disability, or have had one in the past"<Yes>, "No, I do not have a disability and have not had one in the past"<No>, "I do not want to answer"<OptOut>, ]
+A: "No, I do not have a disability and have not had one in the past"<No>
+
+Q: Please select your Gender Identity: [  "Select an option", "Female", "Male", "Non-binary", "Prefer not to identify", ]
+A: Male
+
+Q: Unknown [  "I identify as one or more of the classifications of protected veteran listed above"<ProtectedVeteran>, "I am not a protected veteran"<NotProtectedVeteran>, "I prefer not to specify"<OptOut>, ]
+A: "I am not a protected veteran"<NotProtectedVeteran>
+
+Q: location (city)
+A: Austin, Texas, United States
+
+Q: Please select the ethnicity which most accurately describes how you identify with yourself: [  "Select an option", "American Indian or Alaska Native", "Asian", "Black or African American", "Hispanic or Latino", "Native Hawaiian or Other Pacific Islander", "White", "Two or More Races", "Prefer not to identify", ]
+A: American Indian or Alaska Native
+
+Q: Are you Hispanic or Latino? [  "Yes"<1>, "No"<0>, ]
+A: Yes
+
+Q: Will you now or in the future require sponsorship from Nexthink for employment visa status ? [  "Yes"<1>, "No"<0>, ]
+A: No
+
+Q: by checking this box, you will declare that you read and understand the privacy policy of nexthink. ([X] I consent)
+A: True
+
+Q: Are you authorized to work in the job posting's location? [  "Yes"<1>, "No"<0>, ]
+A: Yes
+
+Q: how many years of work experience do you have with azure databricks?
+A: 6
+
+Q: how many years of work experience do you have with amazon elasticsearch service?
+A: 6
+
+Q: Are you comfortable working in a remote setting? [  "Yes"<Yes>, "No"<No>, ]
+A: "Yes"<Yes>
+
+Q: how many years of work experience do you have with it automation?
+A: 6
+
+Q: how many years of work experience do you have with microsoft intune?
+A: 6
+
+Q: how many years of work experience do you have with fortinet?
+A: 6
+
+Q: what are your salary expecatations?
+A: 130000
+
+Q: Are you comfortable working in an hybrid setting, with 3 days in the office?  [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: Are you already based in Denver? [  "Select an option", "Yes", "No", ]
+A: Yes
+
+Q: how many years of consulting experience do you currently have?
+A: 6
+

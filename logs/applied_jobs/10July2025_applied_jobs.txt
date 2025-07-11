@@ -1,0 +1,1097 @@
+
+=== JOB APPLICATION #4264608446 ===
+Time Applied: 10:33:25
+
+COMPANY: Galaxy i technologies In
+JOB TITLE: DevOps Engineer
+LOCATION: laxy i technologies In
+WORK STYLE: laxy i technologies In
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264608446
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with jenkins?', '6', 'text', '6')
+2. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+4. ('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6')
+5. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+6. ('Have you completed the following level of education: Bachelor\'s Degree? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4261982429 ===
+Time Applied: 10:33:48
+
+COMPANY: HirePower Staffing Solutio
+JOB TITLE: Cloud Engineer
+LOCATION: rePower Staffing Solutio
+WORK STYLE: rePower Staffing Solutio
+
+JOB LINK: https://www.linkedin.com/jobs/view/4261982429
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of information technology experience do you currently have?', '4', 'text', '4')
+2. ('Are you willing to relocate across the US for projects? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+3. ('Are you legally authorized to work in the United States? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+4. ('We must fill this position urgently. Can you start immediately? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+5. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+6. ('Will you be interested in consulting-based job? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+7. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+8. ('Are you a USC, GC or TN-Visa? [  "Select an option", "Yes", "No", ]', 'No', 'select', 'Select an option')
+9. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+10. ('Have you completed the following level of education: Bachelor\'s Degree? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4263133409 ===
+Time Applied: 10:33:59
+
+COMPANY: Insight Globa
+JOB TITLE: Cloud Engineer
+LOCATION: sight Globa
+WORK STYLE: sight Globa
+
+JOB LINK: https://www.linkedin.com/jobs/view/4263133409
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Do you have experience working with python? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+2. ('how many years of experience do you have as a cloud engineer?', '6', 'text', '')
+3. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+4. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+5. ('Are you able to work a W2 Permanent positon? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+7. ('how many years of experience do you have working with gcp?', '6', 'text', '')
+8. ('Are you open to hybrid 3 days a week in Lewisville, Texas? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264606830 ===
+Time Applied: 10:34:14
+
+COMPANY: VRIZ
+JOB TITLE: DevOps Engineer
+LOCATION: IZ
+WORK STYLE: IZ
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264606830
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+2. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+3. ('Do you have hands-on experience managing containerized applications and orchestration platforms? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+4. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+5. ('Do you have proficiency in infrastructure as code, scripting, and configuration management to automate infrastructure provisioning and maintenance? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+6. ('Do you have proven ability to design and operate automated CI/CD pipelines to streamline build, test, and deployment processes? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+7. ('Do you have strong experience with cloud platforms, particularly Azure, with a solid understanding of core services like compute, networking, identity, and monitoring? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4260941831 ===
+Time Applied: 10:34:33
+
+COMPANY: Felix Recruitmen
+JOB TITLE: Site Reliability Engineer
+LOCATION: lix Recruitmen
+WORK STYLE: lix Recruitmen
+
+JOB LINK: https://www.linkedin.com/jobs/view/4260941831
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with linux?', '6', 'text', '6')
+2. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+3. ('how many years of telecommunications experience do you currently have?', '3', 'text', '3')
+4. ('Are you legally authorized to work in the United States? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+5. ('how many years of work experience do you have with puppet (software)?', '6', 'text', '6')
+6. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+7. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+8. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4253908127 ===
+Time Applied: 10:34:49
+
+COMPANY: In Technology Group Inc (US
+JOB TITLE: DevOps Engineer
+LOCATION: Technology Group Inc
+WORK STYLE: US
+
+JOB LINK: https://www.linkedin.com/jobs/view/4253908127
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+2. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+4. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+5. ('Are you comfortable commuting to this job\'s location? [  "Yes"<Yes>, "No"<No>, ]', 'Yes', 'radio', None)
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4256607935 ===
+Time Applied: 10:34:59
+
+COMPANY: Atlas Searc
+JOB TITLE: DevOps Engineer
+LOCATION: las Searc
+WORK STYLE: las Searc
+
+JOB LINK: https://www.linkedin.com/jobs/view/4256607935
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+2. ('how many years of work experience do you have with microsoft azure?', '5', 'text', '5')
+3. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+4. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4262153517 ===
+Time Applied: 10:35:05
+
+COMPANY: Capgemin
+JOB TITLE: Cloud Engineer
+LOCATION: pgemin
+WORK STYLE: pgemin
+
+JOB LINK: https://www.linkedin.com/jobs/view/4262153517
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with microsoft azure?', '5', 'text', '5')
+2. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('how many years of work experience do you have with terraform?', '6', 'text', '6')
+4. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+5. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+6. ('how many years of work experience do you have with powershell?', '6', 'text', '6')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264606587 ===
+Time Applied: 10:35:24
+
+COMPANY: VRIZ
+JOB TITLE: Cloud Engineer
+LOCATION: IZ
+WORK STYLE: IZ
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264606587
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Do you have proven experience with Azure Kubernetes Service (AKS) and Istio? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+2. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+4. ('Do you have strong understanding of Azure services, including Cosmos DB, SQL Server, APIM, and virtual networking? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+5. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+6. ('how many years of experience do you have in devops, site reliability engineering, or cloud operations roles?', '6', 'text', '')
+7. ('Do you have familiarity with Azure Chaos Studio and Karate Labs for testing and validation? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+8. ('Do you have strong scripting and automation skills (e.g., PowerShell, Bash, Python)? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+9. ('how many years of hands-on experience with splunk in a microservices environment?', '6', 'text', '')
+10. ('Do you have experience implementing Twistlock, Terraform, and Azure DevOps (AzDO) pipelines? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4261662880 ===
+Time Applied: 10:35:32
+
+COMPANY: HCLTec
+JOB TITLE: DevOps Engineer
+LOCATION: LTec
+WORK STYLE: LTec
+
+JOB LINK: https://www.linkedin.com/jobs/view/4261662880
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+2. ('how many years of work experience do you have with docker products?', '3', 'text', '3')
+3. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+4. ('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6')
+5. ('how many years of work experience do you have with python (programming language)?', '6', 'text', '6')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4257054577 ===
+Time Applied: 10:35:40
+
+COMPANY: TRON DA
+JOB TITLE: Blockchain DevOps Engineer
+LOCATION: ON DA
+WORK STYLE: ON DA
+
+JOB LINK: https://www.linkedin.com/jobs/view/4257054577
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+2. ('Are you legally authorized to work in the United States? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+3. ('This role is for those based in the United States only. Are you based in the United States? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+4. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+5. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+6. ('how many years of web2 development experience do you have?', '6', 'text', '')
+7. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+8. ('Are you willing to undergo a background check, in accordance with local law/regulations? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+9. ('how many years of web3 development experience do you have?', '6', 'text', '')
+10. ('Do you have a comprehensive understanding of blockchain infrastructure management (nodes, etc.)? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4258078542 ===
+Time Applied: 10:35:53
+
+COMPANY: Magnus Technologie
+JOB TITLE: DevOps Engineer
+LOCATION: gnus Technologie
+WORK STYLE: gnus Technologie
+
+JOB LINK: https://www.linkedin.com/jobs/view/4258078542
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with jenkins?', '6', 'text', '6')
+2. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+3. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+4. ('how many years of work experience do you have with python (programming language)?', '6', 'text', '6')
+5. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+6. ('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6')
+7. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4256556079 ===
+Time Applied: 10:36:01
+
+COMPANY: The Ash Grou
+JOB TITLE: DevOps Engineer
+LOCATION: e Ash Grou
+WORK STYLE: e Ash Grou
+
+JOB LINK: https://www.linkedin.com/jobs/view/4256556079
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Are you comfortable working in a hybrid setting? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+2. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+4. ('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6')
+5. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+6. ('Have you completed the following level of education: Bachelor\'s Degree? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4249383054 ===
+Time Applied: 10:36:13
+
+COMPANY: Astrey
+JOB TITLE: DevOps Engineer
+LOCATION: trey
+WORK STYLE: trey
+
+JOB LINK: https://www.linkedin.com/jobs/view/4249383054
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Are you based in California, with good access to the Bay Area? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+2. ('how many years of work experience do you have with geographic information systems (gis)?', '6', 'text', '')
+3. ('Are you legally authorized to work in the United States? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+4. ('how many years of work experience do you have with cybersecurity?', '4', 'text', '4')
+5. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+6. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+7. ('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6')
+8. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+9. ('how many years of utilities experience do you currently have?', '6', 'text', '')
+10. ('Are you comfortable commuting to this job\'s location? [  "Yes"<Yes>, "No"<No>, ]', 'Yes', 'radio', None)
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4258148651 ===
+Time Applied: 10:36:22
+
+COMPANY: Dexia
+JOB TITLE: Site Reliability Engineer Sr
+LOCATION: xia
+WORK STYLE: xia
+
+JOB LINK: https://www.linkedin.com/jobs/view/4258148651
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+2. ('Email [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('phone', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4255580593 ===
+Time Applied: 10:36:30
+
+COMPANY: TWO95 International, In
+JOB TITLE: DevOps Engineer
+LOCATION: O95 International, In
+WORK STYLE: O95 International, In
+
+JOB LINK: https://www.linkedin.com/jobs/view/4255580593
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with jenkins?', '6', 'text', '6')
+2. ('how many years of information technology experience do you currently have?', '4', 'text', '4')
+3. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+4. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+5. ('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+7. ('how many years of work experience do you have with graphql?', '6', 'text', '')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4258782646 ===
+Time Applied: 10:36:39
+
+COMPANY: Eleven Recruitin
+JOB TITLE: Senior Software DevOps Engineer
+LOCATION: even Recruitin
+WORK STYLE: even Recruitin
+
+JOB LINK: https://www.linkedin.com/jobs/view/4258782646
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with devops?', '6', 'text', '6')
+2. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+3. ('how many years of work experience do you have with continuous integration and continuous delivery (ci/cd)?', '6', 'text', '6')
+4. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+5. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+7. ('Have you completed the following level of education: Bachelor\'s Degree? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+8. ('Are you comfortable commuting to this job\'s location? [  "Yes"<Yes>, "No"<No>, ]', 'Yes', 'radio', None)
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4251182113 ===
+Time Applied: 10:36:54
+
+COMPANY: SIBLIN
+JOB TITLE: DevOps Engineer
+LOCATION: BLIN
+WORK STYLE: BLIN
+
+JOB LINK: https://www.linkedin.com/jobs/view/4251182113
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with microsoft azure?', '5', 'text', '5')
+2. ('Are you comfortable working in a hybrid setting? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+3. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+4. ('how many years of work experience do you have with terraform?', '6', 'text', '6')
+5. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+6. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+7. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+8. ('Are you comfortable commuting to this job\'s location? [  "Yes"<Yes>, "No"<No>, ]', 'Yes', 'radio', None)
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4255450601 ===
+Time Applied: 10:37:13
+
+COMPANY: Osca
+JOB TITLE: Senior DevOps Engineer
+LOCATION: ca
+WORK STYLE: ca
+
+JOB LINK: https://www.linkedin.com/jobs/view/4255450601
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+2. ('Email [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('phone', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4237474793 ===
+Time Applied: 10:37:21
+
+COMPANY: Atlas Searc
+JOB TITLE: DevOps Engineer
+LOCATION: las Searc
+WORK STYLE: las Searc
+
+JOB LINK: https://www.linkedin.com/jobs/view/4237474793
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+2. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+3. ('Are you comfortable working in an onsite setting? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+4. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264611584 ===
+Time Applied: 10:37:30
+
+COMPANY: Swift Strategic Solutions In
+JOB TITLE: AWS Solutions Engineer
+LOCATION: ift Strategic Solutions In
+WORK STYLE: ift Strategic Solutions In
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264611584
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+2. ('Email [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('phone', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4261784514 ===
+Time Applied: 10:37:45
+
+COMPANY: Taylor Transportation Search Grou
+JOB TITLE: Site Reliability Engineer
+LOCATION: ylor Transportation Search Grou
+WORK STYLE: ylor Transportation Search Grou
+
+JOB LINK: https://www.linkedin.com/jobs/view/4261784514
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Are you proficient in CAD design and technical documentation? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+2. ('Do you have a Bachelor\'s Degree in Engineering or a related field? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+3. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+4. ('Are you comfortable working in an onsite setting? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+5. ('how many years experience do you have with mechanical engineering?', '6', 'text', '')
+6. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+7. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+8. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+9. ('how many years experience do you have with reliability engineering?', '6', 'text', '')
+10. ('Are you comfortable commuting to this job\'s location? [  "Yes"<Yes>, "No"<No>, ]', 'Yes', 'radio', None)
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4255558104 ===
+Time Applied: 10:37:52
+
+COMPANY: Brooksourc
+JOB TITLE: Junior Site Reliability Engineer
+LOCATION: ooksourc
+WORK STYLE: ooksourc
+
+JOB LINK: https://www.linkedin.com/jobs/view/4255558104
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with linux?', '6', 'text', '6')
+2. ('how many years of work experience do you have with cloud computing?', '6', 'text', '')
+3. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+4. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+5. ('how many years of work experience do you have with python (programming language)?', '6', 'text', '6')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+7. ('Have you completed the following level of education: Bachelor\'s Degree? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4258224151 ===
+Time Applied: 10:38:00
+
+COMPANY: PTR Globa
+JOB TITLE: DevOps Engineer
+LOCATION: R Globa
+WORK STYLE: R Globa
+
+JOB LINK: https://www.linkedin.com/jobs/view/4258224151
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+2. ('first name', 'SEETHA RAMAIAH', 'text', 'SEETHA RAMAIAH')
+3. ('last name', 'BANDARUPALLI', 'text', 'BANDARUPALLI')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264605679 ===
+Time Applied: 10:38:06
+
+COMPANY: CLPS Globa
+JOB TITLE: AWS Engineer
+LOCATION: PS Globa
+WORK STYLE: PS Globa
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264605679
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with aws lambda?', '5', 'text', '5')
+2. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+4. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+5. ('how many years of work experience do you have with amazon dynamodb?', '6', 'text', '')
+6. ('how many years of work experience do you have with amazon cloudwatch?', '6', 'text', '')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4259631914 ===
+Time Applied: 10:38:17
+
+COMPANY: Pyramid Consulting, In
+JOB TITLE: DevOps Engineer IV
+LOCATION: ramid Consulting, In
+WORK STYLE: ramid Consulting, In
+
+JOB LINK: https://www.linkedin.com/jobs/view/4259631914
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+2. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+3. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4250557208 ===
+Time Applied: 10:38:30
+
+COMPANY: Ascendio
+JOB TITLE: DevOps Engineer
+LOCATION: cendio
+WORK STYLE: cendio
+
+JOB LINK: https://www.linkedin.com/jobs/view/4250557208
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with kubernetes?', '6', 'text', '6')
+2. ('how many years of work experience do you have with devops?', '6', 'text', '6')
+3. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+4. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+5. ('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4258085266 ===
+Time Applied: 10:38:36
+
+COMPANY: The Judge Grou
+JOB TITLE: DevOps Engineer
+LOCATION: e Judge Grou
+WORK STYLE: e Judge Grou
+
+JOB LINK: https://www.linkedin.com/jobs/view/4258085266
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with devops?', '6', 'text', '6')
+2. ('how many years of work experience do you have with terraform?', '6', 'text', '6')
+3. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+4. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+5. ('how many years of work experience do you have with python (programming language)?', '6', 'text', '6')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4255247152 ===
+Time Applied: 10:38:44
+
+COMPANY: Robert Hal
+JOB TITLE: Senior Cloud Engineer
+LOCATION: bert Hal
+WORK STYLE: bert Hal
+
+JOB LINK: https://www.linkedin.com/jobs/view/4255247152
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with microsoft azure?', '5', 'text', '5')
+2. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('how many years of work experience do you have with terraform?', '6', 'text', '6')
+4. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+5. ('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4255597940 ===
+Time Applied: 10:38:49
+
+COMPANY: Tech One I
+JOB TITLE: Site Reliability Engineer
+LOCATION: ch One I
+WORK STYLE: ch One I
+
+JOB LINK: https://www.linkedin.com/jobs/view/4255597940
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+2. ('how many years of work experience do you have with python (programming language)?', '6', 'text', '6')
+3. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+4. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+5. ('how many years of work experience do you have with java?', '3', 'text', '3')
+6. ('how many years of work experience do you have with .net framework?', '1', 'text', '1')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4261980783 ===
+Time Applied: 10:39:12
+
+COMPANY: Mastech Digita
+JOB TITLE: Cloud Platform Engineer
+LOCATION: stech Digita
+WORK STYLE: stech Digita
+
+JOB LINK: https://www.linkedin.com/jobs/view/4261980783
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+2. ('Are you legally authorized to work in the United States? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+3. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+4. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+5. ('Must be W2 candidates - NO VENDORS [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4261976751 ===
+Time Applied: 10:39:20
+
+COMPANY: HYR Global Source In
+JOB TITLE: Sr. Azure Cloud Engineer
+LOCATION: R Global Source In
+WORK STYLE: R Global Source In
+
+JOB LINK: https://www.linkedin.com/jobs/view/4261976751
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+2. ('last name', 'BANDARUPALLI', 'text', 'BANDARUPALLI')
+3. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+4. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+5. ('first name', 'SEETHA RAMAIAH', 'text', 'SEETHA RAMAIAH')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264344044 ===
+Time Applied: 10:39:27
+
+COMPANY: Apollo Solution
+JOB TITLE: Senior Infrastructure Engineer
+LOCATION: ollo Solution
+WORK STYLE: ollo Solution
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264344044
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+2. ('Email [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('phone', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264365071 ===
+Time Applied: 10:39:37
+
+COMPANY: NJF Global Holdings Lt
+JOB TITLE: HPC Engineer
+LOCATION: F Global Holdings Lt
+WORK STYLE: F Global Holdings Lt
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264365071
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Are you legally authorized to work in the United States? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+2. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('how many years of work experience do you have with linux system administration?', '3', 'text', '3')
+4. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+5. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+6. ('how many years of work experience do you have with high performance computing (hpc)?', '6', 'text', '')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4261976517 ===
+Time Applied: 10:39:45
+
+COMPANY: CMK Resources, Inc
+JOB TITLE: Kubernetes Engineer - Portworx
+LOCATION: K Resources, Inc
+WORK STYLE: K Resources, Inc
+
+JOB LINK: https://www.linkedin.com/jobs/view/4261976517
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with kubernetes?', '6', 'text', '6')
+2. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+3. ('how many years of work experience do you have with kubevirt?', '6', 'text', '')
+4. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+5. ('how many years of work experience do you have with openshift?', '4', 'text', '4')
+6. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+7. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+8. ('how many years of work experience do you have with portworx', '6', 'text', '')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264841161 ===
+Time Applied: 10:39:51
+
+COMPANY: Franklin Fitc
+JOB TITLE: Senior Cloud Infrastructure Engineer
+LOCATION: anklin Fitc
+WORK STYLE: anklin Fitc
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264841161
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+2. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+3. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264347752 ===
+Time Applied: 10:40:02
+
+COMPANY: Synergy Interactiv
+JOB TITLE: DevOps Engineer
+LOCATION: nergy Interactiv
+WORK STYLE: nergy Interactiv
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264347752
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with kubernetes?', '6', 'text', '6')
+2. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+3. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+4. ('how many years of work experience do you have with docker products?', '3', 'text', '3')
+5. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+6. ('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6')
+7. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264788377 ===
+Time Applied: 10:40:14
+
+COMPANY: Nexthin
+JOB TITLE: Senior SRE - West
+LOCATION: xthin
+WORK STYLE: xthin
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264788377
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Please select your Gender Identity: [  "Select an option", "Female", "Male", "Non-binary", "Prefer not to identify", ]', 'Male', 'select', 'Select an option')
+2. ('Please select the ethnicity which most accurately describes how you identify with yourself: [  "Select an option", "American Indian or Alaska Native", "Asian", "Black or African American", "Hispanic or Latino", "Native Hawaiian or Other Pacific Islander", "White", "Two or More Races", "Prefer not to identify", ]', 'American Indian or Alaska Native', 'select', 'Select an option')
+3. ('Are you Hispanic or Latino? [  "Yes"<1>, "No"<0>, ]', 'Yes', 'radio', None)
+4. ('Unknown [  "Yes, I have a disability, or have had one in the past"<Yes>, "No, I do not have a disability and have not had one in the past"<No>, "I do not want to answer"<OptOut>, ]', '"No, I do not have a disability and have not had one in the past"<No>', 'radio', '"No, I do not have a disability and have not had one in the past"<No>')
+5. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+6. ('last name', 'BANDARUPALLI', 'text', 'BANDARUPALLI')
+7. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+8. ('by checking this box, you will declare that you read and understand the privacy policy of nexthink. ([X] I consent)', True, 'checkbox', False)
+9. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+10. ('Unknown [  "I identify as one or more of the classifications of protected veteran listed above"<ProtectedVeteran>, "I am not a protected veteran"<NotProtectedVeteran>, "I prefer not to specify"<OptOut>, ]', '"I am not a protected veteran"<NotProtectedVeteran>', 'radio', '"I am not a protected veteran"<NotProtectedVeteran>')
+11. ('Are you authorized to work in the job posting\'s location? [  "Yes"<1>, "No"<0>, ]', 'Yes', 'radio', None)
+12. ('Will you now or in the future require sponsorship from Nexthink for employment visa status ? [  "Yes"<1>, "No"<0>, ]', 'No', 'radio', None)
+13. ('location (city)', 'Austin, Texas, United States', 'text', '')
+14. ('first name', 'SEETHA RAMAIAH', 'text', 'SEETHA RAMAIAH')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4263740545 ===
+Time Applied: 10:40:23
+
+COMPANY: Insight Globa
+JOB TITLE: Azure Cloud Engineer
+LOCATION: sight Globa
+WORK STYLE: sight Globa
+
+JOB LINK: https://www.linkedin.com/jobs/view/4263740545
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with microsoft azure?', '5', 'text', '5')
+2. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+3. ('Are you legally authorized to work in the United States? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+4. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+5. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+7. ('how many years of work experience do you have with powershell?', '6', 'text', '6')
+8. ('how many years of work experience do you have with azure databricks?', '6', 'text', '')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264388277 ===
+Time Applied: 10:40:33
+
+COMPANY: Jobo
+JOB TITLE: DevOps Engineer - AWS
+LOCATION: bo
+WORK STYLE: bo
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264388277
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+2. ('last name', 'BANDARUPALLI', 'text', 'BANDARUPALLI')
+3. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+4. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+5. ('first name', 'SEETHA RAMAIAH', 'text', 'SEETHA RAMAIAH')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4261930863 ===
+Time Applied: 10:40:41
+
+COMPANY: Impax Recruitmen
+JOB TITLE: Site Reliability Engineer
+LOCATION: pax Recruitmen
+WORK STYLE: pax Recruitmen
+
+JOB LINK: https://www.linkedin.com/jobs/view/4261930863
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+2. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+3. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264371433 ===
+Time Applied: 10:40:51
+
+COMPANY: Atriu
+JOB TITLE: Senior Azure DevOps Engineer - 156526
+LOCATION: riu
+WORK STYLE: riu
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264371433
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+2. ('Email [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('phone', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4261696877 ===
+Time Applied: 10:41:01
+
+COMPANY: Proven Recruitin
+JOB TITLE: Azure Cloud Engineer
+LOCATION: oven Recruitin
+WORK STYLE: oven Recruitin
+
+JOB LINK: https://www.linkedin.com/jobs/view/4261696877
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+2. ('first name', 'SEETHA RAMAIAH', 'text', 'SEETHA RAMAIAH')
+3. ('last name', 'BANDARUPALLI', 'text', 'BANDARUPALLI')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264342517 ===
+Time Applied: 10:41:11
+
+COMPANY: Apollo Solution
+JOB TITLE: Sr Software Engineer - Infrastructure
+LOCATION: ollo Solution
+WORK STYLE: ollo Solution
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264342517
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+2. ('Email [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('phone', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264382920 ===
+Time Applied: 10:41:21
+
+COMPANY: Jobo
+JOB TITLE: DevOps Engineer - AWS
+LOCATION: bo
+WORK STYLE: bo
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264382920
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+2. ('last name', 'BANDARUPALLI', 'text', 'BANDARUPALLI')
+3. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+4. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+5. ('first name', 'SEETHA RAMAIAH', 'text', 'SEETHA RAMAIAH')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264606940 ===
+Time Applied: 10:41:27
+
+COMPANY: Millennium Software and Staffin
+JOB TITLE: Cloud Engineer
+LOCATION: llennium Software and Staffin
+WORK STYLE: llennium Software and Staffin
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264606940
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Are you comfortable working in a remote setting? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+2. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('how many years of work experience do you have with python (programming language)?', '6', 'text', '6')
+4. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+5. ('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+7. ('how many years of work experience do you have with amazon elasticsearch service?', '6', 'text', '')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4261947781 ===
+Time Applied: 10:41:36
+
+COMPANY: Pomero
+JOB TITLE: Platform Engineer
+LOCATION: mero
+WORK STYLE: mero
+
+JOB LINK: https://www.linkedin.com/jobs/view/4261947781
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Are you legally authorized to work in the United States? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+2. ('Are you comfortable working in an onsite setting? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+3. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+4. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+5. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4227294684 ===
+Time Applied: 10:41:42
+
+COMPANY: Leeds Professional Resource
+JOB TITLE: Infrastructure Engineer
+LOCATION: eds Professional Resource
+WORK STYLE: eds Professional Resource
+
+JOB LINK: https://www.linkedin.com/jobs/view/4227294684
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of work experience do you have with fortinet?', '6', 'text', '')
+2. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+4. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+5. ('Have you completed the following level of education: Bachelor\'s Degree? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+6. ('how many years of work experience do you have with microsoft intune?', '6', 'text', '')
+7. ('how many years of work experience do you have with it automation?', '6', 'text', '')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4248681293 ===
+Time Applied: 10:41:51
+
+COMPANY: Uniqu
+JOB TITLE: Infrastructure Engineer (client facing)
+LOCATION: iqu
+WORK STYLE: iqu
+
+JOB LINK: https://www.linkedin.com/jobs/view/4248681293
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+2. ('Are you comfortable working in an hybrid setting, with 3 days in the office?  [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+3. ('how many years of work experience do you have with terraform?', '6', 'text', '6')
+4. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+5. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+7. ('what are your salary expecatations?', '130000', 'text', '')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4264061241 ===
+Time Applied: 10:41:57
+
+COMPANY: swipejob
+JOB TITLE: DevOps Engineer
+LOCATION: ipejob
+WORK STYLE: ipejob
+
+JOB LINK: https://www.linkedin.com/jobs/view/4264061241
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Are you comfortable working in a remote setting? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+2. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+3. ('Are you legally authorized to work in the United States? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+4. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+5. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4259608431 ===
+Time Applied: 10:42:05
+
+COMPANY: BillingPlatfor
+JOB TITLE: DevOps Engineer
+LOCATION: llingPlatfor
+WORK STYLE: llingPlatfor
+
+JOB LINK: https://www.linkedin.com/jobs/view/4259608431
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('Are you already based in Denver? [  "Select an option", "Yes", "No", ]', 'Yes', 'select', 'Select an option')
+2. ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+3. ('Are you comfortable working in an onsite setting? [  "Yes"<Yes>, "No"<No>, ]', '"Yes"<Yes>', 'radio', '"Yes"<Yes>')
+4. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+5. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+6. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
+
+=== JOB APPLICATION #4261963661 ===
+Time Applied: 10:42:11
+
+COMPANY: KMM Technologies, Inc
+JOB TITLE: Site Reliability Engineer
+LOCATION: M Technologies, Inc
+WORK STYLE: M Technologies, Inc
+
+JOB LINK: https://www.linkedin.com/jobs/view/4261963661
+APPLICATION TYPE: Easy Applied
+
+=== QUESTIONS ANSWERED ===
+1. ('how many years of consulting experience do you currently have?', '6', 'text', '')
+2. ('Email address [  "Select an option", "bandarupalli2s@gmail.com", ]', 'Yes', 'select', 'bandarupalli2s@gmail.com')
+3. ('Phone country code [ "List of phone country codes" ]', 'Yes', 'select', 'United States (+1)')
+4. ('how many years of work experience do you have with amazon web services (aws)?', '6', 'text', '6')
+5. ('mobile phone number', '+14158490203', 'text', '+14158490203')
+
+=== END OF APPLICATION ===
